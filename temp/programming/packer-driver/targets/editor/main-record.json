@@ -1,0 +1,4055 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 6864.809099972248,
+      "chunkId": "ca4374a3008ca85000d465787e739a302e4e4ac6",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/geometry-renderer"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 7329.948000013828,
+      "chunkId": "c1197de683ea2e6ee3f497b1d6f6b3dda8413386",
+      "imports": [
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 139
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameGlobal.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 155
+            },
+            "end": {
+              "line": 5,
+              "column": 248
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameManager.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 264
+            },
+            "end": {
+              "line": 5,
+              "column": 358
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/GridGenerator.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 374
+            },
+            "end": {
+              "line": 5,
+              "column": 475
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/MatchChecker.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 491
+            },
+            "end": {
+              "line": 5,
+              "column": 591
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/InGameAssets.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 607
+            },
+            "end": {
+              "line": 5,
+              "column": 702
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Interaction/InteractionManager.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 718
+            },
+            "end": {
+              "line": 5,
+              "column": 831
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/EasyLevels.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 847
+            },
+            "end": {
+              "line": 5,
+              "column": 947
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/LevelData.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 963
+            },
+            "end": {
+              "line": 5,
+              "column": 1062
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1078
+            },
+            "end": {
+              "line": 5,
+              "column": 1171
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/CandyPool.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1187
+            },
+            "end": {
+              "line": 5,
+              "column": 1288
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1304
+            },
+            "end": {
+              "line": 5,
+              "column": 1406
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Promises.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1422
+            },
+            "end": {
+              "line": 5,
+              "column": 1513
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1529
+            },
+            "end": {
+              "line": 5,
+              "column": 1637
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1653
+            },
+            "end": {
+              "line": 5,
+              "column": 1756
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameGlobal.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/GridGenerator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/MatchChecker.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/InGameAssets.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Interaction/InteractionManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/EasyLevels.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/LevelData.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/CandyPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Promises.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723122163875.7993,
+        "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc"
+      },
+      "chunkId": "0af198a37532bf0cab60f21559f8c57fdfbba525",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723487548216.3115,
+        "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc"
+      },
+      "chunkId": "c6c2f088e67adf96874fa9490cea4146467ccf53",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./PoolHelper",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./Poolable/PiecesPool",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/GameGlobal.ts": {
+      "mTimestamp": {
+        "mtime": 1723122683511.914,
+        "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e"
+      },
+      "chunkId": "5d82280fd4e17a217f54ef177b1cde9ec6b82a53",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1724101118261,
+      "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Grid/GridGenerator.ts": {
+      "mTimestamp": {
+        "mtime": 1723491856326.426,
+        "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be"
+      },
+      "chunkId": "6b1b66cef869df2d56d64d8be44a4341c2f72b03",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 109
+            },
+            "end": {
+              "line": 1,
+              "column": 113
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Effects/EffectManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723130756563.9326,
+        "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c"
+      },
+      "chunkId": "6840cdf47ca5cbcc19b9a68e966246f657b930e7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/EasyLevels.json.ts": {
+      "mTimestamp": {
+        "mtime": 1723131093862.79,
+        "uuid": "34ed2d98-540a-412d-ab7e-effd8fab7ffc"
+      },
+      "chunkId": "8bade0e71e975225aa8fdc29879d8b7675d08f8e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Levels/EasyLevels.ts": {
+      "mTimestamp": {
+        "mtime": 1723137811604.8489,
+        "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860"
+      },
+      "chunkId": "eef47bbf101e8a973b77de6ea7a78391c1c7c945",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Levels/LevelData.ts": {
+      "mTimestamp": {
+        "mtime": 1723131729416.2795,
+        "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2"
+      },
+      "chunkId": "ca5e534727c39b96f1633daff2bf42a2b3d23706",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/InGameAssets.ts": {
+      "mTimestamp": {
+        "mtime": 1723135383432.4978,
+        "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece"
+      },
+      "chunkId": "574261bfe15973be40a9fa11958c8fe51a71eced",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optim/ObjectPooling.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012667.1465,
+        "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7"
+      },
+      "chunkId": "28ccbe835c3dd7134cc354bc644d6200609d4557",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optim/Poolable.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012719.5608,
+        "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8"
+      },
+      "chunkId": "bcd9f3c264a70467210a1f4f934f73b2bd15b63c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "./ObjectPooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optim/ObjectPooling.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optimization/ObjectPooling.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012667.1465,
+        "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7"
+      },
+      "chunkId": "a108c9da1b8d1181b61bec7108c9af576132c3a1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optimization/Poolable.ts": {
+      "mTimestamp": {
+        "mtime": 1723484822840.9421,
+        "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8"
+      },
+      "chunkId": "956f26370085e231cde84c228a659522a9dae476",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "./ObjectPooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optimization/ObjectPooling.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Poolable/Candy.ts": {
+      "mTimestamp": {
+        "mtime": 1723483660323.5037,
+        "uuid": "38c9f986-2ee5-4b2b-83b2-0aaf93cedf95"
+      },
+      "chunkId": "91b1c8fe4d93d7f82c11eda128346063aecb5b94",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Poolable/CandyPool.ts": {
+      "mTimestamp": {
+        "mtime": 1723484834220.9717,
+        "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b"
+      },
+      "chunkId": "1fceb7d4e3c3744c0798158333c2b65b4763d879",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/PoolHelper.ts": {
+      "mTimestamp": {
+        "mtime": 1723484808304.608,
+        "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589"
+      },
+      "chunkId": "0e929faa9aeaba7bb19780237c552a8fee4d6a6b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/Poolable/PiecesPool.ts": {
+      "mTimestamp": {
+        "mtime": 1723491798886.6772,
+        "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86"
+      },
+      "chunkId": "c6db8f71b55b4f30951a827d47e3aa5f958d5f37",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-2d/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Effects/EffectManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723639289249.6372,
+        "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c"
+      },
+      "chunkId": "9ad638fdfb7b840f5a044fcf9a53b2efeea54e67",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "../Promises",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Promises.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/GameGlobal.ts": {
+      "mTimestamp": {
+        "mtime": 1723122683511.914,
+        "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e"
+      },
+      "chunkId": "2d3acfdc9a62a070cc9a994adf22b24cdf805498",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723575736472.6443,
+        "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc"
+      },
+      "chunkId": "d335be9cd49f03668dcb6206fe8852537f72b01a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/PoolHelper.ts": {
+      "mTimestamp": {
+        "mtime": 1723484808304.608,
+        "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589"
+      },
+      "chunkId": "9a68590bc7efd8f31b4b62b76e1542fa06006e15",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Poolable/PiecesPool.ts": {
+      "mTimestamp": {
+        "mtime": 1723636174308.6191,
+        "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86"
+      },
+      "chunkId": "130f4275e84fdb6fcee03221c1c26c3219979802",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/SooLib/Optimization/Poolable.ts": {
+      "mTimestamp": {
+        "mtime": 1723484822840.9421,
+        "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8"
+      },
+      "chunkId": "2b7877140bcc6c9ea56ca756e384bb39269c9a4d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "./ObjectPooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/SooLib/Optimization/ObjectPooling.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/SooLib/Optimization/ObjectPooling.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012667.1465,
+        "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7"
+      },
+      "chunkId": "177df0ebd8390114f040d22108b1c95b89538682",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Grid/GridGenerator.ts": {
+      "mTimestamp": {
+        "mtime": 1723642017352.1257,
+        "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be"
+      },
+      "chunkId": "d6360a71315c3bb13183bb945e8b402c063777d7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 27
+            },
+            "end": {
+              "line": 10,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 30
+            },
+            "end": {
+              "line": 11,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../Interaction/InteractionManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 35
+            },
+            "end": {
+              "line": 12,
+              "column": 70
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Interaction/InteractionManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/InGameAssets.ts": {
+      "mTimestamp": {
+        "mtime": 1723135383432.4978,
+        "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece"
+      },
+      "chunkId": "cdaf5ce3fa65afe51d0eab2c9b3dec55a20b67ee",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Levels/EasyLevels.ts": {
+      "mTimestamp": {
+        "mtime": 1723137811604.8489,
+        "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860"
+      },
+      "chunkId": "40204f885db019aedafd0802ff3d440157352e49",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Levels/LevelData.ts": {
+      "mTimestamp": {
+        "mtime": 1723131729416.2795,
+        "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2"
+      },
+      "chunkId": "e0743b6fe442e37f4e576c91da61771210fdeb7f",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Poolable/CandyPool.ts": {
+      "mTimestamp": {
+        "mtime": 1723484834220.9717,
+        "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b"
+      },
+      "chunkId": "9f6a7091a8a6b5c05650da5e9f2d9ba716e61f83",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Promises.ts": {
+      "mTimestamp": {
+        "mtime": 1723578261598.8323,
+        "uuid": "deaf171f-f3d0-47d9-995c-8022e0284e9f"
+      },
+      "chunkId": "b0361ae3833ecd4a02123ca181a99e8f117f5421",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Interaction/InteractionManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723641825941.4346,
+        "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f"
+      },
+      "chunkId": "c85ba5d84da1ec13334545b492d035ebfae2fdac",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Grid/MatchChecker",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 30
+            },
+            "end": {
+              "line": 10,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Grid/MatchChecker.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Grid/MatchChecker.ts": {
+      "mTimestamp": {
+        "mtime": 1723640469398.2522,
+        "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5"
+      },
+      "chunkId": "4112a3947290e919935f1fc067527d47f4156ddd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-2d/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611743.1213,
+        "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c"
+      },
+      "chunkId": "a4db70f3925785399386ce6270cb275352632e72",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "../Promises",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Promises.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Promises.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611693.1997,
+        "uuid": "deaf171f-f3d0-47d9-995c-8022e0284e9f"
+      },
+      "chunkId": "8ecd29b4a11a1aaa7d38e6555d7ec14102c9a1c5",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameGlobal.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611332.4578,
+        "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e"
+      },
+      "chunkId": "00658f937e0740e2819b391473ee41d045d09e0e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611385.4624,
+        "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc"
+      },
+      "chunkId": "6de4ed0d63a275f49d5df505a809fad9352f47ec",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/GridGenerator.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611798.9414,
+        "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be"
+      },
+      "chunkId": "82ab2c0374b14c8883fe32b8621f8c9ef09a0b1f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 27
+            },
+            "end": {
+              "line": 10,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 30
+            },
+            "end": {
+              "line": 11,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../Interaction/InteractionManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 35
+            },
+            "end": {
+              "line": 12,
+              "column": 70
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Interaction/InteractionManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts": {
+      "mTimestamp": {
+        "mtime": 1724100612146.9312,
+        "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86"
+      },
+      "chunkId": "3737f2aa2f90013caec1997381b4b1a6349fc2db",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts": {
+      "mTimestamp": {
+        "mtime": 1724100612293.9863,
+        "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8"
+      },
+      "chunkId": "9c2aae2a0816a23f1e71a4dae00f4ffa06b1316a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "./ObjectPooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts": {
+      "mTimestamp": {
+        "mtime": 1724100612240.4778,
+        "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7"
+      },
+      "chunkId": "342cda6f11cc79e1e4f08598b48f4c7a57f42e74",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611615.3428,
+        "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589"
+      },
+      "chunkId": "09ed50a629e2c33624e4fb5de47d0cbcdf622060",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Interaction/InteractionManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611922.7415,
+        "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f"
+      },
+      "chunkId": "fb2ce0c3d10a8e2ae356f10a35fc114519a52aa4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Grid/MatchChecker",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 30
+            },
+            "end": {
+              "line": 10,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/MatchChecker.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/MatchChecker.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611852.194,
+        "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5"
+      },
+      "chunkId": "e690057a268288c2cd1f7c247959a548b4e53e55",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/InGameAssets.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611472.3486,
+        "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece"
+      },
+      "chunkId": "9754cc4c13e7f0915673f432815da1f0c7ce8b22",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/EasyLevels.ts": {
+      "mTimestamp": {
+        "mtime": 1724100611988.2952,
+        "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860"
+      },
+      "chunkId": "a84492897877e017e16a6a4e91a44a19f0bc8751",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/LevelData.ts": {
+      "mTimestamp": {
+        "mtime": 1724100612042.4092,
+        "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2"
+      },
+      "chunkId": "75f88f223f76df4a3fda1e8150797c58d7b297d1",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/CandyPool.ts": {
+      "mTimestamp": {
+        "mtime": 1724100612101.9292,
+        "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b"
+      },
+      "chunkId": "0f2ee7dafd59a43b5805174a94a4055a7663b7d7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

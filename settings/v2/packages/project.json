@@ -1,0 +1,30 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "layer": [
+    {
+      "name": "Cell",
+      "value": 1
+    },
+    {
+      "name": "ClosedCell",
+      "value": 2
+    },
+    {
+      "name": "_Background",
+      "value": 4
+    },
+    {
+      "name": "_Matched",
+      "value": 8
+    },
+    {
+      "name": "Candy",
+      "value": 16
+    }
+  ]
+}

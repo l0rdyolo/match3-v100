@@ -1,0 +1,1458 @@
+{
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\scene.scene.meta": {
+    "time": 1723121538781.5344
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\scene.scene": {
+    "time": 1723492144284.6785,
+    "uuid": "90a0e660-4913-4c29-8547-4b01d373ea55",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts.meta": {
+    "time": 1723122245728.4573
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts": {
+    "time": 1723484786941.0352,
+    "uuid": "ef7376f4-69d0-462e-a6ba-547aadf84e42",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameManager.ts.meta": {
+    "time": 1723122163891.909
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameManager.ts": {
+    "time": 1723487548216.3115,
+    "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameGlobal.ts.meta": {
+    "time": 1723122558828.4329
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameGlobal.ts": {
+    "time": 1723122683511.914,
+    "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture.meta": {
+    "time": 1723121671225.0378
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico.meta": {
+    "time": 1723121671230.3538
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI.meta": {
+    "time": 1723121671230.3538
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture": {
+    "time": 1723121671236.2703,
+    "uuid": "660e3347-42ca-483d-96b7-3dd1c329839d",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico": {
+    "time": 1723121671258.1162,
+    "uuid": "d001872d-4de7-426b-823b-377190a2ac3c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI": {
+    "time": 1723121671266.1418,
+    "uuid": "9dc617e4-b312-445c-92df-0856d0b5fecb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\1.png.meta": {
+    "time": 1723121671405.9211
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\1.png": {
+    "time": 1723121665913.519,
+    "uuid": "1160d00f-14e0-4e35-8df7-5471314e3628",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\10.png.meta": {
+    "time": 1723121671425.7683
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\10.png": {
+    "time": 1723121665954.0437,
+    "uuid": "b3963c22-76af-4010-bbc5-53e6a6865952",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\bg.png.meta": {
+    "time": 1723121671407.3496
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\bg.png": {
+    "time": 1723121665775.6077,
+    "uuid": "2e6cc1f9-5b33-4738-892c-6ee1a49ffa47",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\sample_1.png.meta": {
+    "time": 1723121671495.5034
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\sample_1.png": {
+    "time": 1723121665835.1338,
+    "uuid": "ee883ea0-15bb-4cca-ac96-f8732b1374cd",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\sample_2.png.meta": {
+    "time": 1723121671503.6257
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\sample_2.png": {
+    "time": 1723121665872.8928,
+    "uuid": "31f8434b-2329-45b1-8742-a3021845335e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\11.png.meta": {
+    "time": 1723121671503.6257
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\11.png": {
+    "time": 1723121665988.0884,
+    "uuid": "e3fafcf2-9140-4706-b839-411573075125",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\13.png.meta": {
+    "time": 1723121671503.6257
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\13.png": {
+    "time": 1723121666063.8997,
+    "uuid": "b1b893e9-2ed2-46e3-a12c-d7a8fa3c3587",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\12.png.meta": {
+    "time": 1723121671513.0952
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\12.png": {
+    "time": 1723121666018.2363,
+    "uuid": "bcc0ac21-c2dc-46e3-abc8-340fe4c18df8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\15.png.meta": {
+    "time": 1723121671565.647
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\15.png": {
+    "time": 1723121666134.8354,
+    "uuid": "33ecc0eb-7c57-4116-8d47-3d956042c237",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\14.png.meta": {
+    "time": 1723121671554.9236
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\14.png": {
+    "time": 1723121666097.8245,
+    "uuid": "b1eafba6-bf29-4a25-8780-48a576cb6062",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\17.png.meta": {
+    "time": 1723121671564.0051
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\17.png": {
+    "time": 1723121666209.101,
+    "uuid": "60cb3f53-4a70-4712-919e-9e07e87d6fdf",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\16.png.meta": {
+    "time": 1723121671557.3257
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\16.png": {
+    "time": 1723121666161.7815,
+    "uuid": "6d81d368-3785-49a4-9695-d631f9838ad6",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\2.png.meta": {
+    "time": 1723121671607.6023
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\2.png": {
+    "time": 1723121666303.9958,
+    "uuid": "fb26b3ba-9187-45aa-979b-e05106abff93",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\19.png.meta": {
+    "time": 1723121671601.992
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\19.png": {
+    "time": 1723121666272.4019,
+    "uuid": "26462012-9c44-46eb-9e30-03e8bec79473",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\18.png.meta": {
+    "time": 1723121671576.1975
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\18.png": {
+    "time": 1723121666241.1433,
+    "uuid": "d55d0156-2b7b-4b96-85a2-30a8091ae9f9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\20.png.meta": {
+    "time": 1723121671616.627
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\20.png": {
+    "time": 1723121666335.451,
+    "uuid": "0e6f2d19-65c1-45f2-825b-3924f076da48",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\4.png.meta": {
+    "time": 1723121671655.9277
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\4.png": {
+    "time": 1723121666446.2488,
+    "uuid": "a5bfcf12-9202-4205-bf98-52c6a2ed467f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\3.png.meta": {
+    "time": 1723121671629.6729
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\3.png": {
+    "time": 1723121666414.7769,
+    "uuid": "1dbb66ba-7103-458f-a7b3-7ea890ebec31",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\21.png.meta": {
+    "time": 1723121671626.6963
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\21.png": {
+    "time": 1723121666367.0872,
+    "uuid": "0f028a4e-811a-4255-81b3-67a113e29f46",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\5.png.meta": {
+    "time": 1723121671658.9412
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\5.png": {
+    "time": 1723121666478.528,
+    "uuid": "eebe94bb-4051-4293-b0d4-c36a6b022861",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\6.png.meta": {
+    "time": 1723121671667.4336
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\6.png": {
+    "time": 1723121666510.8389,
+    "uuid": "bfeb706c-55b1-4f89-872b-e126aee00267",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\8.png.meta": {
+    "time": 1723121671684.2126
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\8.png": {
+    "time": 1723121666557.9067,
+    "uuid": "b13b336a-dff3-404d-ab5e-60a152e3422e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\7.png.meta": {
+    "time": 1723121671688.3767
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\7.png": {
+    "time": 1723121666541.836,
+    "uuid": "d4d73496-656a-4384-a5a9-f005cb7440e1",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\1.png.meta": {
+    "time": 1723121671712.9226
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\1.png": {
+    "time": 1723121666621.336,
+    "uuid": "a743438e-2ef9-45e1-98fa-0cd546c40375",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\9.png.meta": {
+    "time": 1723121671715.0374
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\ico\\9.png": {
+    "time": 1723121666595.956,
+    "uuid": "ed859afb-c21f-459e-8d12-8bfd13014073",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\3.png.meta": {
+    "time": 1723121671738.2312
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\3.png": {
+    "time": 1723121666706.2837,
+    "uuid": "9d0d62f2-c322-4279-93b7-12a59d323a51",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\2.png.meta": {
+    "time": 1723121671723.6272
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\2.png": {
+    "time": 1723121666663.0808,
+    "uuid": "a7a6afb7-d9e2-45b4-b42c-cf914c3a9b49",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\4.png.meta": {
+    "time": 1723121671741.8774
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\4.png": {
+    "time": 1723121666738.3638,
+    "uuid": "3ee6eaf5-6976-431a-bf35-5e6c8e3130ba",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\6.png.meta": {
+    "time": 1723121671758.151
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\6.png": {
+    "time": 1723121666801.8916,
+    "uuid": "952697a8-658e-4bf8-a52f-57ad81d3447a",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\5.png.meta": {
+    "time": 1723121671766.1965
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\5.png": {
+    "time": 1723121666770.246,
+    "uuid": "d8868c4d-9cb0-4a16-afea-c7f6c32ca966",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\7.png.meta": {
+    "time": 1723121671768.6824
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture\\UI\\7.png": {
+    "time": 1723121666837.4478,
+    "uuid": "f5918e7b-0947-45b0-ba4e-1420d9468145",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Grid.meta": {
+    "time": 1723127528178.0603
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Grid": {
+    "time": 1723127542114.8547,
+    "uuid": "f91f2772-6d5b-481a-ad45-99a0c29ad8fc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Grid\\GridGenerator.ts.meta": {
+    "time": 1723127542129.4973
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Grid\\GridGenerator.ts": {
+    "time": 1723491856326.426,
+    "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Effects.meta": {
+    "time": 1723130496833.0603
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Effects": {
+    "time": 1723130504914.768,
+    "uuid": "027c37e0-7a1c-48f2-bdd2-c4564fd375c9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Effects\\EffectManager.ts.meta": {
+    "time": 1723130504932.9617
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Effects\\EffectManager.ts": {
+    "time": 1723130756563.9326,
+    "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels.meta": {
+    "time": 1723131149022.14
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels": {
+    "time": 1723131299582.5078,
+    "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts.meta": {
+    "time": 1723131160087.1875
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts": {
+    "time": 1723137811604.8489,
+    "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts.meta": {
+    "time": 1723131299598.6353
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts": {
+    "time": 1723131729416.2795,
+    "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\InGameAssets.ts.meta": {
+    "time": 1723132461767.8032
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\InGameAssets.ts": {
+    "time": 1723135383432.4978,
+    "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib.meta": {
+    "time": 1723483490426.4229
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib": {
+    "time": 1723483549348.6213,
+    "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization.meta": {
+    "time": 1723483523446.43
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization": {
+    "time": 1723483540541.8308,
+    "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts.meta": {
+    "time": 1723022012696.1335
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
+    "time": 1723022012667.1465,
+    "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts.meta": {
+    "time": 1723022012747.6643
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts": {
+    "time": 1723484822840.9421,
+    "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable.meta": {
+    "time": 1723483581771.1543
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable": {
+    "time": 1723487263907.9377,
+    "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts.meta": {
+    "time": 1723483722685.6191
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts": {
+    "time": 1723484834220.9717,
+    "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\PoolHelper.ts.meta": {
+    "time": 1723484786954.037
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\PoolHelper.ts": {
+    "time": 1723484808304.608,
+    "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs.meta": {
+    "time": 1723485806214.7886
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs": {
+    "time": 1723485818392.4934,
+    "uuid": "124d6466-f0df-4565-8cc5-f26304192330",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs\\Candy.prefab.meta": {
+    "time": 1723485812840.032
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs\\Candy.prefab": {
+    "time": 1723485812836.5142,
+    "uuid": "754715c8-3a3c-499b-9186-9f27dc298f57",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs\\Cake.prefab.meta": {
+    "time": 1723485815113.687
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs\\Cake.prefab": {
+    "time": 1723485815110.474,
+    "uuid": "fed4646b-2956-42c9-b1ff-ecf752878dc8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs\\Donut.prefab.meta": {
+    "time": 1723485818405.0596
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs\\Donut.prefab": {
+    "time": 1723485818400.0183,
+    "uuid": "9ebc66ca-5afc-4d6d-976c-5802fef0c291",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\PiecesPool.ts.meta": {
+    "time": 1723487263922.5234
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
+    "time": 1723491798886.6772,
+    "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs": {
+    "time": 1723485818392.4934,
+    "uuid": "124d6466-f0df-4565-8cc5-f26304192330",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts": {
+    "time": 1723579070384.2346,
+    "uuid": "ef7376f4-69d0-462e-a6ba-547aadf84e42",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib": {
+    "time": 1723483549348.6213,
+    "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture": {
+    "time": 1723121671236.2703,
+    "uuid": "660e3347-42ca-483d-96b7-3dd1c329839d",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Effects": {
+    "time": 1723583057319.667,
+    "uuid": "027c37e0-7a1c-48f2-bdd2-c4564fd375c9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid": {
+    "time": 1723583057319.667,
+    "uuid": "f91f2772-6d5b-481a-ad45-99a0c29ad8fc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels": {
+    "time": 1723131299582.5078,
+    "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable": {
+    "time": 1723487263907.9377,
+    "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization": {
+    "time": 1723483540541.8308,
+    "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico": {
+    "time": 1723121671258.1162,
+    "uuid": "d001872d-4de7-426b-823b-377190a2ac3c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI": {
+    "time": 1723121671266.1418,
+    "uuid": "9dc617e4-b312-445c-92df-0856d0b5fecb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\GameGlobal.ts": {
+    "time": 1723122683511.914,
+    "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\GameManager.ts": {
+    "time": 1723575736472.6443,
+    "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\InGameAssets.ts": {
+    "time": 1723135383432.4978,
+    "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\PoolHelper.ts": {
+    "time": 1723484808304.608,
+    "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Effects\\EffectManager.ts": {
+    "time": 1723639289249.6372,
+    "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid\\GridGenerator.ts": {
+    "time": 1723642017352.1257,
+    "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts": {
+    "time": 1723137811604.8489,
+    "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts": {
+    "time": 1723131729416.2795,
+    "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts": {
+    "time": 1723484834220.9717,
+    "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
+    "time": 1723636174308.6191,
+    "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
+    "time": 1723022012667.1465,
+    "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts": {
+    "time": 1723484822840.9421,
+    "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs.meta": {
+    "time": 1723485806214.7886
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts.meta": {
+    "time": 1723122245728.4573
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib.meta": {
+    "time": 1723483490426.4229
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture.meta": {
+    "time": 1723121671225.0378
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Effects.meta": {
+    "time": 1723130496833.0603
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid.meta": {
+    "time": 1723127528178.0603
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels.meta": {
+    "time": 1723131149022.14
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable.meta": {
+    "time": 1723483581771.1543
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization.meta": {
+    "time": 1723483523446.43
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico.meta": {
+    "time": 1723121671230.3538
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI.meta": {
+    "time": 1723121671230.3538
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\GameGlobal.ts.meta": {
+    "time": 1723122558828.4329
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\GameManager.ts.meta": {
+    "time": 1723122163891.909
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\InGameAssets.ts.meta": {
+    "time": 1723132461767.8032
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\PoolHelper.ts.meta": {
+    "time": 1723484786954.037
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Effects\\EffectManager.ts.meta": {
+    "time": 1723130504932.9617
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid\\GridGenerator.ts.meta": {
+    "time": 1723127542129.4973
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts.meta": {
+    "time": 1723131160087.1875
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts.meta": {
+    "time": 1723131299598.6353
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts.meta": {
+    "time": 1723483722685.6191
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable\\PiecesPool.ts.meta": {
+    "time": 1723487263922.5234
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts.meta": {
+    "time": 1723022012696.1335
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts.meta": {
+    "time": 1723022012747.6643
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\scene.scene": {
+    "time": 1723641915602.642,
+    "uuid": "90a0e660-4913-4c29-8547-4b01d373ea55",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs\\Cake.prefab": {
+    "time": 1723485815110.474,
+    "uuid": "fed4646b-2956-42c9-b1ff-ecf752878dc8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs\\Candy.prefab": {
+    "time": 1723485812836.5142,
+    "uuid": "754715c8-3a3c-499b-9186-9f27dc298f57",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs\\Donut.prefab": {
+    "time": 1723485818400.0183,
+    "uuid": "9ebc66ca-5afc-4d6d-976c-5802fef0c291",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\bg.png": {
+    "time": 1723121665775.6077,
+    "uuid": "2e6cc1f9-5b33-4738-892c-6ee1a49ffa47",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\sample_1.png": {
+    "time": 1723121665835.1338,
+    "uuid": "ee883ea0-15bb-4cca-ac96-f8732b1374cd",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\sample_2.png": {
+    "time": 1723121665872.8928,
+    "uuid": "31f8434b-2329-45b1-8742-a3021845335e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\1.png": {
+    "time": 1723121665913.519,
+    "uuid": "1160d00f-14e0-4e35-8df7-5471314e3628",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\10.png": {
+    "time": 1723121665954.0437,
+    "uuid": "b3963c22-76af-4010-bbc5-53e6a6865952",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\11.png": {
+    "time": 1723121665988.0884,
+    "uuid": "e3fafcf2-9140-4706-b839-411573075125",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\12.png": {
+    "time": 1723121666018.2363,
+    "uuid": "bcc0ac21-c2dc-46e3-abc8-340fe4c18df8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\13.png": {
+    "time": 1723121666063.8997,
+    "uuid": "b1b893e9-2ed2-46e3-a12c-d7a8fa3c3587",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\14.png": {
+    "time": 1723121666097.8245,
+    "uuid": "b1eafba6-bf29-4a25-8780-48a576cb6062",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\15.png": {
+    "time": 1723121666134.8354,
+    "uuid": "33ecc0eb-7c57-4116-8d47-3d956042c237",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\16.png": {
+    "time": 1723121666161.7815,
+    "uuid": "6d81d368-3785-49a4-9695-d631f9838ad6",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\17.png": {
+    "time": 1723121666209.101,
+    "uuid": "60cb3f53-4a70-4712-919e-9e07e87d6fdf",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\18.png": {
+    "time": 1723121666241.1433,
+    "uuid": "d55d0156-2b7b-4b96-85a2-30a8091ae9f9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\19.png": {
+    "time": 1723121666272.4019,
+    "uuid": "26462012-9c44-46eb-9e30-03e8bec79473",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\2.png": {
+    "time": 1723121666303.9958,
+    "uuid": "fb26b3ba-9187-45aa-979b-e05106abff93",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\20.png": {
+    "time": 1723121666335.451,
+    "uuid": "0e6f2d19-65c1-45f2-825b-3924f076da48",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\21.png": {
+    "time": 1723121666367.0872,
+    "uuid": "0f028a4e-811a-4255-81b3-67a113e29f46",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\3.png": {
+    "time": 1723121666414.7769,
+    "uuid": "1dbb66ba-7103-458f-a7b3-7ea890ebec31",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\4.png": {
+    "time": 1723121666446.2488,
+    "uuid": "a5bfcf12-9202-4205-bf98-52c6a2ed467f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\5.png": {
+    "time": 1723121666478.528,
+    "uuid": "eebe94bb-4051-4293-b0d4-c36a6b022861",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\6.png": {
+    "time": 1723121666510.8389,
+    "uuid": "bfeb706c-55b1-4f89-872b-e126aee00267",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\7.png": {
+    "time": 1723121666541.836,
+    "uuid": "d4d73496-656a-4384-a5a9-f005cb7440e1",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\8.png": {
+    "time": 1723121666557.9067,
+    "uuid": "b13b336a-dff3-404d-ab5e-60a152e3422e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\9.png": {
+    "time": 1723121666595.956,
+    "uuid": "ed859afb-c21f-459e-8d12-8bfd13014073",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\1.png": {
+    "time": 1723121666621.336,
+    "uuid": "a743438e-2ef9-45e1-98fa-0cd546c40375",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\2.png": {
+    "time": 1723121666663.0808,
+    "uuid": "a7a6afb7-d9e2-45b4-b42c-cf914c3a9b49",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\3.png": {
+    "time": 1723121666706.2837,
+    "uuid": "9d0d62f2-c322-4279-93b7-12a59d323a51",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\4.png": {
+    "time": 1723121666738.3638,
+    "uuid": "3ee6eaf5-6976-431a-bf35-5e6c8e3130ba",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\5.png": {
+    "time": 1723121666770.246,
+    "uuid": "d8868c4d-9cb0-4a16-afea-c7f6c32ca966",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\6.png": {
+    "time": 1723121666801.8916,
+    "uuid": "952697a8-658e-4bf8-a52f-57ad81d3447a",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\7.png": {
+    "time": 1723121666837.4478,
+    "uuid": "f5918e7b-0947-45b0-ba4e-1420d9468145",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\scene.scene.meta": {
+    "time": 1723121538781.5344
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs\\Donut.prefab.meta": {
+    "time": 1723485818405.0596
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs\\Candy.prefab.meta": {
+    "time": 1723485812840.032
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs\\Cake.prefab.meta": {
+    "time": 1723485815113.687
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\10.png.meta": {
+    "time": 1723121671425.7683
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\1.png.meta": {
+    "time": 1723121671405.9211
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\bg.png.meta": {
+    "time": 1723121671407.3496
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\sample_2.png.meta": {
+    "time": 1723121671503.6257
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\13.png.meta": {
+    "time": 1723121671503.6257
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\12.png.meta": {
+    "time": 1723121671513.0952
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\11.png.meta": {
+    "time": 1723121671503.6257
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\sample_1.png.meta": {
+    "time": 1723121671495.5034
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\14.png.meta": {
+    "time": 1723121671554.9236
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\15.png.meta": {
+    "time": 1723121671565.647
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\16.png.meta": {
+    "time": 1723121671557.3257
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\17.png.meta": {
+    "time": 1723121671564.0051
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\18.png.meta": {
+    "time": 1723121671576.1975
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\19.png.meta": {
+    "time": 1723121671601.992
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\20.png.meta": {
+    "time": 1723121671616.627
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\2.png.meta": {
+    "time": 1723121671607.6023
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\21.png.meta": {
+    "time": 1723121671626.6963
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\3.png.meta": {
+    "time": 1723121671629.6729
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\4.png.meta": {
+    "time": 1723121671655.9277
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\6.png.meta": {
+    "time": 1723121671667.4336
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\7.png.meta": {
+    "time": 1723121671688.3767
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\5.png.meta": {
+    "time": 1723121671658.9412
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\8.png.meta": {
+    "time": 1723121671684.2126
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico\\9.png.meta": {
+    "time": 1723121671715.0374
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\2.png.meta": {
+    "time": 1723121671723.6272
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\1.png.meta": {
+    "time": 1723121671712.9226
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\3.png.meta": {
+    "time": 1723121671738.2312
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\4.png.meta": {
+    "time": 1723121671741.8774
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\5.png.meta": {
+    "time": 1723121671766.1965
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\6.png.meta": {
+    "time": 1723121671758.151
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\UI\\7.png.meta": {
+    "time": 1723121671768.6824
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Promises.ts.meta": {
+    "time": 1723578256069.8967
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Promises.ts": {
+    "time": 1723578261598.8323,
+    "uuid": "deaf171f-f3d0-47d9-995c-8022e0284e9f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Interaction.meta": {
+    "time": 1723579070389.3682
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Interaction": {
+    "time": 1723579081248.8425,
+    "uuid": "a75e890e-ae55-45c7-a3b4-1b4e8f1ddff8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Interaction\\InteractionManager.ts.meta": {
+    "time": 1723579081278.0476
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
+    "time": 1723641825941.4346,
+    "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid\\MatchChecker.ts.meta": {
+    "time": 1723579496783.897
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid\\MatchChecker.ts": {
+    "time": 1723640469398.2522,
+    "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs": {
+    "time": 1724100611250.4402,
+    "uuid": "124d6466-f0df-4565-8cc5-f26304192330",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts": {
+    "time": 1724100612077.9326,
+    "uuid": "ef7376f4-69d0-462e-a6ba-547aadf84e42",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib": {
+    "time": 1724100612208.4666,
+    "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture": {
+    "time": 1724100612954.0935,
+    "uuid": "660e3347-42ca-483d-96b7-3dd1c329839d",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Effects": {
+    "time": 1724100611746.2783,
+    "uuid": "027c37e0-7a1c-48f2-bdd2-c4564fd375c9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid": {
+    "time": 1724100611855.1963,
+    "uuid": "f91f2772-6d5b-481a-ad45-99a0c29ad8fc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Interaction": {
+    "time": 1724100611924.7356,
+    "uuid": "a75e890e-ae55-45c7-a3b4-1b4e8f1ddff8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels": {
+    "time": 1724100612046.4177,
+    "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable": {
+    "time": 1724100612149.9307,
+    "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization": {
+    "time": 1724100612295.9915,
+    "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico": {
+    "time": 1724100613987.813,
+    "uuid": "d001872d-4de7-426b-823b-377190a2ac3c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI": {
+    "time": 1724100612925.1887,
+    "uuid": "9dc617e4-b312-445c-92df-0856d0b5fecb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\GameGlobal.ts": {
+    "time": 1724100611332.4578,
+    "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\GameManager.ts": {
+    "time": 1724100611385.4624,
+    "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\InGameAssets.ts": {
+    "time": 1724100611472.3486,
+    "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\PoolHelper.ts": {
+    "time": 1724100611615.3428,
+    "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Promises.ts": {
+    "time": 1724100611693.1997,
+    "uuid": "deaf171f-f3d0-47d9-995c-8022e0284e9f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Effects\\EffectManager.ts": {
+    "time": 1724100611743.1213,
+    "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid\\GridGenerator.ts": {
+    "time": 1724100611798.9414,
+    "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts": {
+    "time": 1724100611852.194,
+    "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
+    "time": 1724100611922.7415,
+    "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\EasyLevels.ts": {
+    "time": 1724100611988.2952,
+    "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\LevelData.ts": {
+    "time": 1724100612042.4092,
+    "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable\\CandyPool.ts": {
+    "time": 1724100612101.9292,
+    "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
+    "time": 1724100612146.9312,
+    "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
+    "time": 1724100612240.4778,
+    "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization\\Poolable.ts": {
+    "time": 1724100612293.9863,
+    "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs.meta": {
+    "time": 1724100610912.5825
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts.meta": {
+    "time": 1724100610945.1843
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib.meta": {
+    "time": 1724100610978.6567
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture.meta": {
+    "time": 1724100611083.1426
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Effects.meta": {
+    "time": 1724100611311.0366
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid.meta": {
+    "time": 1724100611445.7925
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Interaction.meta": {
+    "time": 1724100611547.426
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels.meta": {
+    "time": 1724100611582.9443
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable.meta": {
+    "time": 1724100611669.2395
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization.meta": {
+    "time": 1724100612204.4668
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico.meta": {
+    "time": 1724100612452.1697
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI.meta": {
+    "time": 1724100612356.005
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\GameGlobal.ts.meta": {
+    "time": 1724100611360.1702
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\GameManager.ts.meta": {
+    "time": 1724100611414.016
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\InGameAssets.ts.meta": {
+    "time": 1724100611506.4358
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\PoolHelper.ts.meta": {
+    "time": 1724100611640.722
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Promises.ts.meta": {
+    "time": 1724100611718.7842
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Effects\\EffectManager.ts.meta": {
+    "time": 1724100611770.62
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid\\GridGenerator.ts.meta": {
+    "time": 1724100611827.1946
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts.meta": {
+    "time": 1724100611886.7583
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts.meta": {
+    "time": 1724100611953.7395
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\EasyLevels.ts.meta": {
+    "time": 1724100612019.3967
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\LevelData.ts.meta": {
+    "time": 1724100612072.4067
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable\\CandyPool.ts.meta": {
+    "time": 1724100612127.9326
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable\\PiecesPool.ts.meta": {
+    "time": 1724100612171.942
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization\\ObjectPooling.ts.meta": {
+    "time": 1724100612269.4663
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization\\Poolable.ts.meta": {
+    "time": 1724100612323.018
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\scene.scene": {
+    "time": 1724100611014.3955,
+    "uuid": "90a0e660-4913-4c29-8547-4b01d373ea55",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs\\Cake.prefab": {
+    "time": 1724100611120.9436,
+    "uuid": "fed4646b-2956-42c9-b1ff-ecf752878dc8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs\\Candy.prefab": {
+    "time": 1724100611187.0845,
+    "uuid": "754715c8-3a3c-499b-9186-9f27dc298f57",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs\\Donut.prefab": {
+    "time": 1724100611248.4426,
+    "uuid": "9ebc66ca-5afc-4d6d-976c-5802fef0c291",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\bg.png": {
+    "time": 1724100612383.4905,
+    "uuid": "2e6cc1f9-5b33-4738-892c-6ee1a49ffa47",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\sample_1.png": {
+    "time": 1724100612478.9583,
+    "uuid": "ee883ea0-15bb-4cca-ac96-f8732b1374cd",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\sample_2.png": {
+    "time": 1724100612549.9604,
+    "uuid": "31f8434b-2329-45b1-8742-a3021845335e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\1.png": {
+    "time": 1724100612975.6287,
+    "uuid": "1160d00f-14e0-4e35-8df7-5471314e3628",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\10.png": {
+    "time": 1724100613028.621,
+    "uuid": "b3963c22-76af-4010-bbc5-53e6a6865952",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\11.png": {
+    "time": 1724100613076.5776,
+    "uuid": "e3fafcf2-9140-4706-b839-411573075125",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\12.png": {
+    "time": 1724100613124.348,
+    "uuid": "bcc0ac21-c2dc-46e3-abc8-340fe4c18df8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\13.png": {
+    "time": 1724100613168.5146,
+    "uuid": "b1b893e9-2ed2-46e3-a12c-d7a8fa3c3587",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\14.png": {
+    "time": 1724100613218.926,
+    "uuid": "b1eafba6-bf29-4a25-8780-48a576cb6062",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\15.png": {
+    "time": 1724100613269.5117,
+    "uuid": "33ecc0eb-7c57-4116-8d47-3d956042c237",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\16.png": {
+    "time": 1724100613316.4688,
+    "uuid": "6d81d368-3785-49a4-9695-d631f9838ad6",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\17.png": {
+    "time": 1724100613370.23,
+    "uuid": "60cb3f53-4a70-4712-919e-9e07e87d6fdf",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\18.png": {
+    "time": 1724100613420.0994,
+    "uuid": "d55d0156-2b7b-4b96-85a2-30a8091ae9f9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\19.png": {
+    "time": 1724100613475.962,
+    "uuid": "26462012-9c44-46eb-9e30-03e8bec79473",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\2.png": {
+    "time": 1724100613528.7173,
+    "uuid": "fb26b3ba-9187-45aa-979b-e05106abff93",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\20.png": {
+    "time": 1724100613581.0193,
+    "uuid": "0e6f2d19-65c1-45f2-825b-3924f076da48",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\21.png": {
+    "time": 1724100613640.2935,
+    "uuid": "0f028a4e-811a-4255-81b3-67a113e29f46",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\3.png": {
+    "time": 1724100613693.063,
+    "uuid": "1dbb66ba-7103-458f-a7b3-7ea890ebec31",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\4.png": {
+    "time": 1724100613744.2898,
+    "uuid": "a5bfcf12-9202-4205-bf98-52c6a2ed467f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\5.png": {
+    "time": 1724100613787.6821,
+    "uuid": "eebe94bb-4051-4293-b0d4-c36a6b022861",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\6.png": {
+    "time": 1724100613836.4126,
+    "uuid": "bfeb706c-55b1-4f89-872b-e126aee00267",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\7.png": {
+    "time": 1724100613887.714,
+    "uuid": "d4d73496-656a-4384-a5a9-f005cb7440e1",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\8.png": {
+    "time": 1724100613933.3892,
+    "uuid": "b13b336a-dff3-404d-ab5e-60a152e3422e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\9.png": {
+    "time": 1724100613985.813,
+    "uuid": "ed859afb-c21f-459e-8d12-8bfd13014073",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\1.png": {
+    "time": 1724100612613.0715,
+    "uuid": "a743438e-2ef9-45e1-98fa-0cd546c40375",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\2.png": {
+    "time": 1724100612667.1953,
+    "uuid": "a7a6afb7-d9e2-45b4-b42c-cf914c3a9b49",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\3.png": {
+    "time": 1724100612720.8845,
+    "uuid": "9d0d62f2-c322-4279-93b7-12a59d323a51",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\4.png": {
+    "time": 1724100612769.4553,
+    "uuid": "3ee6eaf5-6976-431a-bf35-5e6c8e3130ba",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\5.png": {
+    "time": 1724100612822.9006,
+    "uuid": "d8868c4d-9cb0-4a16-afea-c7f6c32ca966",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\6.png": {
+    "time": 1724100612872.6526,
+    "uuid": "952697a8-658e-4bf8-a52f-57ad81d3447a",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\7.png": {
+    "time": 1724100612921.1877,
+    "uuid": "f5918e7b-0947-45b0-ba4e-1420d9468145",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs\\Cake.prefab.meta": {
+    "time": 1724100611156.9402
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs\\Candy.prefab.meta": {
+    "time": 1724100611214.7214
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs\\Donut.prefab.meta": {
+    "time": 1724100611277.4482
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\scene.scene.meta": {
+    "time": 1724100611054.1064
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\bg.png.meta": {
+    "time": 1724100612416.4905
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\10.png.meta": {
+    "time": 1724100613056.5876
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\1.png.meta": {
+    "time": 1724100613001.813
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\sample_2.png.meta": {
+    "time": 1724100612580.8809
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\13.png.meta": {
+    "time": 1724100613196.4624
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\11.png.meta": {
+    "time": 1724100613103.469
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\12.png.meta": {
+    "time": 1724100613147.705
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\sample_1.png.meta": {
+    "time": 1724100612512.9602
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\14.png.meta": {
+    "time": 1724100613246.8748
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\15.png.meta": {
+    "time": 1724100613294.2014
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\17.png.meta": {
+    "time": 1724100613398.1575
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\16.png.meta": {
+    "time": 1724100613349.2964
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\18.png.meta": {
+    "time": 1724100613448.06
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\2.png.meta": {
+    "time": 1724100613557.5703
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\19.png.meta": {
+    "time": 1724100613505.171
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\20.png.meta": {
+    "time": 1724100613610.693
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\21.png.meta": {
+    "time": 1724100613669.0115
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\3.png.meta": {
+    "time": 1724100613721.7046
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\4.png.meta": {
+    "time": 1724100613769.7266
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\5.png.meta": {
+    "time": 1724100613813.0012
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\6.png.meta": {
+    "time": 1724100613864.2312
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\7.png.meta": {
+    "time": 1724100613915.2344
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\8.png.meta": {
+    "time": 1724100613962.9277
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\2.png.meta": {
+    "time": 1724100612698.7024
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico\\9.png.meta": {
+    "time": 1724100614012.1936
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\1.png.meta": {
+    "time": 1724100612644.1907
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\3.png.meta": {
+    "time": 1724100612746.0725
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\4.png.meta": {
+    "time": 1724100612799.511
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\5.png.meta": {
+    "time": 1724100612851.0305
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\7.png.meta": {
+    "time": 1724100612948.6592
+  },
+  "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\6.png.meta": {
+    "time": 1724100612899.7249
+  }
+}
