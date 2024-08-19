@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6870.122600018978,
+      "mTimestamp": 7186.074000000954,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,11 +409,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7373.380199968815,
+      "mTimestamp": 10231.174800038338,
       "chunkId": "c647b27fbc0e92e1b206abb59a1ced4aefd3fd83",
       "imports": [
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -422,12 +422,12 @@
             },
             "end": {
               "line": 4,
-              "column": 111
+              "column": 109
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameGlobal.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -436,12 +436,12 @@
             },
             "end": {
               "line": 5,
-              "column": 100
+              "column": 98
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -450,12 +450,12 @@
             },
             "end": {
               "line": 6,
-              "column": 101
+              "column": 99
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/GridGenerator.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -464,12 +464,12 @@
             },
             "end": {
               "line": 7,
-              "column": 108
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/MatchChecker.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -478,12 +478,12 @@
             },
             "end": {
               "line": 8,
-              "column": 107
+              "column": 105
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/InGameAssets.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -492,12 +492,12 @@
             },
             "end": {
               "line": 9,
-              "column": 102
+              "column": 100
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Interaction/InteractionManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -506,12 +506,12 @@
             },
             "end": {
               "line": 10,
-              "column": 120
+              "column": 118
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/EasyLevels.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -520,12 +520,12 @@
             },
             "end": {
               "line": 11,
-              "column": 107
+              "column": 105
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/LevelData.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -534,12 +534,12 @@
             },
             "end": {
               "line": 12,
-              "column": 106
+              "column": 104
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -548,12 +548,12 @@
             },
             "end": {
               "line": 13,
-              "column": 100
+              "column": 98
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/CandyPool.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -562,12 +562,12 @@
             },
             "end": {
               "line": 14,
-              "column": 108
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -576,12 +576,12 @@
             },
             "end": {
               "line": 15,
-              "column": 109
+              "column": 107
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Promises.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -590,12 +590,12 @@
             },
             "end": {
               "line": 16,
-              "column": 98
+              "column": 96
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -604,12 +604,12 @@
             },
             "end": {
               "line": 17,
-              "column": 115
+              "column": 113
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -618,7 +618,7 @@
             },
             "end": {
               "line": 18,
-              "column": 110
+              "column": 108
             }
           }
         }
@@ -628,105 +628,105 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameGlobal.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/GameManager.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/GridGenerator.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Grid/MatchChecker.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/InGameAssets.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Interaction/InteractionManager.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/EasyLevels.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Levels/LevelData.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/PoolHelper.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/CandyPool.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/Scripts/Promises.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts"
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts"
           },
           "messages": []
         }
@@ -942,7 +942,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1724101118261,
+      "mTimestamp": 1724101275687,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -3920,6 +3920,1058 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Masa%C3%BCst%C3%BC/match3-v100/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251612.7195,
+        "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c"
+      },
+      "chunkId": "ccd39a64b382dcf595d33f22123473c07f091200",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "../Promises",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251620.719,
+        "uuid": "deaf171f-f3d0-47d9-995c-8022e0284e9f"
+      },
+      "chunkId": "034bdd4d252e771cc797692c7adec90ad830b5d8",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251613.7195,
+        "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e"
+      },
+      "chunkId": "071fee44c544af07d09d37d9dc72b3acde3a012f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251613.7195,
+        "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc"
+      },
+      "chunkId": "e2c63ec205976443c74171d4213a7b0f66323905",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251614.7192,
+        "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be"
+      },
+      "chunkId": "d0299098f0e21d889e911ec1fbbffada6d3360e2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 27
+            },
+            "end": {
+              "line": 10,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 30
+            },
+            "end": {
+              "line": 11,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../Interaction/InteractionManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 35
+            },
+            "end": {
+              "line": 12,
+              "column": 70
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251619.719,
+        "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86"
+      },
+      "chunkId": "345e9c97bf07265892644df7ba8267ddf9abd02d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251622.719,
+        "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8"
+      },
+      "chunkId": "35016036612809bf8b8e466cda071b5a410e2e4d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "./ObjectPooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251621.719,
+        "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7"
+      },
+      "chunkId": "f4045f543cf5c5abef8a65c4d0e0aa17880bf722",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251618.7192,
+        "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589"
+      },
+      "chunkId": "9998aa3a5786423c4233dc12aacfb5737f867875",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251616.7195,
+        "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f"
+      },
+      "chunkId": "782c244f377f7012fdd4cb1aac29fee7f2b1d501",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../Grid/MatchChecker",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 30
+            },
+            "end": {
+              "line": 10,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251615.719,
+        "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5"
+      },
+      "chunkId": "5e029ea55acec4bd720eb0849a10dbab2472284e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../Effects/EffectManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../PoolHelper",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "../Poolable/PiecesPool",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251615.719,
+        "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece"
+      },
+      "chunkId": "24583c51d97e8e1e535ad0192f6e876a56aac1d9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251617.719,
+        "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860"
+      },
+      "chunkId": "95a9ae40b6eba1fae01f9e95d1e3c34b315b19fa",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251618.7192,
+        "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2"
+      },
+      "chunkId": "e8d946af26730604f4ff53b0337edd5d3e22188e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts": {
+      "mTimestamp": {
+        "mtime": 1724101251619.719,
+        "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b"
+      },
+      "chunkId": "4f6e17fcdb57ecb4767f39d3a386bd668a75545f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../../SooLib/Optimization/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts"
           },
           "messages": []
         }

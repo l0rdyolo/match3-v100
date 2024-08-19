@@ -1454,5 +1454,501 @@
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\UI\\6.png.meta": {
     "time": 1724100612899.7249
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs": {
+    "time": 1724101251611.7195,
+    "uuid": "124d6466-f0df-4565-8cc5-f26304192330",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts": {
+    "time": 1724101251620.719,
+    "uuid": "ef7376f4-69d0-462e-a6ba-547aadf84e42",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib": {
+    "time": 1724101251621.719,
+    "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture": {
+    "time": 1724101251641.7195,
+    "uuid": "660e3347-42ca-483d-96b7-3dd1c329839d",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Effects": {
+    "time": 1724101251612.7195,
+    "uuid": "027c37e0-7a1c-48f2-bdd2-c4564fd375c9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid": {
+    "time": 1724101251615.719,
+    "uuid": "f91f2772-6d5b-481a-ad45-99a0c29ad8fc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction": {
+    "time": 1724101251616.7195,
+    "uuid": "a75e890e-ae55-45c7-a3b4-1b4e8f1ddff8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Levels": {
+    "time": 1724101251618.7192,
+    "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Poolable": {
+    "time": 1724101251619.719,
+    "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib\\Optimization": {
+    "time": 1724101251622.719,
+    "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico": {
+    "time": 1724101251640.7192,
+    "uuid": "d001872d-4de7-426b-823b-377190a2ac3c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI": {
+    "time": 1724101251627.7175,
+    "uuid": "9dc617e4-b312-445c-92df-0856d0b5fecb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\GameGlobal.ts": {
+    "time": 1724101251613.7195,
+    "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\GameManager.ts": {
+    "time": 1724101251613.7195,
+    "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\InGameAssets.ts": {
+    "time": 1724101251615.719,
+    "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\PoolHelper.ts": {
+    "time": 1724101251618.7192,
+    "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Promises.ts": {
+    "time": 1724101251620.719,
+    "uuid": "deaf171f-f3d0-47d9-995c-8022e0284e9f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Effects\\EffectManager.ts": {
+    "time": 1724101251612.7195,
+    "uuid": "078a5e72-dd29-4a58-a4ac-1ccb4e9f735c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GridGenerator.ts": {
+    "time": 1724101251614.7192,
+    "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts": {
+    "time": 1724101251615.719,
+    "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
+    "time": 1724101251616.7195,
+    "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Levels\\EasyLevels.ts": {
+    "time": 1724101251617.719,
+    "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Levels\\LevelData.ts": {
+    "time": 1724101251618.7192,
+    "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Poolable\\CandyPool.ts": {
+    "time": 1724101251619.719,
+    "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
+    "time": 1724101251619.719,
+    "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
+    "time": 1724101251621.719,
+    "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib\\Optimization\\Poolable.ts": {
+    "time": 1724101251622.719,
+    "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs.meta": {
+    "time": 1724101251610.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts.meta": {
+    "time": 1724101251612.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib.meta": {
+    "time": 1724101251620.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture.meta": {
+    "time": 1724101251623.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Effects.meta": {
+    "time": 1724101251612.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid.meta": {
+    "time": 1724101251614.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction.meta": {
+    "time": 1724101251616.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Levels.meta": {
+    "time": 1724101251617.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Poolable.meta": {
+    "time": 1724101251618.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib\\Optimization.meta": {
+    "time": 1724101251620.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico.meta": {
+    "time": 1724101251628.7368
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI.meta": {
+    "time": 1724101251623.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\GameGlobal.ts.meta": {
+    "time": 1724101251613.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\GameManager.ts.meta": {
+    "time": 1724101251613.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\InGameAssets.ts.meta": {
+    "time": 1724101251616.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\PoolHelper.ts.meta": {
+    "time": 1724101251618.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Promises.ts.meta": {
+    "time": 1724101251620.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Effects\\EffectManager.ts.meta": {
+    "time": 1724101251613.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GridGenerator.ts.meta": {
+    "time": 1724101251614.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts.meta": {
+    "time": 1724101251615.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts.meta": {
+    "time": 1724101251616.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Levels\\EasyLevels.ts.meta": {
+    "time": 1724101251617.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Levels\\LevelData.ts.meta": {
+    "time": 1724101251618.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Poolable\\CandyPool.ts.meta": {
+    "time": 1724101251619.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Poolable\\PiecesPool.ts.meta": {
+    "time": 1724101251619.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib\\Optimization\\ObjectPooling.ts.meta": {
+    "time": 1724101251621.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\SooLib\\Optimization\\Poolable.ts.meta": {
+    "time": 1724101251622.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\scene.scene": {
+    "time": 1724101251622.719,
+    "uuid": "90a0e660-4913-4c29-8547-4b01d373ea55",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Cake.prefab": {
+    "time": 1724101251610.7192,
+    "uuid": "fed4646b-2956-42c9-b1ff-ecf752878dc8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Candy.prefab": {
+    "time": 1724101251611.7195,
+    "uuid": "754715c8-3a3c-499b-9186-9f27dc298f57",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Donut.prefab": {
+    "time": 1724101251611.7195,
+    "uuid": "9ebc66ca-5afc-4d6d-976c-5802fef0c291",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\bg.png": {
+    "time": 1724101251628.7368,
+    "uuid": "2e6cc1f9-5b33-4738-892c-6ee1a49ffa47",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\sample_1.png": {
+    "time": 1724101251640.7192,
+    "uuid": "ee883ea0-15bb-4cca-ac96-f8732b1374cd",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\sample_2.png": {
+    "time": 1724101251641.7195,
+    "uuid": "31f8434b-2329-45b1-8742-a3021845335e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\1.png": {
+    "time": 1724101251629.7195,
+    "uuid": "1160d00f-14e0-4e35-8df7-5471314e3628",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\10.png": {
+    "time": 1724101251629.7195,
+    "uuid": "b3963c22-76af-4010-bbc5-53e6a6865952",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\11.png": {
+    "time": 1724101251631.7185,
+    "uuid": "e3fafcf2-9140-4706-b839-411573075125",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\12.png": {
+    "time": 1724101251631.7185,
+    "uuid": "bcc0ac21-c2dc-46e3-abc8-340fe4c18df8",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\13.png": {
+    "time": 1724101251632.719,
+    "uuid": "b1b893e9-2ed2-46e3-a12c-d7a8fa3c3587",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\14.png": {
+    "time": 1724101251632.719,
+    "uuid": "b1eafba6-bf29-4a25-8780-48a576cb6062",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\15.png": {
+    "time": 1724101251633.719,
+    "uuid": "33ecc0eb-7c57-4116-8d47-3d956042c237",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\16.png": {
+    "time": 1724101251633.719,
+    "uuid": "6d81d368-3785-49a4-9695-d631f9838ad6",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\17.png": {
+    "time": 1724101251634.7192,
+    "uuid": "60cb3f53-4a70-4712-919e-9e07e87d6fdf",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\18.png": {
+    "time": 1724101251634.7192,
+    "uuid": "d55d0156-2b7b-4b96-85a2-30a8091ae9f9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\19.png": {
+    "time": 1724101251635.7195,
+    "uuid": "26462012-9c44-46eb-9e30-03e8bec79473",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\2.png": {
+    "time": 1724101251635.7195,
+    "uuid": "fb26b3ba-9187-45aa-979b-e05106abff93",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\20.png": {
+    "time": 1724101251636.7195,
+    "uuid": "0e6f2d19-65c1-45f2-825b-3924f076da48",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\21.png": {
+    "time": 1724101251636.7195,
+    "uuid": "0f028a4e-811a-4255-81b3-67a113e29f46",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\3.png": {
+    "time": 1724101251637.7192,
+    "uuid": "1dbb66ba-7103-458f-a7b3-7ea890ebec31",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\4.png": {
+    "time": 1724101251637.7192,
+    "uuid": "a5bfcf12-9202-4205-bf98-52c6a2ed467f",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\5.png": {
+    "time": 1724101251638.719,
+    "uuid": "eebe94bb-4051-4293-b0d4-c36a6b022861",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\6.png": {
+    "time": 1724101251638.719,
+    "uuid": "bfeb706c-55b1-4f89-872b-e126aee00267",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\7.png": {
+    "time": 1724101251639.7195,
+    "uuid": "d4d73496-656a-4384-a5a9-f005cb7440e1",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\8.png": {
+    "time": 1724101251639.7195,
+    "uuid": "b13b336a-dff3-404d-ab5e-60a152e3422e",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\9.png": {
+    "time": 1724101251640.7192,
+    "uuid": "ed859afb-c21f-459e-8d12-8bfd13014073",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\1.png": {
+    "time": 1724101251624.7192,
+    "uuid": "a743438e-2ef9-45e1-98fa-0cd546c40375",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\2.png": {
+    "time": 1724101251624.7192,
+    "uuid": "a7a6afb7-d9e2-45b4-b42c-cf914c3a9b49",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\3.png": {
+    "time": 1724101251625.7188,
+    "uuid": "9d0d62f2-c322-4279-93b7-12a59d323a51",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\4.png": {
+    "time": 1724101251625.7188,
+    "uuid": "3ee6eaf5-6976-431a-bf35-5e6c8e3130ba",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\5.png": {
+    "time": 1724101251625.7188,
+    "uuid": "d8868c4d-9cb0-4a16-afea-c7f6c32ca966",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\6.png": {
+    "time": 1724101251626.7192,
+    "uuid": "952697a8-658e-4bf8-a52f-57ad81d3447a",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\7.png": {
+    "time": 1724101251626.7192,
+    "uuid": "f5918e7b-0947-45b0-ba4e-1420d9468145",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Cake.prefab.meta": {
+    "time": 1724101251610.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\scene.scene.meta": {
+    "time": 1724101251623.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Candy.prefab.meta": {
+    "time": 1724101251611.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Donut.prefab.meta": {
+    "time": 1724101251611.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\bg.png.meta": {
+    "time": 1724101251628.7368
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\10.png.meta": {
+    "time": 1724101251630.7185
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\1.png.meta": {
+    "time": 1724101251629.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\sample_1.png.meta": {
+    "time": 1724101251641.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\sample_2.png.meta": {
+    "time": 1724101251641.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\11.png.meta": {
+    "time": 1724101251631.7185
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\13.png.meta": {
+    "time": 1724101251632.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\12.png.meta": {
+    "time": 1724101251631.7185
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\14.png.meta": {
+    "time": 1724101251632.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\15.png.meta": {
+    "time": 1724101251633.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\17.png.meta": {
+    "time": 1724101251634.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\18.png.meta": {
+    "time": 1724101251634.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\16.png.meta": {
+    "time": 1724101251633.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\19.png.meta": {
+    "time": 1724101251635.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\2.png.meta": {
+    "time": 1724101251635.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\21.png.meta": {
+    "time": 1724101251636.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\3.png.meta": {
+    "time": 1724101251637.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\20.png.meta": {
+    "time": 1724101251636.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\4.png.meta": {
+    "time": 1724101251637.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\8.png.meta": {
+    "time": 1724101251639.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\7.png.meta": {
+    "time": 1724101251639.7195
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\5.png.meta": {
+    "time": 1724101251638.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\6.png.meta": {
+    "time": 1724101251638.719
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\ico\\9.png.meta": {
+    "time": 1724101251640.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\2.png.meta": {
+    "time": 1724101251624.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\1.png.meta": {
+    "time": 1724101251624.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\3.png.meta": {
+    "time": 1724101251625.7188
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\4.png.meta": {
+    "time": 1724101251625.7188
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\5.png.meta": {
+    "time": 1724101251626.7192
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\7.png.meta": {
+    "time": 1724101251627.7175
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\texture\\UI\\6.png.meta": {
+    "time": 1724101251626.7192
   }
 }
