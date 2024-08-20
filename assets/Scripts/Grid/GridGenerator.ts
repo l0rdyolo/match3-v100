@@ -2,10 +2,11 @@ import { _decorator, Component, Node, Vec3, CCInteger } from "cc";
 import { Piece } from "../Piece/Piece";
 import { InteractionManager } from "../Interaction/InteractionManager";
 import { PieceTypes } from "../Piece/PieceTypes";
-
+import { PiecePool } from "../Piece/PiecePool";
+import { SelectionManager } from "../Interaction/SelectionManager";
 const { ccclass, property } = _decorator;
 
-@ccclass("GridManager")
+@ccclass("GridGenerator")
 export class GridGenerator extends Component {
   public grid: Piece[][] = [];
 
@@ -23,10 +24,10 @@ export class GridGenerator extends Component {
 
   protected start(): void {
     //!TODO: grid yerleşmesini ve content size'ı responsive yapmalıyız
-    // this.node.setPosition(-7*50, -500);
     this.Generate();
   }
 
+  //! todo rowlari tweenleyebiliriz
   public async Generate() {
     for (let row = 0; row < this.width; row++) {
       this.grid[row] = []
@@ -36,50 +37,25 @@ export class GridGenerator extends Component {
         this.grid[row][col] = piece;
       }
     }
-
-    console.log(this.grid);
-    
-    // for (let row = 0; row < this.GRID_ROW; row++) {
-    //   this.grid[row] = [];
-    //   const piecesInRow: PieceProps[] = [];
-    //   for (let col = 0; col < this.GRID_ROW; col++) {
-    //     const piece: Node = this.createPiece(row, col);
-    //     this.grid[row][col] = piece;
-    //     const pieceLastPosition = this.getCenteredPosition(col, row);
-    //     const pieceFirstPosition = new Vec3(
-    //       pieceLastPosition.x,
-    //       this.GRID_ROW * this.PIECE_CONTENT_SIZE
-    //     );
-    //     piece.setPosition(pieceFirstPosition);
-    //     //piecelere event listener ekliyoruz
-    //     // piece.on(Node.EventType.TOUCH_START, this.onPieceClicked, this);
-    //     piece.on(Node.EventType.TOUCH_START, (event: EventTouch) => {
-    //       this.interactionManager.onPieceClicked(event, piece , this.gridMap);
-    //     });
-    //     this.grid[row][col] = piece;
-
-    //     const pieceProps: PieceProps = {
-    //       piece: piece,
-    //       targetPosition: pieceLastPosition,
-    //     };
-    //     piecesInRow.push(pieceProps);
-    //   }
-    //   await EffectManager.animateRowFall(piecesInRow, 0.1);
-    // }
   }
 
   //bu fonksiyon init olurken match var mı diye kontrol edip piece üretiyor.
   private createPiece(row: number, col: number): Node {
-    let piece: Node;
+    let piece: Node | null;
     do {
-      // piece = this.piecesPool.getPieceFromPool();
-      if(!piece) continue; 
-      piece!.setParent(this.node);
-      piece!.setPosition(this.getCenteredPosition(col, row));
-      this.node.addChild(piece!);  
-    } while (this.createsMatch(piece!, row, col, this.grid));
+        piece = PiecePool.getInstance().getPiece();
+        
+        if(!piece) {
+            console.error("Piece could not be instantiated.");
+            continue;
+        } 
+        piece.setParent(this.node);
+        piece.setPosition(this.getCenteredPosition(col, row));
+        this.node.addChild(piece);  
+    } while (this.createsMatch(piece, row, col, this.grid));
     return piece!;
-  }
+}
+
 
   private createsMatch(
     piece: Node,

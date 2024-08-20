@@ -762,11 +762,11 @@
     "value": {}
   },
   "022faa66-edc4-4bf5-b73c-82b8c89000e8": {
-    "url": "db://assets/SooLib/Optimization/Poolable.ts",
+    "url": "db://assets/Scripts/SooLib/Optimization/Pool/Poolable.ts",
     "value": {}
   },
   "da7a90b5-6343-4e9d-9ee1-c392298e00b7": {
-    "url": "db://assets/SooLib/Optimization/ObjectPooling.ts",
+    "url": "db://assets/Scripts/SooLib/Optimization/Pool/ObjectPooling.ts",
     "value": {}
   },
   "e5bb5a69-54a2-445d-8b98-4939c92237bc": {
@@ -871,6 +871,306 @@
   },
   "532b1920-0e1e-42d8-9aeb-e57e60032158": {
     "url": "db://assets/Scripts/Piece/PiecePool.ts",
+    "value": {}
+  },
+  "418c8179-d0fe-4595-9209-4f43ce62c6e0": {
+    "url": "db://assets/Scripts/SingeltonComponent.ts",
+    "value": {}
+  },
+  "3a5ac49e-f0a2-4fd0-9b14-a6a2bacb77cc": {
+    "url": "db://assets/Scripts/Interaction/SelectionManager.ts",
+    "value": {}
+  },
+  "efaf45fc-5bea-497a-b650-e6959ea3fc15": {
+    "url": "db://assets/Scripts/SooLib",
+    "value": {}
+  },
+  "f6e7b43d-a7c2-41b6-a781-3015fd7fe1ef": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI",
+    "value": {}
+  },
+  "bafdbe33-d766-42bd-98f6-e09849f291f7": {
+    "url": "db://assets/Scripts/SooLib/Joystick",
+    "value": {}
+  },
+  "b9f1ef91-9f39-4c9f-8115-6bab9b0cbaa6": {
+    "url": "db://assets/Scripts/SooLib/Legacy",
+    "value": {}
+  },
+  "677b0e1d-ee3b-4558-a7d6-1b80f6569c0a": {
+    "url": "db://assets/Scripts/SooLib/Optimization",
+    "value": {}
+  },
+  "43c90baa-5ad3-43aa-a851-f70e45ddafb0": {
+    "url": "db://assets/Scripts/SooLib/Resources",
+    "value": {}
+  },
+  "7f68aa1b-6ac3-4e4d-8661-d8b514eb9339": {
+    "url": "db://assets/Scripts/SooLib/Runtime",
+    "value": {}
+  },
+  "f8197b3b-8f7e-46bc-894d-c53f070a5846": {
+    "url": "db://assets/Scripts/SooLib/Serialization",
+    "value": {}
+  },
+  "482e2a2e-8c6c-408b-8fce-15d6dcac9e6e": {
+    "url": "db://assets/Scripts/SooLib/UI",
+    "value": {}
+  },
+  "cf3e7f87-15fc-4c6b-b152-d5423972f9bd": {
+    "url": "db://assets/Scripts/SooLib/User",
+    "value": {}
+  },
+  "46fc05bc-01af-43ff-9845-b4a54c3fe785": {
+    "url": "db://assets/Scripts/SooLib/Util",
+    "value": {}
+  },
+  "135841ec-3aa0-405c-a64a-e477e99a364a": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/BrowserDetector.ts",
+    "value": {}
+  },
+  "7e1b89cb-aa52-4087-8ce1-7e2291321941": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/Detector.ts",
+    "value": {}
+  },
+  "aa31786c-1163-44ad-9ad4-bac7de1c70d6": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/DeviceDetector.ts",
+    "value": {}
+  },
+  "bf76e88d-0f51-4d56-b9ec-ab063d8bd1a0": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/DeviceInfo.ts",
+    "value": {}
+  },
+  "59cc3b2c-196d-47ed-aad1-200777569ed7": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/Deviceutils.ts",
+    "value": {}
+  },
+  "20ab1916-d003-4f25-a729-44cc6159b564": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/OSDetector.ts",
+    "value": {}
+  },
+  "a08e6a3e-b8e1-4556-8a8c-95b55631fa97": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/PlatformDetector.ts",
+    "value": {}
+  },
+  "b1ed1a10-0d58-46ff-9322-e759e40dcd53": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/ScreenSize.ts",
+    "value": {}
+  },
+  "51eed622-c62d-4177-aa9d-65fc2ecf004e": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/types.ts",
+    "value": {}
+  },
+  "6f28dbab-f5e7-4d2d-ab8d-05805786e101": {
+    "url": "db://assets/Scripts/SooLib/DetectorAPI/VersionDetector.ts",
+    "value": {}
+  },
+  "439cf1e4-c62b-4795-b38e-2f5ca1c34905": {
+    "url": "db://assets/Scripts/SooLib/Joystick/BaseJoystick.ts",
+    "value": {}
+  },
+  "7664c9ed-561e-453a-8e5d-5d923747657f": {
+    "url": "db://assets/Scripts/SooLib/Joystick/CanvasResolver.ts",
+    "value": {}
+  },
+  "6eaaa7c5-bfcd-4315-b748-a473e738c4d1": {
+    "url": "db://assets/Scripts/SooLib/Joystick/DynamicJoystick.ts",
+    "value": {}
+  },
+  "506e5453-49f0-4820-9e4c-fb922cf4002f": {
+    "url": "db://assets/Scripts/SooLib/Joystick/FollowJoystick.ts",
+    "value": {}
+  },
+  "174d036f-6c57-440b-a863-b5faeebe4759": {
+    "url": "db://assets/Scripts/SooLib/Joystick/IJoystick.ts",
+    "value": {}
+  },
+  "dabf4f32-5487-4b15-8193-629b3a9477ce": {
+    "url": "db://assets/Scripts/SooLib/Joystick/JoystickObservable.ts",
+    "value": {}
+  },
+  "09fdfbb8-dcba-4491-83e1-73e74c711a6b": {
+    "url": "db://assets/Scripts/SooLib/Joystick/JoytickEventHandler.ts",
+    "value": {}
+  },
+  "dc763636-d21a-4002-be12-349df86981ee": {
+    "url": "db://assets/Scripts/SooLib/Joystick/TouchEvents.ts",
+    "value": {}
+  },
+  "f002fa21-7bdf-4d3d-a912-5c8911c754e3": {
+    "url": "db://assets/Scripts/SooLib/Legacy/Singleton.ts",
+    "value": {}
+  },
+  "ff427397-8417-4930-9073-faaa0f0dec80": {
+    "url": "db://assets/Scripts/SooLib/Optimization/Lazy.ts",
+    "value": {}
+  },
+  "00c2b2b7-035f-4b65-9654-2e90433db1a6": {
+    "url": "db://assets/Scripts/SooLib/Optimization/Pool",
+    "value": {}
+  },
+  "9187d688-c4cd-4e09-b304-4aad8efa5b3c": {
+    "url": "db://assets/Scripts/SooLib/Optimization/Singleton.ts",
+    "value": {}
+  },
+  "67f7f147-6a61-435f-b137-2772e69b10d9": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick",
+    "value": {}
+  },
+  "9021892d-cbc3-41c9-9d54-744a70b17103": {
+    "url": "db://assets/Scripts/SooLib/Runtime/decorators.ts",
+    "value": {}
+  },
+  "2228174e-149a-48fa-aefb-6881825cd570": {
+    "url": "db://assets/Scripts/SooLib/Runtime/EventSystem",
+    "value": {}
+  },
+  "e2bf288a-2132-41f2-a744-4825ef3f208a": {
+    "url": "db://assets/Scripts/SooLib/Runtime/FollowCamera.ts",
+    "value": {}
+  },
+  "5ac7830f-1119-4f59-b176-e96d691ca8d1": {
+    "url": "db://assets/Scripts/SooLib/Runtime/Observer.ts",
+    "value": {}
+  },
+  "76343a4b-7c94-427b-a3f2-5fa35a7581b6": {
+    "url": "db://assets/Scripts/SooLib/Runtime/SoundManager.ts",
+    "value": {}
+  },
+  "fa4fa05d-fd01-4605-811f-1dc92cc930b4": {
+    "url": "db://assets/Scripts/SooLib/Runtime/TaskSystem",
+    "value": {}
+  },
+  "134aefc6-2f20-41b5-ba66-3a3858c3e7ab": {
+    "url": "db://assets/Scripts/SooLib/Runtime/Transformation",
+    "value": {}
+  },
+  "e22913fa-b153-4668-b845-ce884cd13831": {
+    "url": "db://assets/Scripts/SooLib/Runtime/types.ts",
+    "value": {}
+  },
+  "03de35af-f12a-4cd1-97ad-6d1e387d85dc": {
+    "url": "db://assets/Scripts/SooLib/Serialization/BinarySerialization.ts",
+    "value": {}
+  },
+  "82331ce5-ece9-4cf2-a846-b071d53eedbf": {
+    "url": "db://assets/Scripts/SooLib/UI/DisplayItem.ts",
+    "value": {}
+  },
+  "8975fe72-c84f-453e-bf7b-51a83d964da4": {
+    "url": "db://assets/Scripts/SooLib/UI/UIManager.ts",
+    "value": {}
+  },
+  "40e9f5de-7358-411d-b3e1-4b7df7c1048e": {
+    "url": "db://assets/Scripts/SooLib/User/Singleton.ts",
+    "value": {}
+  },
+  "31a28f0c-7afb-47ca-b30b-92d2169d1709": {
+    "url": "db://assets/Scripts/SooLib/User/UUIDGenerator.ts",
+    "value": {}
+  },
+  "46482808-34c5-47bb-baea-c4d4dc8aceaa": {
+    "url": "db://assets/Scripts/SooLib/Util/Array.ts",
+    "value": {}
+  },
+  "afd0eebf-f311-45c9-80c3-8612834d532a": {
+    "url": "db://assets/Scripts/SooLib/Util/Comparer.ts",
+    "value": {}
+  },
+  "9c796c86-8ee0-406b-8fd7-87de23da7b79": {
+    "url": "db://assets/Scripts/SooLib/Util/geometry.ts",
+    "value": {}
+  },
+  "1254a846-64c8-4606-b7b9-f9998b5df6c4": {
+    "url": "db://assets/Scripts/SooLib/Util/Node.ts",
+    "value": {}
+  },
+  "a61ed7d8-587b-4e1d-bb48-6074f276b9ed": {
+    "url": "db://assets/Scripts/SooLib/Util/PriorityQueue.ts",
+    "value": {}
+  },
+  "fc91d4ff-345a-4936-b292-67f4f1c37dc3": {
+    "url": "db://assets/Scripts/SooLib/Util/Promises.ts",
+    "value": {}
+  },
+  "aa6159d6-1da9-4ed0-ac2e-990416ecaa28": {
+    "url": "db://assets/Scripts/SooLib/Runtime/EventSystem/EventManager.ts",
+    "value": {}
+  },
+  "a69d10bc-73c9-4754-a5f0-5c8dfb8031c3": {
+    "url": "db://assets/Scripts/SooLib/Runtime/EventSystem/ExistEventException.ts",
+    "value": {}
+  },
+  "0827ccdb-c6ae-49f5-840b-d221055e2261": {
+    "url": "db://assets/Scripts/SooLib/Runtime/EventSystem/IEventListener.ts",
+    "value": {}
+  },
+  "18b58220-da0f-4e09-a33c-ab755175f514": {
+    "url": "db://assets/Scripts/SooLib/Runtime/TaskSystem/AsyncLock.ts",
+    "value": {}
+  },
+  "8558e17b-73f2-4b42-b201-1d719f03c4d2": {
+    "url": "db://assets/Scripts/SooLib/Runtime/TaskSystem/ITask.ts",
+    "value": {}
+  },
+  "57b4515c-35b1-4639-b3bd-420093a00037": {
+    "url": "db://assets/Scripts/SooLib/Runtime/TaskSystem/TaskSystem.ts",
+    "value": {}
+  },
+  "48ac6d4b-2423-44fe-997e-07d16cdb28d8": {
+    "url": "db://assets/Scripts/SooLib/Runtime/Transformation/ObjectRepository.ts",
+    "value": {}
+  },
+  "1f24abd3-dd39-4eb1-8fcd-8247708cc227": {
+    "url": "db://assets/Scripts/SooLib/Runtime/Transformation/Spawner.ts",
+    "value": {}
+  },
+  "b554ae32-ccbb-4af8-9885-2aa04ff3c3d3": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick/ball.png",
+    "value": {}
+  },
+  "f5929450-4637-4702-9b53-5d6157ccd678": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick/joystick_ex.png",
+    "value": {}
+  },
+  "f5929450-4637-4702-9b53-5d6157ccd678@6c48a": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick/joystick_ex.png@6c48a",
+    "value": {
+      "depends": [
+        "f5929450-4637-4702-9b53-5d6157ccd678"
+      ]
+    }
+  },
+  "b554ae32-ccbb-4af8-9885-2aa04ff3c3d3@6c48a": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick/ball.png@6c48a",
+    "value": {
+      "depends": [
+        "b554ae32-ccbb-4af8-9885-2aa04ff3c3d3"
+      ]
+    }
+  },
+  "b554ae32-ccbb-4af8-9885-2aa04ff3c3d3@f9941": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick/ball.png@f9941",
+    "value": {
+      "depends": [
+        "b554ae32-ccbb-4af8-9885-2aa04ff3c3d3@6c48a"
+      ]
+    }
+  },
+  "f5929450-4637-4702-9b53-5d6157ccd678@f9941": {
+    "url": "db://assets/Scripts/SooLib/Resources/Joystick/joystick_ex.png@f9941",
+    "value": {
+      "depends": [
+        "f5929450-4637-4702-9b53-5d6157ccd678@6c48a"
+      ]
+    }
+  },
+  "6e66d5cc-c856-4917-a329-ee4f6aa33034": {
+    "url": "db://assets/Scripts/SingletonComponent.ts",
+    "value": {}
+  },
+  "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb": {
+    "url": "db://assets/Scripts/Grid/GridManager.ts",
     "value": {}
   }
 }

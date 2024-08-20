@@ -535,8 +535,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 10924840.69660002,
-      "chunkId": "7445ff4758084772bd924d4fde9f2179dae8a9aa",
+      "mTimestamp": 16230643.135800004,
+      "chunkId": "d2a469b18dd3806af6b4b4f47a791d61efe03601",
       "imports": [
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts",
@@ -567,7 +567,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -576,91 +576,161 @@
             },
             "end": {
               "line": 5,
-              "column": 366
+              "column": 365
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 381
+            },
+            "end": {
+              "line": 5,
+              "column": 479
             }
           }
         },
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 382
+              "column": 495
             },
             "end": {
               "line": 5,
-              "column": 493
+              "column": 606
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 622
+            },
+            "end": {
+              "line": 5,
+              "column": 731
             }
           }
         },
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 509
+              "column": 747
             },
             "end": {
               "line": 5,
-              "column": 602
+              "column": 840
             }
           }
         },
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 618
+              "column": 856
             },
             "end": {
               "line": 5,
-              "column": 710
+              "column": 948
             }
           }
         },
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 726
+              "column": 964
             },
             "end": {
               "line": 5,
-              "column": 822
+              "column": 1060
             }
           }
         },
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 838
+              "column": 1076
             },
             "end": {
               "line": 5,
-              "column": 935
+              "column": 1173
             }
           }
         },
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 951
+              "column": 1189
             },
             "end": {
               "line": 5,
-              "column": 1040
+              "column": 1278
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1294
+            },
+            "end": {
+              "line": 5,
+              "column": 1393
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1409
+            },
+            "end": {
+              "line": 5,
+              "column": 1514
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1530
+            },
+            "end": {
+              "line": 5,
+              "column": 1640
             }
           }
         }
@@ -684,6 +754,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts"
           },
           "messages": []
@@ -692,6 +769,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts"
           },
           "messages": []
         },
@@ -727,6 +811,27 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts"
           },
           "messages": []
         }
@@ -4137,10 +4242,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts": {
       "mTimestamp": {
-        "mtime": 1724151754492.9316,
+        "mtime": 1724157061343.1511,
         "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be"
       },
-      "chunkId": "40652ce769bbab919e3d840024813a2953749d6b",
+      "chunkId": "614ece3d055f42073c76665febbc235cf3a15d36",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4206,6 +4311,20 @@
               "column": 48
             }
           }
+        },
+        {
+          "value": "../Piece/PiecePool",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 46
+            }
+          }
         }
       ],
       "type": "esm",
@@ -4256,6 +4375,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts"
           },
           "messages": []
         }
@@ -4799,10 +4925,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts": {
       "mTimestamp": {
-        "mtime": 1724150666858.2454,
-        "uuid": "d9fa15b0-8ff8-466f-a824-c86183f62bf4"
+        "mtime": 1724157033985.6497,
+        "uuid": "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb"
       },
-      "chunkId": "06c8afbef68470a5c4a0a3997db71eb1f796468c",
+      "chunkId": "40870aea5a2a7c66c4b10293a2df4d7dce1476ee",
       "imports": [
         {
           "value": "cc"
@@ -4815,11 +4941,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 55
+              "column": 44
             },
             "end": {
               "line": 1,
-              "column": 59
+              "column": 48
             }
           }
         }
@@ -4851,10 +4977,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts": {
       "mTimestamp": {
-        "mtime": 1724150602824.9744,
+        "mtime": 1724156984706.763,
         "uuid": "7e7bda90-135d-44a4-91c2-b8475eebd4bc"
       },
-      "chunkId": "eb7c3b051684e8d425872d2c275cc1ed128f0954",
+      "chunkId": "d6a363d76246c4b185f6f74f88aec26b5fc55d93",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4865,6 +4991,33 @@
         },
         {
           "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 21
+            },
+            "end": {
+              "line": 1,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "../Interaction/SelectionManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 33
+            },
+            "end": {
+              "line": 4,
+              "column": 66
+            }
+          }
         }
       ],
       "type": "esm",
@@ -4887,6 +5040,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts"
           },
           "messages": []
         }
@@ -5100,11 +5267,1200 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts": {
       "mTimestamp": {
-        "mtime": 1724151326165.595,
+        "mtime": 1724156228937.15,
         "uuid": "532b1920-0e1e-42d8-9aeb-e57e60032158"
       },
-      "chunkId": "930b31bee4daf739a30d0a4f44566b0ca49db420",
+      "chunkId": "0e2565d941e05fe9fa134d7e3eb62b3073ebb71e",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../SingletonComponent",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingeltonComponent.ts": {
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "506b7878053e0e894d668e14caf3fdf1ab37f59d"
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts": {
+      "mTimestamp": {
+        "mtime": 1724157000127.8936,
+        "uuid": "3a5ac49e-f0a2-4fd0-9b14-a6a2bacb77cc"
+      },
+      "chunkId": "178f98bf5a758d27e3cab69d6826758a79f33b6a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "../SingletonComponent",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 35
+            },
+            "end": {
+              "line": 3,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/BrowserDetector.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011459.0198,
+        "uuid": "135841ec-3aa0-405c-a64a-e477e99a364a"
+      },
+      "chunkId": "a5382e6e16e66d65f0c440a371a67746076a78eb",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Detector",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Detector.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Detector.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011508.1794,
+        "uuid": "7e1b89cb-aa52-4087-8ce1-7e2291321941"
+      },
+      "chunkId": "b1b82ee37486eed3417e715e4a56b0faf917178e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/DeviceDetector.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011555.622,
+        "uuid": "aa31786c-1163-44ad-9ad4-bac7de1c70d6"
+      },
+      "chunkId": "b43628bfb775a8473867caca5d8486f8d3ac1882",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./BrowserDetector",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./Deviceutils",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./OSDetector",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./PlatformDetector",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 33
+            },
+            "end": {
+              "line": 5,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./VersionDetector",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 32
+            },
+            "end": {
+              "line": 6,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/BrowserDetector.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Deviceutils.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/OSDetector.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/PlatformDetector.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/VersionDetector.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Deviceutils.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011669.0576,
+        "uuid": "59cc3b2c-196d-47ed-aad1-200777569ed7"
+      },
+      "chunkId": "39fb74ca944e8bb7b8c0ea2a7adfc3b3033897fa",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/OSDetector.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011735.1353,
+        "uuid": "20ab1916-d003-4f25-a729-44cc6159b564"
+      },
+      "chunkId": "4510dfbb39cf88d93d9f6ac7bdeac16b0de1d35f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Detector",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Detector.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/PlatformDetector.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011785.298,
+        "uuid": "a08e6a3e-b8e1-4556-8a8c-95b55631fa97"
+      },
+      "chunkId": "d233b424f8b4058a8cda48af00ecfe9ae6af036b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Detector",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Detector.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/VersionDetector.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011892.149,
+        "uuid": "6f28dbab-f5e7-4d2d-ab8d-05805786e101"
+      },
+      "chunkId": "8a8832d44ff58a3522a7b812e4a992accdd63881",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Detector",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/Detector.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/DeviceInfo.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011606.9922,
+        "uuid": "bf76e88d-0f51-4d56-b9ec-ab063d8bd1a0"
+      },
+      "chunkId": "bfaea73ae8c06be319a9a03291545f6a25748f3b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/ScreenSize.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011836.3518,
+        "uuid": "b1ed1a10-0d58-46ff-9322-e759e40dcd53"
+      },
+      "chunkId": "105f19187e64281424031413bf0ee5a9409d1c4b",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/DetectorAPI/types.ts": {
+      "mTimestamp": {
+        "mtime": 1723022011946.2522,
+        "uuid": "51eed622-c62d-4177-aa9d-65fc2ecf004e"
+      },
+      "chunkId": "355214631f10e0456144dc3cecb28a4787c043f8",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/BaseJoystick.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012004.9465,
+        "uuid": "439cf1e4-c62b-4795-b38e-2f5ca1c34905"
+      },
+      "chunkId": "fb02035b89c224e985205782adda25091758cb9b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "./CanvasResolver",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./TouchEvents",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/CanvasResolver.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/TouchEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/CanvasResolver.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012061.6958,
+        "uuid": "7664c9ed-561e-453a-8e5d-5d923747657f"
+      },
+      "chunkId": "0cca2a85ca2c3f6c23f1649e864e638fe351eb4e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 83
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/TouchEvents.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012394.0774,
+        "uuid": "dc763636-d21a-4002-be12-349df86981ee"
+      },
+      "chunkId": "1488af73dcc98432423f52ce18e2aa6e9c234062",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/DynamicJoystick.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012112.6943,
+        "uuid": "6eaaa7c5-bfcd-4315-b748-a473e738c4d1"
+      },
+      "chunkId": "6243f288e55ffbae135c5a40b16d070ccba3a309",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "./BaseJoystick",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./JoystickObservable",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 50
+            },
+            "end": {
+              "line": 3,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/BaseJoystick.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/JoystickObservable.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/JoystickObservable.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012279.0605,
+        "uuid": "dabf4f32-5487-4b15-8193-629b3a9477ce"
+      },
+      "chunkId": "517b5b71778f643093d65ca9803580280553c4c7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../Runtime/Observer",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/Observer.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/Observer.ts": {
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "b32ae31719e256b702c83c88322746ff5bff9e4a"
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/FollowJoystick.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012170.496,
+        "uuid": "506e5453-49f0-4820-9e4c-fb922cf4002f"
+      },
+      "chunkId": "711066d080b8641e8900929075c90f31445a0f64",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 84
+            },
+            "end": {
+              "line": 1,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "./BaseJoystick",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 29
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./JoystickObservable",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 50
+            },
+            "end": {
+              "line": 4,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "../Runtime/decorators",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 22
+            },
+            "end": {
+              "line": 5,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/BaseJoystick.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/JoystickObservable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/decorators.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/decorators.ts": {
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "f1f8cb133a1d5c424daac5c91f6a8cc2e77e70d7"
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/IJoystick.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012228.5454,
+        "uuid": "174d036f-6c57-440b-a863-b5faeebe4759"
+      },
+      "chunkId": "e751c41b79929e28ec24f88f491bbd9e70be27f8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/JoytickEventHandler.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012338.1865,
+        "uuid": "09fdfbb8-dcba-4491-83e1-73e74c711a6b"
+      },
+      "chunkId": "381518241fd81c204ff58d4058503fd60929a7ce",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -5121,6 +6477,1282 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        },
+        {
+          "value": "./FollowJoystick",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../Runtime/Observer",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Joystick/FollowJoystick.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/Observer.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Legacy/Singleton.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012456.463,
+        "uuid": "f002fa21-7bdf-4d3d-a912-5c8911c754e3"
+      },
+      "chunkId": "b7bfd0d056ebac7688f381654447254c46a63308",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012525.7761,
+        "uuid": "ff427397-8417-4930-9073-faaa0f0dec80"
+      },
+      "chunkId": "723861e53ed8313287380d84ef84033d5aefe498",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Pool/ObjectPooling.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012667.1465,
+        "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7"
+      },
+      "chunkId": "494e7bb215655f44e518c0b0acd21d33b476ad7b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Pool/Poolable.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012719.5608,
+        "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8"
+      },
+      "chunkId": "2c4618aea054ba6bd1beb31e841e63c54a71d23a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 77
+            },
+            "end": {
+              "line": 1,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "./ObjectPooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 43
+            },
+            "end": {
+              "line": 2,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Pool/ObjectPooling.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012607.4324,
+        "uuid": "9187d688-c4cd-4e09-b304-4aad8efa5b3c"
+      },
+      "chunkId": "e148b0eb9cbdc6a6b5d72131e2308a51da70be7c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 54,
+              "column": 69
+            },
+            "end": {
+              "line": 54,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./Lazy",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 55,
+              "column": 21
+            },
+            "end": {
+              "line": 55,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/EventSystem/EventManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013314.0793,
+        "uuid": "aa6159d6-1da9-4ed0-ac2e-990416ecaa28"
+      },
+      "chunkId": "1017fc88ed9c549e92374408f3e96fa6f9cb4b86",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 27
+            },
+            "end": {
+              "line": 1,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "../../Legacy/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "./ExistEventException",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 39
+            },
+            "end": {
+              "line": 3,
+              "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Legacy/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/EventSystem/ExistEventException.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/EventSystem/ExistEventException.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013371.89,
+        "uuid": "a69d10bc-73c9-4754-a5f0-5c8dfb8031c3"
+      },
+      "chunkId": "18b1188abca51b1ff68fc5b2626495e7179952c1",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/EventSystem/IEventListener.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013434.3088,
+        "uuid": "0827ccdb-c6ae-49f5-840b-d221055e2261"
+      },
+      "chunkId": "946b4c08174264a942b24dc84f4dca481e287779",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/FollowCamera.ts": {
+      "mTimestamp": {
+        "mtime": 1723022012969.5413,
+        "uuid": "e2bf288a-2132-41f2-a744-4825ef3f208a"
+      },
+      "chunkId": "12fe1c911359cd696289d38cc160252627209817",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/SoundManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013079.9148,
+        "uuid": "76343a4b-7c94-427b-a3f2-5fa35a7581b6"
+      },
+      "chunkId": "a8a8fe1ecdaf2277d01e64b4316191085ba88317",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 40
+            },
+            "end": {
+              "line": 1,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "../Legacy/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Legacy/Singleton.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/TaskSystem/AsyncLock.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013494.5952,
+        "uuid": "18b58220-da0f-4e09-a33c-ab755175f514"
+      },
+      "chunkId": "753d872791234fa7a7b074d14508978ceb793316",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/TaskSystem/ITask.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013545.7815,
+        "uuid": "8558e17b-73f2-4b42-b201-1d719f03c4d2"
+      },
+      "chunkId": "2a23ee2f14829324f704669823277efe80a9adf1",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/TaskSystem/TaskSystem.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013604.3794,
+        "uuid": "57b4515c-35b1-4639-b3bd-420093a00037"
+      },
+      "chunkId": "1a09ef4552a3578fabbdf0acaf6ac09027d6bb97",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./AsyncLock",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/TaskSystem/AsyncLock.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/Transformation/ObjectRepository.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013661.1606,
+        "uuid": "48ac6d4b-2423-44fe-997e-07d16cdb28d8"
+      },
+      "chunkId": "8d838290a9876bfae882a392289a15859bc01e4a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/Transformation/Spawner.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013715.2625,
+        "uuid": "1f24abd3-dd39-4eb1-8fcd-8247708cc227"
+      },
+      "chunkId": "6e2d5607c87200a694a69e5524ffb72e3a83b9ee",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../../Optimization/Pool/Poolable",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 25
+            },
+            "end": {
+              "line": 1,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 44
+            },
+            "end": {
+              "line": 4,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Pool/Poolable.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Runtime/types.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013256.3723,
+        "uuid": "e22913fa-b153-4668-b845-ce884cd13831"
+      },
+      "chunkId": "5400bcc1d70dd66229d71d65a6388c02f7b99680",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Serialization/BinarySerialization.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013779.0522,
+        "uuid": "03de35af-f12a-4cd1-97ad-6d1e387d85dc"
+      },
+      "chunkId": "72117cb226777b60056ee3f5261943bd90fe43ee",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/UI/DisplayItem.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013836.053,
+        "uuid": "82331ce5-ece9-4cf2-a846-b071d53eedbf"
+      },
+      "chunkId": "4d62c4d6d9ba8dc040d3e5be473604d667634500",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/UI/UIManager.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013885.8352,
+        "uuid": "8975fe72-c84f-453e-bf7b-51a83d964da4"
+      },
+      "chunkId": "a7abff171e7a2c1cf24bc43425b59fcbdb1d569c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../Legacy/Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 35
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../Util/PriorityQueue",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 27
+            },
+            "end": {
+              "line": 5,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Legacy/Singleton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/PriorityQueue.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/PriorityQueue.ts": {
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "e675e32cffb62305b19929abccd208511c3cfea0"
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/User/Singleton.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013940.856,
+        "uuid": "40e9f5de-7358-411d-b3e1-4b7df7c1048e"
+      },
+      "chunkId": "36f2d87c96fa52ae5f522c083736bf8485334b5a",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/User/UUIDGenerator.ts": {
+      "mTimestamp": {
+        "mtime": 1723022013989.2576,
+        "uuid": "31a28f0c-7afb-47ca-b30b-92d2169d1709"
+      },
+      "chunkId": "faf59b5add3391f7813a5371cd1051e6738e23e7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Singleton",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/User/Singleton.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/Array.ts": {
+      "mTimestamp": {
+        "mtime": 1723022014045.996,
+        "uuid": "46482808-34c5-47bb-baea-c4d4dc8aceaa"
+      },
+      "chunkId": "1baffb77457ae0ef6c40f926b17eb158f1d28183",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/Comparer.ts": {
+      "mTimestamp": {
+        "mtime": 1723022014106.1982,
+        "uuid": "afd0eebf-f311-45c9-80c3-8612834d532a"
+      },
+      "chunkId": "4ffebb16ecc4347936aeac4d3cc1d4b1af9b5fdb",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/Node.ts": {
+      "mTimestamp": {
+        "mtime": 1723022014163.6216,
+        "uuid": "1254a846-64c8-4606-b7b9-f9998b5df6c4"
+      },
+      "chunkId": "8231f8a4896ca697791b5dd7bbbaf006efb19683",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/Promises.ts": {
+      "mTimestamp": {
+        "mtime": 1723022014273.4763,
+        "uuid": "fc91d4ff-345a-4936-b292-67f4f1c37dc3"
+      },
+      "chunkId": "e1aba3ef04b526828af85d10f096da3e9b898df2",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Util/geometry.ts": {
+      "mTimestamp": {
+        "mtime": 1723022014328.486,
+        "uuid": "9c796c86-8ee0-406b-8fd7-87de23da7b79"
+      },
+      "chunkId": "ed7ac6034937f4ad087b8bbefdf1770df1a144a1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 47
+            },
+            "end": {
+              "line": 1,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1724156219134.1218,
+        "uuid": "6e66d5cc-c856-4917-a329-ee4f6aa33034"
+      },
+      "chunkId": "5e32c1035bf2a712c6200521df3dad1b0a25f553",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
             }
           }
         }
