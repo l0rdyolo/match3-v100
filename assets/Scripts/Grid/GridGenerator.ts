@@ -1,28 +1,21 @@
-import {
-  _decorator,
-  Component,
-  Node,
-  Vec3,
-  CCInteger,
-} from "cc";
-import { PiecesPool } from "../Poolable/PiecesPool";
+import { _decorator, Component, Node, Vec3, CCInteger } from "cc";
+import { Piece } from "../Piece/Piece";
 import { InteractionManager } from "../Interaction/InteractionManager";
+import { PieceTypes } from "../Piece/PieceTypes";
 
 const { ccclass, property } = _decorator;
 
-@ccclass('GridManager')
-export class GridGenerator extends Component   {
-  public grid: Node[][] = [];
+@ccclass("GridManager")
+export class GridGenerator extends Component {
+  public grid: Piece[][] = [];
 
-  @property(PiecesPool)
-  private piecesPool: PiecesPool = null;
   private PIECE_OFFSET: number = 5;
 
   @property(CCInteger)
-  private width : number = 0;
+  private width: number = 0;
 
   @property(CCInteger)
-  private height : number = 0;
+  private height: number = 0;
 
   private PIECE_CONTENT_SIZE: number = 100; //dinamikleştir
 
@@ -35,10 +28,17 @@ export class GridGenerator extends Component   {
   }
 
   public async Generate() {
-    for (let row = 0; row < this.height; row++) {
-      const piece = this.createPiece(0,row);
+    for (let row = 0; row < this.width; row++) {
+      this.grid[row] = []
+      for (let col = 0; col < this.height; col++) {
+        const pieceNode = this.createPiece(row, col);
+        const piece = new Piece(row , col , pieceNode , PieceTypes.Normal);
+        this.grid[row][col] = piece;
+      }
     }
 
+    console.log(this.grid);
+    
     // for (let row = 0; row < this.GRID_ROW; row++) {
     //   this.grid[row] = [];
     //   const piecesInRow: PieceProps[] = [];
@@ -72,36 +72,37 @@ export class GridGenerator extends Component   {
   private createPiece(row: number, col: number): Node {
     let piece: Node;
     do {
-      piece = this.piecesPool.getPieceFromPool();
-      piece.setParent(this.node);
-    } while (this.createsMatch(piece, row, col, this.grid));
-    piece.setPosition(this.getCenteredPosition(col, row));
-    this.node.addChild(piece);
-    return piece;
+      // piece = this.piecesPool.getPieceFromPool();
+      if(!piece) continue; 
+      piece!.setParent(this.node);
+      piece!.setPosition(this.getCenteredPosition(col, row));
+      this.node.addChild(piece!);  
+    } while (this.createsMatch(piece!, row, col, this.grid));
+    return piece!;
   }
 
   private createsMatch(
     piece: Node,
     row: number,
     col: number,
-    grid: Node[][]
+    grid: Piece[][]
   ): boolean {
     return false;
     if (
       row >= 2 &&
-      grid[row - 1][col]?.name === piece.name &&
-      grid[row - 2][col]?.name === piece.name
+      grid[row - 1][col]?.node.name === piece.name &&
+      grid[row - 2][col]?.node.name === piece.name
     ) {
-      this.piecesPool.returnPieceToPool(piece);
+      // this.piecesPool.returnPieceToPool(piece);
       return true;
     }
 
     if (
       col >= 2 &&
-      grid[row][col - 1]?.name === piece.name &&
-      grid[row][col - 2]?.name === piece.name
+      grid[row][col - 1]?.node.name === piece.name &&
+      grid[row][col - 2]?.node.name === piece.name
     ) {
-      this.piecesPool.returnPieceToPool(piece);
+      // this.piecesPool.returnPieceToPool(piece);
       return true;
     }
     return false;

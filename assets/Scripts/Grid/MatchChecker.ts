@@ -1,7 +1,5 @@
 import { _decorator, Color, Node, Sprite, Vec3 } from "cc";
 import { EffectManager } from "../Effects/EffectManager";
-import { PoolHelper } from "../PoolHelper";
-import { PiecesPool } from "../Poolable/PiecesPool";
 const { ccclass } = _decorator;
 
 enum Direction {
@@ -151,7 +149,7 @@ export class MatchChecker {
     for (const piece of matchedPieces) {
       EffectManager.decreaseScale(piece, 0.1, false);
       gridMap.delete(piece);
-      PoolHelper.release(PiecesPool, piece);
+      // PoolHelper.release(PiecesPool, piece);
     }
   }
 }
