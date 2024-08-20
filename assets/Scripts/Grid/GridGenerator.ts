@@ -3,33 +3,26 @@ import {
   Component,
   Node,
   Vec3,
-  EventTouch,
-  Vec2,
   CCInteger,
 } from "cc";
 import { PiecesPool } from "../Poolable/PiecesPool";
-import { EffectManager } from "../Effects/EffectManager";
 import { InteractionManager } from "../Interaction/InteractionManager";
+
 const { ccclass, property } = _decorator;
 
-type PieceProps = {
-  piece: Node;
-  targetPosition: Vec3;
-};
-
-@ccclass("GridGenerator")
-export class GridGenerator extends Component {
-  private gridMap: Map<Node, { row: number; col: number }> = new Map();
-  private grid: Node[][] = [];
+@ccclass('GridManager')
+export class GridGenerator extends Component   {
+  public grid: Node[][] = [];
 
   @property(PiecesPool)
   private piecesPool: PiecesPool = null;
-
-  @property(CCInteger)
   private PIECE_OFFSET: number = 5;
 
   @property(CCInteger)
-  GRID_ROW: number = 0;
+  private width : number = 0;
+
+  @property(CCInteger)
+  private height : number = 0;
 
   private PIECE_CONTENT_SIZE: number = 100; //dinamikleştir
 
@@ -37,42 +30,45 @@ export class GridGenerator extends Component {
 
   protected start(): void {
     //!TODO: grid yerleşmesini ve content size'ı responsive yapmalıyız
-    this.node.setPosition(-7*50, -500);
-    this.generateGrid();
+    // this.node.setPosition(-7*50, -500);
+    this.Generate();
   }
 
-  private async generateGrid() {
-    for (let row = 0; row < this.GRID_ROW; row++) {
-      this.grid[row] = [];
-      const piecesInRow: PieceProps[] = [];
-
-      for (let col = 0; col < this.GRID_ROW; col++) {
-        const piece: Node = this.createPiece(row, col);
-        this.gridMap.set(piece, { row, col });
-        this.grid[row][col] = piece;
-        const pieceLastPosition = this.getCenteredPosition(col, row);
-        const pieceFirstPosition = new Vec3(
-          pieceLastPosition.x,
-          this.GRID_ROW * this.PIECE_CONTENT_SIZE
-        );
-        piece.setPosition(pieceFirstPosition);
-        //piecelere event listener ekliyoruz
-        // piece.on(Node.EventType.TOUCH_START, this.onPieceClicked, this);
-        piece.on(Node.EventType.TOUCH_START, (event: EventTouch) => {
-          this.interactionManager.onPieceClicked(event, piece , this.gridMap);
-        });
-        this.grid[row][col] = piece;
-
-        const pieceProps: PieceProps = {
-          piece: piece,
-          targetPosition: pieceLastPosition,
-        };
-        piecesInRow.push(pieceProps);
-      }
-      await EffectManager.animateRowFall(piecesInRow, 0.1);
+  public async Generate() {
+    for (let row = 0; row < this.height; row++) {
+      const piece = this.createPiece(0,row);
     }
+
+    // for (let row = 0; row < this.GRID_ROW; row++) {
+    //   this.grid[row] = [];
+    //   const piecesInRow: PieceProps[] = [];
+    //   for (let col = 0; col < this.GRID_ROW; col++) {
+    //     const piece: Node = this.createPiece(row, col);
+    //     this.grid[row][col] = piece;
+    //     const pieceLastPosition = this.getCenteredPosition(col, row);
+    //     const pieceFirstPosition = new Vec3(
+    //       pieceLastPosition.x,
+    //       this.GRID_ROW * this.PIECE_CONTENT_SIZE
+    //     );
+    //     piece.setPosition(pieceFirstPosition);
+    //     //piecelere event listener ekliyoruz
+    //     // piece.on(Node.EventType.TOUCH_START, this.onPieceClicked, this);
+    //     piece.on(Node.EventType.TOUCH_START, (event: EventTouch) => {
+    //       this.interactionManager.onPieceClicked(event, piece , this.gridMap);
+    //     });
+    //     this.grid[row][col] = piece;
+
+    //     const pieceProps: PieceProps = {
+    //       piece: piece,
+    //       targetPosition: pieceLastPosition,
+    //     };
+    //     piecesInRow.push(pieceProps);
+    //   }
+    //   await EffectManager.animateRowFall(piecesInRow, 0.1);
+    // }
   }
 
+  //bu fonksiyon init olurken match var mı diye kontrol edip piece üretiyor.
   private createPiece(row: number, col: number): Node {
     let piece: Node;
     do {
@@ -90,6 +86,7 @@ export class GridGenerator extends Component {
     col: number,
     grid: Node[][]
   ): boolean {
+    return false;
     if (
       row >= 2 &&
       grid[row - 1][col]?.name === piece.name &&

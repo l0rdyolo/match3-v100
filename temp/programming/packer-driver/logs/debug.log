@@ -1,11 +1,11 @@
-debug: Mon, 19 Aug 2024 21:01:22 GMT
+debug: Tue, 20 Aug 2024 07:50:10 GMT
 debug: Project: C:\Users\maide\OneDrive\Documents\GitHub\match3-v100
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.6.0\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 16.65030002593994ms.
+debug: Loading cache costs 33.00119996070862ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 3.1980000138282776ms.
+debug: Loading cache costs 35.64010000228882ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 7.360099971294403ms.
+debug: Fetch asset-db cost: 7.2781999707221985ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 15
+Number of accumulated asset changes: 16
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -78,65 +78,53 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:17:56 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Aug 19 2024 23:58:38 GMT+0300 (GMT+03:00), Current mtime: Tue Aug 20 2024 00:01:15 GMT+0300 (GMT+03:00)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Aug 20 2024 00:01:15 GMT+0300 (GMT+03:00), Current mtime: Tue Aug 20 2024 10:49:53 GMT+0300 (GMT+03:00)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve ../Promises from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/x/cc.
 debug: Resolve ../Poolable/PiecesPool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/x/cc.
 debug: Resolve ../../SooLib/Optimization/Poolable from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/x/cc.
 debug: Resolve ./ObjectPooling from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts as cce:/internal/x/cc.
 debug: Resolve ../PoolHelper from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts as cce:/internal/x/cc.
-debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve ../Interaction/InteractionManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/x/cc.
 debug: Resolve ../Grid/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as cce:/internal/x/cc.
@@ -145,25 +133,27 @@ debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Doc
 debug: Resolve ../PoolHelper from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts.
 debug: Resolve ../Poolable/PiecesPool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts.
 debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts as cce:/internal/x/cc.
@@ -173,9 +163,9 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts.
-debug: Target(editor) ends with cost 945.6631000041962ms.
+debug: Target(editor) ends with cost 238.32080000638962ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
@@ -196,65 +186,53 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:08 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:17:56 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:18 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Aug 19 2024 23:58:38 GMT+0300 (GMT+03:00), Current mtime: Tue Aug 20 2024 00:01:15 GMT+0300 (GMT+03:00)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Aug 20 2024 00:01:15 GMT+0300 (GMT+03:00), Current mtime: Tue Aug 20 2024 10:49:53 GMT+0300 (GMT+03:00)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve ../Promises from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as cce:/internal/x/cc.
 debug: Resolve ../Poolable/PiecesPool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as cce:/internal/x/cc.
 debug: Resolve ../../SooLib/Optimization/Poolable from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as cce:/internal/x/cc.
 debug: Resolve ./ObjectPooling from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts as cce:/internal/x/cc.
 debug: Resolve ../PoolHelper from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts as cce:/internal/x/cc.
-debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve ../Interaction/InteractionManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as cce:/internal/x/cc.
 debug: Resolve ../Grid/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as cce:/internal/x/cc.
@@ -263,25 +241,27 @@ debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Doc
 debug: Resolve ../PoolHelper from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts.
 debug: Resolve ../Poolable/PiecesPool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/PiecesPool.ts.
 debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/EasyLevels.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Levels/LevelData.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/PoolHelper.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts.
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Poolable/CandyPool.ts as cce:/internal/x/cc.
@@ -291,19 +271,20 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts.
-debug: Target(preview) ends with cost 775.8754999637604ms.
+debug: Target(preview) ends with cost 175.87349998950958ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 30.775600016117096ms.
+debug: Fetch asset-db cost: 28.095300018787384ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 15
+Number of accumulated asset changes: 16
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:07 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:10 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:23 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts.
@@ -315,14 +296,15 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts.
-debug: Target(editor) ends with cost 44.71789997816086ms.
+debug: Target(editor) ends with cost 80.54140001535416ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:08 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:10 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:18 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:23 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/GameManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/MatchChecker.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/InGameAssets.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/InteractionManager.ts.
@@ -334,4 +316,4 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/ObjectPooling.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/SooLib/Optimization/Poolable.ts.
-debug: Target(preview) ends with cost 37.61769998073578ms.
+debug: Target(preview) ends with cost 68.40669995546341ms.
