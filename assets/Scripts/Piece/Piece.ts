@@ -1,4 +1,4 @@
-import { Node } from "cc";
+import { Node, tween, Vec3 } from "cc";
 import { IPiece } from "./IPiece";
 import { PieceTypes } from "./PieceTypes";
 import { SelectionManager } from "../Interaction/SelectionManager";
@@ -21,4 +21,34 @@ export class Piece implements IPiece {
   onTouch() {
       SelectionManager.getInstance().eventTarget.emit('piece-selected', this);
   }
+
+  public Shake(duration : number = 0.3){
+    const originalPosition = this.node.getPosition();
+    const shakeAmount = 10; // Sarsılma miktarı
+
+    return new Promise<void>((resolve) => {
+        tween(this.node)
+            .by(duration / 4, { position: new Vec3(shakeAmount, 0, 0) }) 
+            .by(duration / 4, { position: new Vec3(-shakeAmount * 2, 0, 0) }) 
+            .by(duration / 4, { position: new Vec3(shakeAmount * 2, 0, 0) }) 
+            .by(duration / 4, { position: new Vec3(-shakeAmount, 0, 0) }) 
+            .call(() => {
+                this.node.setPosition(originalPosition); 
+                resolve();
+            })
+            .start();
+    });
+  }
+
+  public Highlight(){
+    tween(this.node)
+    .to(0.1,{scale : new Vec3(1.1,1.1,1.1)})
+    .start();
+  }
+
+  public ResetScale(duration: number = 0.1) {
+    tween(this.node)
+        .to(duration, { scale: new Vec3(1, 1, 1) })
+        .start();
+}
 }

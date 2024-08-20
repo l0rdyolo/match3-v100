@@ -23,7 +23,6 @@ export abstract class SingletonComponent<T extends SingletonComponent<T>> extend
             instance = new this();
             SingletonComponent.instances.set(this, instance);
         }
-
         return instance as T;
     }
 }

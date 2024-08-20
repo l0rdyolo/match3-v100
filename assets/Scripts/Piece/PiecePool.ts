@@ -7,11 +7,10 @@ export class PiecePool extends SingletonComponent<PiecePool> {
     @property([Prefab])
     piecesPrefabs: Prefab[] = [];
 
-    private pool: Node[] = [];
-    private initialPoolSize: number = 10; // İstediğiniz başlangıç boyutunu buraya koyabilirsiniz
-
+    public pool: Node[] = [];
+    private initialPoolSize: number = 500; //abartma
     protected start(): void {
-        this.fillPool(); // Pool'u başlatırken doldur
+        this.fillPool();
     }
 
     private fillPool(): void {
@@ -27,7 +26,9 @@ export class PiecePool extends SingletonComponent<PiecePool> {
         const prefab = this.getRandomPrefab();
         if (prefab) {
             const newPiece = instantiate(prefab);
-            newPiece.active = false; // Başlangıçta pool'a eklerken aktif olmasın
+            newPiece.active = false;
+            this.node.addChild(newPiece);
+            newPiece.setParent(this.node);
             return newPiece;
         }
         return null;
@@ -45,13 +46,16 @@ export class PiecePool extends SingletonComponent<PiecePool> {
 
     public getPiece(): Node | null {
         if (this.pool.length > 0) {
-            const piece = this.pool.pop();
+            const piece = this.pool.shift();
+            piece.removeFromParent();
             piece!.active = true; 
             return piece!;
         } else {
             console.log("Pool is empty, generating a new piece.");
             const newPiece = this.createRandomPiece();
             if (newPiece) {
+                this.node.addChild(newPiece);
+                newPiece.setParent(this.node);
                 newPiece.active = true;
                 return newPiece;
             } else {
@@ -62,6 +66,9 @@ export class PiecePool extends SingletonComponent<PiecePool> {
     }
 
     public returnPiece(piece: Node) {
+        piece.removeFromParent();
+        piece.setParent(this.node);
+        this.node.addChild(piece);
         piece.active = false; 
         this.pool.push(piece);
     }

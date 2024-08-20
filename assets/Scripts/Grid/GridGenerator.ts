@@ -10,10 +10,10 @@ const { ccclass, property } = _decorator;
 export class GridGenerator extends Component {
   public grid: Piece[][] = [];
 
-  private PIECE_OFFSET: number = 5;
+  public PIECE_OFFSET: number = 5;
 
   @property(CCInteger)
-  private width: number = 0;
+  public width: number = 0;
 
   @property(CCInteger)
   private height: number = 0;
@@ -24,65 +24,76 @@ export class GridGenerator extends Component {
 
   protected start(): void {
     //!TODO: grid yerleşmesini ve content size'ı responsive yapmalıyız
-    this.Generate();
+    console.log(this.node.getParent());
+
   }
 
   //! todo rowlari tweenleyebiliriz
-  public async Generate() {
+  public Generate() : Piece[][] {
     for (let row = 0; row < this.width; row++) {
-      this.grid[row] = []
+      this.grid[row] = [];
       for (let col = 0; col < this.height; col++) {
-        const pieceNode = this.createPiece(row, col);
-        const piece = new Piece(row , col , pieceNode , PieceTypes.Normal);
+        const piece = this.createPiece(row, col);
         this.grid[row][col] = piece;
       }
     }
+    return this.grid;
   }
-
-  //bu fonksiyon init olurken match var mı diye kontrol edip piece üretiyor.
-  private createPiece(row: number, col: number): Node {
-    let piece: Node | null;
+  private createPiece(row: number, col: number): Piece {
+    let pieceNode: Node | null;
+    let piece: Piece | null;
     do {
-        piece = PiecePool.getInstance().getPiece();
+        pieceNode = PiecePool.getInstance().getPiece();
         
-        if(!piece) {
+        if (!pieceNode) {
             console.error("Piece could not be instantiated.");
             continue;
-        } 
-        piece.setParent(this.node);
-        piece.setPosition(this.getCenteredPosition(col, row));
-        this.node.addChild(piece);  
+        }
+        piece = new Piece(row, col, pieceNode, PieceTypes.Normal);
+        piece.node.setParent(this.node);
+        this.node.addChild(piece.node);
+        piece.node.setPosition(this.getCenteredPosition(col, row));
+
     } while (this.createsMatch(piece, row, col, this.grid));
+
     return piece!;
 }
 
+private createsMatchByName(
+  piece: Piece,
+  row: number,
+  col: number,
+  grid: Piece[][]
+): boolean {
+  let isMatch = false;
 
-  private createsMatch(
-    piece: Node,
-    row: number,
-    col: number,
-    grid: Piece[][]
-  ): boolean {
-    return false;
-    if (
+  if (
       row >= 2 &&
-      grid[row - 1][col]?.node.name === piece.name &&
-      grid[row - 2][col]?.node.name === piece.name
-    ) {
-      // this.piecesPool.returnPieceToPool(piece);
-      return true;
-    }
-
-    if (
-      col >= 2 &&
-      grid[row][col - 1]?.node.name === piece.name &&
-      grid[row][col - 2]?.node.name === piece.name
-    ) {
-      // this.piecesPool.returnPieceToPool(piece);
-      return true;
-    }
-    return false;
+      grid[row - 1][col]?.node.name === piece.node.name &&
+      grid[row - 2][col]?.node.name === piece.node.name
+  ) {
+      isMatch = true;
   }
+
+  if (
+      col >= 2 &&
+      grid[row][col - 1]?.node.name === piece.node.name &&
+      grid[row][col - 2]?.node.name === piece.node.name
+  ) {
+      isMatch = true;
+  }
+  if(isMatch) PiecePool.getInstance().returnPiece(piece.node);
+  return isMatch;
+}
+
+private createsMatch(
+  piece: Piece,
+  row: number,
+  col: number,
+  grid: Piece[][]
+): boolean {
+  return this.createsMatchByName(piece, row, col, grid);
+}
 
   private getCenteredPosition(j: number, i: number): Vec3 {
     //EVERY game board should be square matrix

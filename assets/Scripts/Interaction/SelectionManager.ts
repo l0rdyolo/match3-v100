@@ -37,15 +37,41 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
 
   handleFirstSelection(piece: Piece) {
     this.firstSelected = piece;
+    this.firstSelected.Highlight();
   }
 
   handleSecondSelection(piece: Piece) {
     this.secondSelected = piece;
-    
+    this.secondSelected.Highlight();
+    this.applySelection();
+  }
+
+  applySelection(){
+    if(this.isSelectionValid()){
+        
+    }
+    else{
+        this.firstSelected.Shake();
+    }
+    this.cancelSelection();
   }
 
   cancelSelection() {
+    this.firstSelected.ResetScale();
+    this.secondSelected.ResetScale();
     this.firstSelected = null;
     this.secondSelected = null;
+  }
+
+  isSelectionValid() : boolean {
+    if (!this.firstSelected || !this.secondSelected) {
+        return false;
+    }
+
+    const rowDiff = Math.abs(this.firstSelected.row - this.secondSelected.row);
+    const colDiff = Math.abs(this.firstSelected.col - this.secondSelected.col);
+
+    return (rowDiff === 1 && colDiff === 0) || (rowDiff === 0 && colDiff === 1);
+    return false;
   }
 }
