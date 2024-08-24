@@ -64,7 +64,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
     if(this.isSelectionValid()){
         await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
         let matches : Piece[] = this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
-        // this.gravityHandler.applyGravity(matches); 
+        this.gravityHandler.applyGravity(matches); 
     }
     else{
         this.firstSelected.Shake();

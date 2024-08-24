@@ -21,28 +21,12 @@ export class GravityHandler extends Component {
             }
         }
 
-        this.applyGravityToCol(columnPieceCount);
+        this.applyGravityToCol(columnPieceCount,matches);
     }
 
-    applyGravityToCol(columnPieceCount: Map<number, number>) {
+    applyGravityToCol(columnPieceCount: Map<number, number>,matches) {
         for (const [col, count] of columnPieceCount) {
-            for (let row = this.gridManager.gridHeight - 1; row >= 0; row--) {
-                const piece = this.gridManager.grid[row][col];
-
-                if (piece === null) continue; // Eğer hücre boşsa, geç
-
-                const newRow = row + count;
-
-                if (newRow < this.gridManager.gridHeight) {
-                    // Parçayı yeni pozisyona taşı
-                    this.gridManager.grid[newRow][col] = piece;
-                    piece.row = newRow;
-                    piece.updatePosition();
-
-                    // Eski pozisyonu boşalt
-                    this.gridManager.grid[row][col] = null;
-                }
-            }
+            console.log(`${col} sütununu ${count} birim aşağı indirin.`);
         }
     }
-}
+    }

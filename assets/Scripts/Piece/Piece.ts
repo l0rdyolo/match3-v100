@@ -33,11 +33,8 @@ export class Piece implements IPiece  {
   }
 
   updatePosition() {
-    // Satır ve sütun değerlerini kullanarak yeni pozisyonu hesapla
     const newX =  (this.col * GameGlobal.PIECE_CONTENT_SIZE);
-    const newY =  (this.row * GameGlobal.PIECE_CONTENT_SIZE);  // Y ekseni negatif çünkü ekranın üstünden altına doğru gidiyoruz
-
-    // Parçanın node'unu yeni pozisyona taşı
+    const newY =  (this.row * GameGlobal.PIECE_CONTENT_SIZE);  
     this.node.setPosition(new Vec3(newX, newY, 0));
 }
 
