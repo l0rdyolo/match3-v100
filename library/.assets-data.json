@@ -1172,5 +1172,67 @@
   "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb": {
     "url": "db://assets/Scripts/Grid/GridManager.ts",
     "value": {}
+  },
+  "2da7a78c-a915-4869-8b60-b00a7b7c713a": {
+    "url": "db://assets/Scripts/SooLib.zip",
+    "value": {
+      "depends": []
+    }
+  },
+  "27686f69-38f5-4a30-abde-14b7342452e0": {
+    "url": "db://assets/Scripts/Interaction/SliderManager.ts",
+    "value": {}
+  },
+  "4b57d830-5641-43a1-b0e0-7c4235975b48": {
+    "url": "db://assets/Scripts/Match",
+    "value": {}
+  },
+  "3ede0ba0-e834-433b-a676-09f3efb3a3af": {
+    "url": "db://assets/Scripts/Match/MatchStrategies",
+    "value": {}
+  },
+  "c31e222f-03f8-4f5c-b091-7b757e2f93c9": {
+    "url": "db://assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts",
+    "value": {}
+  },
+  "7e55cc94-89cb-4ac3-9033-7cf9ae1f9b33": {
+    "url": "db://assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts",
+    "value": {}
+  },
+  "9e0aea88-3c96-480d-aa29-47e2847cda4a": {
+    "url": "db://assets/Scripts/Match/MatchStrategies/Horizant.ts",
+    "value": {}
+  },
+  "9ffbe982-7fc8-4855-8d04-a881a9dfd3e7": {
+    "url": "db://assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts",
+    "value": {}
+  },
+  "18568d6b-3580-4062-b87d-3524f71ac5b2": {
+    "url": "db://assets/Scripts/Match/NewComponent.ts",
+    "value": {}
+  },
+  "f4a1841c-051c-4e23-9cc2-07d7fb994812": {
+    "url": "db://assets/Scripts/Match/MatchChecker.ts",
+    "value": {}
+  },
+  "f1a18526-12bf-447c-a1b0-7afd3fc93c6c": {
+    "url": "db://assets/Scripts/Match/MatchChecker.ts",
+    "value": {}
+  },
+  "5c08d872-9f07-4dbe-928f-7282bdb7aa26": {
+    "url": "db://assets/Scripts/Grid/MatchChecker.ts",
+    "value": {}
+  },
+  "d8d3548a-195b-4674-b39e-efe43a3a3952": {
+    "url": "db://assets/Scripts/Game",
+    "value": {}
+  },
+  "4a0bd0ab-45b4-42c3-90f6-79c905d37568": {
+    "url": "db://assets/Scripts/Game/GameManager.ts",
+    "value": {}
+  },
+  "ae9962d1-8724-4d45-833d-e13b1e378bcd": {
+    "url": "db://assets/Scripts/Grid/GravityHandler.ts",
+    "value": {}
   }
 }

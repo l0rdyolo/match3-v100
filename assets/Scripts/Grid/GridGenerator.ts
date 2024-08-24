@@ -20,13 +20,6 @@ export class GridGenerator extends Component {
 
   private PIECE_CONTENT_SIZE: number = 100; //dinamikleştir
 
-  private interactionManager: InteractionManager = new InteractionManager();
-
-  protected start(): void {
-    //!TODO: grid yerleşmesini ve content size'ı responsive yapmalıyız
-    console.log(this.node.getParent());
-
-  }
 
   //! todo rowlari tweenleyebiliriz
   public Generate() : Piece[][] {
@@ -66,7 +59,6 @@ private createsMatchByName(
   grid: Piece[][]
 ): boolean {
   let isMatch = false;
-
   if (
       row >= 2 &&
       grid[row - 1][col]?.node.name === piece.node.name &&

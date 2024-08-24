@@ -21,7 +21,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameManager.ts": {
     "time": 1723487548216.3115,
     "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameGlobal.ts.meta": {
     "time": 1723122558828.4329
@@ -29,7 +29,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\GameGlobal.ts": {
     "time": 1723122683511.914,
     "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\texture.meta": {
     "time": 1723121671225.0378
@@ -341,7 +341,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels": {
     "time": 1723131299582.5078,
     "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts.meta": {
     "time": 1723131160087.1875
@@ -349,7 +349,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts": {
     "time": 1723137811604.8489,
     "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts.meta": {
     "time": 1723131299598.6353
@@ -357,7 +357,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts": {
     "time": 1723131729416.2795,
     "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\InGameAssets.ts.meta": {
     "time": 1723132461767.8032
@@ -365,7 +365,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\InGameAssets.ts": {
     "time": 1723135383432.4978,
     "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib.meta": {
     "time": 1723483490426.4229
@@ -373,7 +373,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib": {
     "time": 1723483549348.6213,
     "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization.meta": {
     "time": 1723483523446.43
@@ -381,7 +381,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization": {
     "time": 1723483540541.8308,
     "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts.meta": {
     "time": 1723022012696.1335
@@ -389,7 +389,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
     "time": 1723022012667.1465,
     "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts.meta": {
     "time": 1723022012747.6643
@@ -397,7 +397,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts": {
     "time": 1723484822840.9421,
     "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable.meta": {
     "time": 1723483581771.1543
@@ -405,7 +405,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable": {
     "time": 1723487263907.9377,
     "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts.meta": {
     "time": 1723483722685.6191
@@ -413,7 +413,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts": {
     "time": 1723484834220.9717,
     "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\PoolHelper.ts.meta": {
     "time": 1723484786954.037
@@ -421,7 +421,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\PoolHelper.ts": {
     "time": 1723484808304.608,
     "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Prefabs.meta": {
     "time": 1723485806214.7886
@@ -461,7 +461,7 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-2d\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
     "time": 1723491798886.6772,
     "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs": {
     "time": 1723485818392.4934,
@@ -476,7 +476,7 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib": {
     "time": 1723483549348.6213,
     "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture": {
     "time": 1723121671236.2703,
@@ -496,17 +496,17 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels": {
     "time": 1723131299582.5078,
     "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable": {
     "time": 1723487263907.9377,
     "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization": {
     "time": 1723483540541.8308,
     "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\texture\\ico": {
     "time": 1723121671258.1162,
@@ -521,22 +521,22 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\GameGlobal.ts": {
     "time": 1723122683511.914,
     "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\GameManager.ts": {
     "time": 1723575736472.6443,
     "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\InGameAssets.ts": {
     "time": 1723135383432.4978,
     "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\PoolHelper.ts": {
     "time": 1723484808304.608,
     "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Effects\\EffectManager.ts": {
     "time": 1723639289249.6372,
@@ -551,32 +551,32 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels\\EasyLevels.ts": {
     "time": 1723137811604.8489,
     "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Levels\\LevelData.ts": {
     "time": 1723131729416.2795,
     "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable\\CandyPool.ts": {
     "time": 1723484834220.9717,
     "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
     "time": 1723636174308.6191,
     "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
     "time": 1723022012667.1465,
     "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\SooLib\\Optimization\\Poolable.ts": {
     "time": 1723484822840.9421,
     "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Prefabs.meta": {
     "time": 1723485806214.7886
@@ -957,7 +957,7 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid\\MatchChecker.ts": {
     "time": 1723640469398.2522,
     "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs": {
     "time": 1724100611250.4402,
@@ -972,7 +972,7 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib": {
     "time": 1724100612208.4666,
     "uuid": "4de21128-6f13-4f69-9fa2-99dedd341ebb",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture": {
     "time": 1724100612954.0935,
@@ -997,17 +997,17 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels": {
     "time": 1724100612046.4177,
     "uuid": "8a7f9423-6bc0-4bc9-b15f-d80afc67d4bb",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable": {
     "time": 1724100612149.9307,
     "uuid": "e5bb5a69-54a2-445d-8b98-4939c92237bc",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization": {
     "time": 1724100612295.9915,
     "uuid": "e317a66a-fba4-4e59-82fa-ac3859d2d8b9",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\texture\\ico": {
     "time": 1724100613987.813,
@@ -1022,22 +1022,22 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\GameGlobal.ts": {
     "time": 1724100611332.4578,
     "uuid": "b8ff81ed-5df9-4367-b25f-334fbe3e810e",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\GameManager.ts": {
     "time": 1724100611385.4624,
     "uuid": "8cd5e6c3-a711-4c3e-8344-e43ddab99fdc",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\InGameAssets.ts": {
     "time": 1724100611472.3486,
     "uuid": "333f3c30-efb1-4585-bee7-8dff71244ece",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\PoolHelper.ts": {
     "time": 1724100611615.3428,
     "uuid": "cad6a65b-8e4e-432a-82b4-cbeb07438589",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Promises.ts": {
     "time": 1724100611693.1997,
@@ -1057,7 +1057,7 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts": {
     "time": 1724100611852.194,
     "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
     "time": 1724100611922.7415,
@@ -1067,32 +1067,32 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\EasyLevels.ts": {
     "time": 1724100611988.2952,
     "uuid": "64729ade-a208-4ad0-8ece-678ce2c31860",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\LevelData.ts": {
     "time": 1724100612042.4092,
     "uuid": "bde30d5b-a6a8-4607-adc7-928f98c702c2",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable\\CandyPool.ts": {
     "time": 1724100612101.9292,
     "uuid": "183c3c47-a377-485b-aa82-52ba7d60808b",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Poolable\\PiecesPool.ts": {
     "time": 1724100612146.9312,
     "uuid": "68d777d8-9341-46eb-adfe-575d73c85b86",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization\\ObjectPooling.ts": {
     "time": 1724100612240.4778,
     "uuid": "da7a90b5-6343-4e9d-9ee1-c392298e00b7",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\SooLib\\Optimization\\Poolable.ts": {
     "time": 1724100612293.9863,
     "uuid": "022faa66-edc4-4bf5-b73c-82b8c89000e8",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Prefabs.meta": {
     "time": 1724100610912.5825
@@ -1461,7 +1461,7 @@
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts": {
-    "time": 1724156214781.9648,
+    "time": 1724531287796.7607,
     "uuid": "ef7376f4-69d0-462e-a6ba-547aadf84e42",
     "missing": false
   },
@@ -1476,12 +1476,12 @@
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid": {
-    "time": 1724157033989.2917,
+    "time": 1724531371342.6042,
     "uuid": "f91f2772-6d5b-481a-ad45-99a0c29ad8fc",
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction": {
-    "time": 1724153072407.1436,
+    "time": 1724533339238.5605,
     "uuid": "a75e890e-ae55-45c7-a3b4-1b4e8f1ddff8",
     "missing": false
   },
@@ -1506,18 +1506,8 @@
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GridGenerator.ts": {
-    "time": 1724162534788.181,
+    "time": 1724449315319.0327,
     "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be",
-    "missing": false
-  },
-  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts": {
-    "time": 1724151288178.558,
-    "uuid": "41c9d0a1-4a05-42d2-9695-24914e91cfb5",
-    "missing": false
-  },
-  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
-    "time": 1724101251616.7195,
-    "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f",
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs.meta": {
@@ -1553,14 +1543,8 @@
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GridGenerator.ts.meta": {
     "time": 1724101251614.7192
   },
-  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\MatchChecker.ts.meta": {
-    "time": 1724101251615.719
-  },
-  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts.meta": {
-    "time": 1724101251616.7195
-  },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\scene.scene": {
-    "time": 1724160495449.1982,
+    "time": 1724533341071.6304,
     "uuid": "90a0e660-4913-4c29-8547-4b01d373ea55",
     "missing": false
   },
@@ -1851,7 +1835,7 @@
     "time": 1724141104501.5767
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Piece\\Piece.ts": {
-    "time": 1724158117688.0188,
+    "time": 1724532552284.58,
     "uuid": "7e7bda90-135d-44a4-91c2-b8475eebd4bc",
     "missing": false
   },
@@ -1883,7 +1867,7 @@
     "time": 1724153072430.0703
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\SelectionManager.ts": {
-    "time": 1724157887977.1814,
+    "time": 1724533326265.3909,
     "uuid": "3a5ac49e-f0a2-4fd0-9b14-a6a2bacb77cc",
     "missing": false
   },
@@ -1931,8 +1915,96 @@
     "time": 1724157034012.084
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GridManager.ts": {
-    "time": 1724162745247.7908,
+    "time": 1724530244493.9004,
     "uuid": "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\SooLib.zip.meta": {
+    "time": 1724267486616.3606
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\SooLib.zip": {
+    "time": 1724267472458.214,
+    "uuid": "2da7a78c-a915-4869-8b60-b00a7b7c713a",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\SliderManager.ts.meta": {
+    "time": 1724410962817.975
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\SliderManager.ts": {
+    "time": 1724533277582.4893,
+    "uuid": "27686f69-38f5-4a30-abde-14b7342452e0",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match.meta": {
+    "time": 1724448115815.5657
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match": {
+    "time": 1724448387071.6992,
+    "uuid": "4b57d830-5641-43a1-b0e0-7c4235975b48",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies.meta": {
+    "time": 1724448127812.4563
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies": {
+    "time": 1724448272348.4685,
+    "uuid": "3ede0ba0-e834-433b-a676-09f3efb3a3af",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\IMatchStrategy.ts.meta": {
+    "time": 1724448172492.5544
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\IMatchStrategy.ts": {
+    "time": 1724530640545.2473,
+    "uuid": "c31e222f-03f8-4f5c-b091-7b757e2f93c9",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\VerticalMatchStrategy.ts.meta": {
+    "time": 1724448222675.5222
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\VerticalMatchStrategy.ts": {
+    "time": 1724533158247.854,
+    "uuid": "7e55cc94-89cb-4ac3-9033-7cf9ae1f9b33",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\HorizontalMatchStrategy.ts.meta": {
+    "time": 1724448272369.4421
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\HorizontalMatchStrategy.ts": {
+    "time": 1724533138722.9143,
+    "uuid": "9ffbe982-7fc8-4855-8d04-a881a9dfd3e7",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchChecker.ts.meta": {
+    "time": 1724448387087.7964
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchChecker.ts": {
+    "time": 1724532451559.455,
+    "uuid": "f1a18526-12bf-447c-a1b0-7afd3fc93c6c",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Game.meta": {
+    "time": 1724531287818.6504
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Game": {
+    "time": 1724531294713.1687,
+    "uuid": "d8d3548a-195b-4674-b39e-efe43a3a3952",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Game\\GameManager.ts.meta": {
+    "time": 1724531294726.2686
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Game\\GameManager.ts": {
+    "time": 1724532077912.9172,
+    "uuid": "4a0bd0ab-45b4-42c3-90f6-79c905d37568",
+    "missing": false
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GravityHandler.ts.meta": {
+    "time": 1724531371361.6091
+  },
+  "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GravityHandler.ts": {
+    "time": 1724533314054.6384,
+    "uuid": "ae9962d1-8724-4d45-833d-e13b1e378bcd",
     "missing": false
   }
 }

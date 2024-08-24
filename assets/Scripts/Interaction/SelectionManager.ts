@@ -1,6 +1,8 @@
-import { _decorator, Component, EventTarget, Node } from "cc";
+import { _decorator, Color, Component, EventTarget, Node, Sprite, SpriteFrame, SpriteRenderer } from "cc";
 import { Piece } from "../Piece/Piece";
 import { SingletonComponent } from "../SingletonComponent";
+import { SliderManager } from "./SliderManager";
+import { MatchChecker } from "../Match/MatchChecker";
 const { ccclass, property } = _decorator;
 
 @ccclass("SelectionManager")
@@ -9,7 +11,8 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
 
   private firstSelected: Piece = null;
   private secondSelected: Piece = null;
-
+  private sliderManager : SliderManager = null;
+  private matchChecker : MatchChecker = null;
   protected onLoad(): void {
     super.onLoad();
     this.eventTarget.on(
@@ -17,6 +20,14 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
       this.onPieceSelected,
       this
     );
+
+    this.init();
+  }
+
+  protected init(): void {
+    this.sliderManager = new SliderManager();
+    this.matchChecker = new MatchChecker();
+    
   }
 
   protected onDestroy(): void {
@@ -46,8 +57,13 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
     this.applySelection();
   }
 
-  applySelection(){
+  async applySelection(){
     if(this.isSelectionValid()){
+        await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
+        let matches : Piece[] = this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
+        for (const matched of matches) {
+          matched.node.getChildByName("Sprite").getComponent(Sprite).color = new Color(123,122,31)
+        }
         
     }
     else{
@@ -63,7 +79,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
     this.secondSelected = null;
   }
 
-  isSelectionValid() : boolean {
+  public isSelectionValid() : boolean {
     if (!this.firstSelected || !this.secondSelected) {
         return false;
     }
@@ -74,4 +90,8 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
     return (rowDiff === 1 && colDiff === 0) || (rowDiff === 0 && colDiff === 1);
     return false;
   }
+
+
+
 }
+
