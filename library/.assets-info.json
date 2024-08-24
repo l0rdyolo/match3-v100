@@ -949,7 +949,7 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
     "time": 1723641825941.4346,
     "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-2d\\assets\\Scripts\\Grid\\MatchChecker.ts.meta": {
     "time": 1723579496783.897
@@ -1062,7 +1062,7 @@
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Interaction\\InteractionManager.ts": {
     "time": 1724100611922.7415,
     "uuid": "f390f880-b561-47f2-bb39-67b62b17d18f",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\maide\\OneDrive\\Masaüstü\\match3-v100\\assets\\Scripts\\Levels\\EasyLevels.ts": {
     "time": 1724100611988.2952,
@@ -1544,22 +1544,22 @@
     "time": 1724101251614.7192
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\scene.scene": {
-    "time": 1724533341071.6304,
+    "time": 1724537090857.8728,
     "uuid": "90a0e660-4913-4c29-8547-4b01d373ea55",
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Cake.prefab": {
-    "time": 1724101251610.7192,
+    "time": 1724537781360.0876,
     "uuid": "fed4646b-2956-42c9-b1ff-ecf752878dc8",
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Candy.prefab": {
-    "time": 1724101251611.7195,
+    "time": 1724537795759.683,
     "uuid": "754715c8-3a3c-499b-9186-9f27dc298f57",
     "missing": false
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Prefabs\\Donut.prefab": {
-    "time": 1724101251611.7195,
+    "time": 1724537820087.9138,
     "uuid": "9ebc66ca-5afc-4d6d-976c-5802fef0c291",
     "missing": false
   },
@@ -1835,7 +1835,7 @@
     "time": 1724141104501.5767
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Piece\\Piece.ts": {
-    "time": 1724535148020.0176,
+    "time": 1724537841405.951,
     "uuid": "7e7bda90-135d-44a4-91c2-b8475eebd4bc",
     "missing": false
   },
@@ -1979,7 +1979,7 @@
     "time": 1724448387087.7964
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchChecker.ts": {
-    "time": 1724532451559.455,
+    "time": 1724536293244.1143,
     "uuid": "f1a18526-12bf-447c-a1b0-7afd3fc93c6c",
     "missing": false
   },
@@ -2003,7 +2003,7 @@
     "time": 1724531371361.6091
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GravityHandler.ts": {
-    "time": 1724535847939.6414,
+    "time": 1724535911604.187,
     "uuid": "ae9962d1-8724-4d45-833d-e13b1e378bcd",
     "missing": false
   },

@@ -23,6 +23,10 @@ export class MatchChecker {
             }
         }
 
+        for (const piece of matchedPieces) {
+            piece.matched();
+        }
+
         return matchedPieces;
     }
 }

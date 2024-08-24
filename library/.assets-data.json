@@ -4,6 +4,7 @@
     "value": {
       "depends": [
         "90a0e660-4913-4c29-8547-4b01d373ea55",
+        "2e6cc1f9-5b33-4738-892c-6ee1a49ffa47@f9941",
         "fed4646b-2956-42c9-b1ff-ecf752878dc8",
         "754715c8-3a3c-499b-9186-9f27dc298f57",
         "9ebc66ca-5afc-4d6d-976c-5802fef0c291",
@@ -793,6 +794,8 @@
     "url": "db://assets/Prefabs/Candy.prefab",
     "value": {
       "depends": [
+        "b1eafba6-bf29-4a25-8780-48a576cb6062@f9941",
+        "86f25d5c-9de5-454f-a5f9-ee16603e6701",
         "b1eafba6-bf29-4a25-8780-48a576cb6062@f9941"
       ]
     }
@@ -801,6 +804,8 @@
     "url": "db://assets/Prefabs/Cake.prefab",
     "value": {
       "depends": [
+        "e3fafcf2-9140-4706-b839-411573075125@f9941",
+        "86f25d5c-9de5-454f-a5f9-ee16603e6701",
         "e3fafcf2-9140-4706-b839-411573075125@f9941"
       ]
     }
@@ -809,6 +814,8 @@
     "url": "db://assets/Prefabs/Donut.prefab",
     "value": {
       "depends": [
+        "1dbb66ba-7103-458f-a7b3-7ea890ebec31@f9941",
+        "86f25d5c-9de5-454f-a5f9-ee16603e6701",
         "1dbb66ba-7103-458f-a7b3-7ea890ebec31@f9941"
       ]
     }

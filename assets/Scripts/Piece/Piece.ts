@@ -1,4 +1,4 @@
-import { Node, tween, Vec3 } from "cc";
+import { Node, ParticleSystem2D, SpriteRenderer, tween, Vec3 } from "cc";
 import { IPiece } from "./IPiece";
 import { PieceTypes } from "./PieceTypes";
 import { SelectionManager } from "../Interaction/SelectionManager";
@@ -10,6 +10,8 @@ export class Piece implements IPiece  {
   public node: Node;
   public type: PieceTypes = null;
 
+  private particle : ParticleSystem2D = null;
+  private spriteNode : Node = null;
   public constructor(row: number, col: number, node: Node, type: PieceTypes) {
     
     this.row = row;
@@ -18,6 +20,8 @@ export class Piece implements IPiece  {
     this.type = type;
     
     this.node.on(Node.EventType.TOUCH_START, this.onTouch, this);
+    this.particle = this.node.getChildByName("Particle").getComponent(ParticleSystem2D);
+    this.spriteNode = this.node.getChildByName("Sprite");
   }
 
   onTouch() {
@@ -38,9 +42,27 @@ export class Piece implements IPiece  {
     this.node.setPosition(new Vec3(newX, newY, 0));
 }
 
-  public Shake(duration : number = 0.3){
+
+    
+matched() {
+  this.Shake(5, 0.2);
+
+  if (this.particle) {
+      this.particle.resetSystem(); // Eğer hali hazırda çalışıyorsa, sıfırlayıp yeniden başlatır
+      this.particle.playOnLoad = true; // Eğer başlatma durumu ayarlanmamışsa başlatır
+  }
+
+  // Sprite node'unun ölçeğini 0 yaparak yok et
+  if (this.spriteNode) {
+      tween(this.spriteNode)
+          .to(0.3, { scale: new Vec3(0, 0, 0) })  // 0.2 saniye içinde ölçeği 0 yap
+          .start();
+  }
+}
+
+
+    public Shake(shakeAmount : number = 10 , duration : number = 0.3){
     const originalPosition = this.node.getPosition();
-    const shakeAmount = 10; // Sarsılma miktarı
 
     return new Promise<void>((resolve) => {
         tween(this.node)
