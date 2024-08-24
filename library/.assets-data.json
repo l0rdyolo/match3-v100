@@ -1234,5 +1234,9 @@
   "ae9962d1-8724-4d45-833d-e13b1e378bcd": {
     "url": "db://assets/Scripts/Grid/GravityHandler.ts",
     "value": {}
+  },
+  "34d8385c-d585-4a43-969c-639e96f53b99": {
+    "url": "db://assets/Scripts/Game/GameGlobal.ts",
+    "value": {}
   }
 }

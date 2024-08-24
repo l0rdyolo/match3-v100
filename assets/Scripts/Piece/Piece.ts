@@ -2,6 +2,7 @@ import { Node, tween, Vec3 } from "cc";
 import { IPiece } from "./IPiece";
 import { PieceTypes } from "./PieceTypes";
 import { SelectionManager } from "../Interaction/SelectionManager";
+import { GameGlobal } from "../Game/GameGlobal";
 
 export class Piece implements IPiece  {
   public row: number = -1!;
@@ -22,6 +23,23 @@ export class Piece implements IPiece  {
   onTouch() {
       SelectionManager.getInstance().eventTarget.emit('piece-selected', this);
   }
+
+  setPosition(_row : number , _col : number ){
+    const row = _row * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET); 
+    const col= _col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET); 
+    const piecePostion = new Vec3(col,row)
+    this.node.setPosition(piecePostion);
+    
+  }
+
+  updatePosition() {
+    // Satır ve sütun değerlerini kullanarak yeni pozisyonu hesapla
+    const newX =  (this.col * GameGlobal.PIECE_CONTENT_SIZE);
+    const newY =  (this.row * GameGlobal.PIECE_CONTENT_SIZE);  // Y ekseni negatif çünkü ekranın üstünden altına doğru gidiyoruz
+
+    // Parçanın node'unu yeni pozisyona taşı
+    this.node.setPosition(new Vec3(newX, newY, 0));
+}
 
   public Shake(duration : number = 0.3){
     const originalPosition = this.node.getPosition();

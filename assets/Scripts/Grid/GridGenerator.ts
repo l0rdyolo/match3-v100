@@ -1,6 +1,5 @@
 import { _decorator, Component, Node, Vec3, CCInteger } from "cc";
 import { Piece } from "../Piece/Piece";
-import { InteractionManager } from "../Interaction/InteractionManager";
 import { PieceTypes } from "../Piece/PieceTypes";
 import { PiecePool } from "../Piece/PiecePool";
 import { SelectionManager } from "../Interaction/SelectionManager";
@@ -10,7 +9,6 @@ const { ccclass, property } = _decorator;
 export class GridGenerator extends Component {
   public grid: Piece[][] = [];
 
-  public PIECE_OFFSET: number = 5;
 
   @property(CCInteger)
   public width: number = 0;
@@ -18,7 +16,6 @@ export class GridGenerator extends Component {
   @property(CCInteger)
   private height: number = 0;
 
-  private PIECE_CONTENT_SIZE: number = 100; //dinamikleştir
 
 
   //! todo rowlari tweenleyebiliriz
@@ -45,8 +42,7 @@ export class GridGenerator extends Component {
         piece = new Piece(row, col, pieceNode, PieceTypes.Normal);
         piece.node.setParent(this.node);
         this.node.addChild(piece.node);
-        piece.node.setPosition(this.getCenteredPosition(col, row));
-
+        piece.setPosition(row,col);
     } while (this.createsMatch(piece, row, col, this.grid));
 
     return piece!;
@@ -87,10 +83,4 @@ private createsMatch(
   return this.createsMatchByName(piece, row, col, grid);
 }
 
-  private getCenteredPosition(j: number, i: number): Vec3 {
-    //EVERY game board should be square matrix
-    const _j = j * (this.PIECE_CONTENT_SIZE + this.PIECE_OFFSET); //- ((this.PIECE_CONTENT_SIZE * 4.5))//(Math.round(this.GRID_ROW / 2))) )
-    const _i = i * (this.PIECE_CONTENT_SIZE + this.PIECE_OFFSET); //- ((this.PIECE_CONTENT_SIZE * 4.5))//(Math.round(this.GRID_ROW / 2))) )
-    return new Vec3(_j, _i);
-  }
 }

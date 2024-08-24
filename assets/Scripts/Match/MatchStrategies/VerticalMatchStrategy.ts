@@ -14,7 +14,6 @@ export class VerticalMatchStrategy implements MatchStrategy {
         const grid = GridManager.getInstance().grid;
         const firstCheck = this.checkSinglePieceMatch(pieceA , grid);
         let secondCheck = this.checkSinglePieceMatch(pieceB , grid)
-        console.log(firstCheck, secondCheck);
         secondCheck = secondCheck.concat(firstCheck)
         return secondCheck;;
     }

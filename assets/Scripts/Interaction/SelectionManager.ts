@@ -3,6 +3,7 @@ import { Piece } from "../Piece/Piece";
 import { SingletonComponent } from "../SingletonComponent";
 import { SliderManager } from "./SliderManager";
 import { MatchChecker } from "../Match/MatchChecker";
+import { GravityHandler } from "../Grid/GravityHandler";
 const { ccclass, property } = _decorator;
 
 @ccclass("SelectionManager")
@@ -13,6 +14,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   private secondSelected: Piece = null;
   private sliderManager : SliderManager = null;
   private matchChecker : MatchChecker = null;
+  private gravityHandler : GravityHandler = null;
   protected onLoad(): void {
     super.onLoad();
     this.eventTarget.on(
@@ -27,6 +29,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   protected init(): void {
     this.sliderManager = new SliderManager();
     this.matchChecker = new MatchChecker();
+    this.gravityHandler = new GravityHandler();
     
   }
 
@@ -61,10 +64,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
     if(this.isSelectionValid()){
         await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
         let matches : Piece[] = this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
-        for (const matched of matches) {
-          matched.node.getChildByName("Sprite").getComponent(Sprite).color = new Color(123,122,31)
-        }
-        
+        // this.gravityHandler.applyGravity(matches); 
     }
     else{
         this.firstSelected.Shake();
