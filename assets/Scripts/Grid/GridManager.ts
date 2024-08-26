@@ -62,9 +62,9 @@ export class GridManager extends SingletonComponent<GridManager> {
     console.log(this.grid);
   }
 
-  handleMatches(matches : Piece[]){
+  deleteMatches(matches : Piece[]){
     for (const matchedPiece of matches) {
-      matchedPiece.node = null;
+      matchedPiece.delete()
     }
   }
 

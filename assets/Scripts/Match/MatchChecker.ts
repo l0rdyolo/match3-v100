@@ -12,7 +12,7 @@ export class MatchChecker {
         
     }
 
-    public checkForMatches(pieceA: Piece, pieceB: Piece): Piece[] {
+    public async checkForMatches(pieceA: Piece, pieceB: Piece): Promise<Piece[]> {
         
         let matchedPieces: Piece[] = [];
 
@@ -23,8 +23,8 @@ export class MatchChecker {
             }
         }
 
-        for (const piece of matchedPieces) {
-            piece.matched();
+        if (matchedPieces.length > 0) {
+            await Promise.all(matchedPieces.map(piece => piece.matched()));
         }
 
         return matchedPieces;

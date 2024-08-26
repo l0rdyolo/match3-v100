@@ -51,7 +51,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   }
 
   handleFirstSelection(piece: Piece) {
-    if(piece.canSelected) {
+    if(piece.canSelect) {
       this.firstSelected = piece.setSelection();
     }
     else{
@@ -60,7 +60,7 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   }
 
   handleSecondSelection(piece: Piece) {
-    if(piece.canSelected) {
+    if(piece.canSelect) {
       this.secondSelected = piece.setSelection();
       this.applySelection();
     }
@@ -71,10 +71,12 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
 
   async applySelection(){
     if(this.isSelectionValid()){
+      //! burada kaldık matches map ve array typelarında uyumlu bir şekilde methodalara gönderilmeli
         await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
-        let matches : Piece[] = this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
-        GridManager.getInstance().handleMatches(matches);
-        // this.gravityHandler.applyGravity(matches); 
+        let matches : Piece[] = await this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
+        console.log(typeof(matches));
+        GridManager.getInstance().deleteMatches(matches);
+        this.gravityHandler.applyGravity(matches); 
     }
     else{
         this.firstSelected.Shake();

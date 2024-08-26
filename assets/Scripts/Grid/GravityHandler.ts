@@ -11,14 +11,12 @@ export class GravityHandler extends Component {
 
     applyGravity(matches: Piece[]) {
         const columnPieceCount = new Map<number, number>();
-
+        console.log(columnPieceCount);
+        
         for (const piece of matches) {
             const col = piece.col;
-            if (columnPieceCount.has(col)) {
-                columnPieceCount.set(col, columnPieceCount.get(col) + 1);
-            } else {
-                columnPieceCount.set(col, 1);
-            }
+            const row = piece.row;
+            console.log(row , col);
         }
 
         this.applyGravityToCol(columnPieceCount,matches);

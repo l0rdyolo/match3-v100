@@ -39,9 +39,9 @@ export class GridGenerator extends Component implements IGrid<Piece>{
             continue;
         }
         piece = new Piece(row, col, pieceNode, PieceTypes.Normal);
+        piece.init();
         piece.node.setParent(this.node);
         this.node.addChild(piece.node);
-        piece.setPosition(row,col);
     } while (this.createsMatch(piece, row, col, this.grid));
 
     return piece!;
