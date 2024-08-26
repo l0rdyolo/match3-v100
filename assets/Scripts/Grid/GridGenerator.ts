@@ -3,10 +3,11 @@ import { Piece } from "../Piece/Piece";
 import { PieceTypes } from "../Piece/PieceTypes";
 import { PiecePool } from "../Piece/PiecePool";
 import { SelectionManager } from "../Interaction/SelectionManager";
+import { IGrid } from "./IGrid";
 const { ccclass, property } = _decorator;
 
 @ccclass("GridGenerator")
-export class GridGenerator extends Component {
+export class GridGenerator extends Component implements IGrid<Piece>{
   public grid: Piece[][] = [];
 
 
@@ -14,9 +15,7 @@ export class GridGenerator extends Component {
   public width: number = 0;
 
   @property(CCInteger)
-  private height: number = 0;
-
-
+  height: number = 0;
 
   //! todo rowlari tweenleyebiliriz
   public Generate() : Piece[][] {

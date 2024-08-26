@@ -4,6 +4,7 @@ import { SingletonComponent } from "../SingletonComponent";
 import { SliderManager } from "./SliderManager";
 import { MatchChecker } from "../Match/MatchChecker";
 import { GravityHandler } from "../Grid/GravityHandler";
+import { GridManager } from "../Grid/GridManager";
 const { ccclass, property } = _decorator;
 
 @ccclass("SelectionManager")
@@ -50,21 +51,30 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   }
 
   handleFirstSelection(piece: Piece) {
-    this.firstSelected = piece;
-    this.firstSelected.Highlight();
+    if(piece.canSelected) {
+      this.firstSelected = piece.setSelection();
+    }
+    else{
+      this.cancelSelection();
+    }    
   }
 
   handleSecondSelection(piece: Piece) {
-    this.secondSelected = piece;
-    this.secondSelected.Highlight();
-    this.applySelection();
+    if(piece.canSelected) {
+      this.secondSelected = piece.setSelection();
+      this.applySelection();
+    }
+    else{
+      this.cancelSelection();
+    } 
   }
 
   async applySelection(){
     if(this.isSelectionValid()){
         await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
         let matches : Piece[] = this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
-        this.gravityHandler.applyGravity(matches); 
+        GridManager.getInstance().handleMatches(matches);
+        // this.gravityHandler.applyGravity(matches); 
     }
     else{
         this.firstSelected.Shake();
@@ -73,10 +83,8 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   }
 
   cancelSelection() {
-    this.firstSelected.ResetScale();
-    this.secondSelected.ResetScale();
-    this.firstSelected = null;
-    this.secondSelected = null;
+    this.firstSelected = this.firstSelected.cancelSelection();
+    this.secondSelected = this.secondSelected.cancelSelection();
   }
 
   public isSelectionValid() : boolean {

@@ -1245,5 +1245,13 @@
   "34d8385c-d585-4a43-969c-639e96f53b99": {
     "url": "db://assets/Scripts/Game/GameGlobal.ts",
     "value": {}
+  },
+  "648dd2f2-a7fb-4ec0-be56-56687a610557": {
+    "url": "db://assets/Scripts/Grid/IGrid.ts",
+    "value": {}
+  },
+  "6554a4ef-be4e-4f0f-9268-5fe30dd755cf": {
+    "url": "db://assets/Scripts/Grid/GridBackgroundGenerator.ts",
+    "value": {}
   }
 }
