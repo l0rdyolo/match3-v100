@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 16547.722699999984,
+      "mTimestamp": 18693.63259997964,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,8 +409,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7077774.191199999,
-      "chunkId": "dbe9acad4b186c782d391aba2e3c92e98ae8dc61",
+      "mTimestamp": 2755063.767999977,
+      "chunkId": "12e724dbe33dfd7d7876001dc0966012c86e4aa5",
       "imports": [
         {
           "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts",
@@ -469,7 +469,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -478,12 +478,12 @@
             },
             "end": {
               "line": 8,
-              "column": 106
+              "column": 116
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -492,12 +492,12 @@
             },
             "end": {
               "line": 9,
-              "column": 104
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -506,12 +506,12 @@
             },
             "end": {
               "line": 10,
-              "column": 116
+              "column": 104
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -520,12 +520,12 @@
             },
             "end": {
               "line": 11,
-              "column": 113
+              "column": 98
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -534,12 +534,12 @@
             },
             "end": {
               "line": 12,
-              "column": 106
+              "column": 116
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -548,12 +548,12 @@
             },
             "end": {
               "line": 13,
-              "column": 133
+              "column": 113
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -562,12 +562,12 @@
             },
             "end": {
               "line": 14,
-              "column": 124
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -576,12 +576,12 @@
             },
             "end": {
               "line": 15,
-              "column": 131
+              "column": 133
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -590,12 +590,12 @@
             },
             "end": {
               "line": 16,
-              "column": 100
+              "column": 124
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -604,12 +604,12 @@
             },
             "end": {
               "line": 17,
-              "column": 99
+              "column": 131
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -618,12 +618,12 @@
             },
             "end": {
               "line": 18,
-              "column": 103
+              "column": 100
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -632,12 +632,12 @@
             },
             "end": {
               "line": 19,
-              "column": 104
+              "column": 99
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -646,12 +646,12 @@
             },
             "end": {
               "line": 20,
-              "column": 96
+              "column": 103
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -660,12 +660,12 @@
             },
             "end": {
               "line": 21,
-              "column": 106
+              "column": 104
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -674,12 +674,12 @@
             },
             "end": {
               "line": 22,
-              "column": 112
+              "column": 96
             }
           }
         },
         {
-          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts",
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -688,6 +688,34 @@
             },
             "end": {
               "line": 23,
+              "column": 106
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 112
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 7
+            },
+            "end": {
+              "line": 25,
               "column": 117
             }
           }
@@ -726,6 +754,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts"
           },
           "messages": []
@@ -734,6 +769,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts"
           },
           "messages": []
         },
@@ -1047,7 +1089,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1724528771864,
+      "mTimestamp": 1724670806420,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -4242,10 +4284,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts": {
       "mTimestamp": {
-        "mtime": 1724535061412.349,
+        "mtime": 1724673111816.8264,
         "uuid": "f1d2c2cc-6c40-4170-ab00-7c8fbc5630be"
       },
-      "chunkId": "0e84e56878d27f045109d65f0177e67cdabddcbd",
+      "chunkId": "ff44f978277215a9d11cd2524f6f014bb6936444",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4874,10 +4916,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts": {
       "mTimestamp": {
-        "mtime": 1724535041088.399,
+        "mtime": 1724673024130.7837,
         "uuid": "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb"
       },
-      "chunkId": "a87255ff090f7356b2c81be660aac7c2e6fbb10a",
+      "chunkId": "4ea35af6e6494755a92c4421c67fc2e0b4ce221e",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5000,10 +5042,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts": {
       "mTimestamp": {
-        "mtime": 1724535148020.0176,
+        "mtime": 1724673109225.2683,
         "uuid": "7e7bda90-135d-44a4-91c2-b8475eebd4bc"
       },
-      "chunkId": "d3541da2c28af24f6751b8413c021e700a5929f9",
+      "chunkId": "b5c70c04f1555c50f4e42d9e65959a49cd32d919",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5020,11 +5062,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 34
+              "column": 68
             },
             "end": {
               "line": 1,
-              "column": 38
+              "column": 72
             }
           }
         },
@@ -5105,7 +5147,7 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts": {
       "mTimestamp": {
-        "mtime": 1724141843180.89,
+        "mtime": 1724672986137.4324,
         "uuid": "955fb3be-200f-49ff-ba31-7c74aa339691"
       },
       "chunkId": "75ce4d42c4eaa02443fc95e7003fd7f98e150d2a",
@@ -5400,10 +5442,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts": {
       "mTimestamp": {
-        "mtime": 1724535468588.2903,
+        "mtime": 1724673541120.3975,
         "uuid": "3a5ac49e-f0a2-4fd0-9b14-a6a2bacb77cc"
       },
-      "chunkId": "f6d2e0052b8e15b01034ae3bdf9fd47491c2b340",
+      "chunkId": "eb88f8706e40d453244220810bc140ddeed99f33",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5483,6 +5525,20 @@
               "column": 55
             }
           }
+        },
+        {
+          "value": "../Grid/GridManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 28
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          }
         }
       ],
       "type": "esm",
@@ -5540,6 +5596,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts"
           },
           "messages": []
         }
@@ -8029,10 +8092,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts": {
       "mTimestamp": {
-        "mtime": 1724533638957.118,
+        "mtime": 1724672999998.3357,
         "uuid": "7e55cc94-89cb-4ac3-9033-7cf9ae1f9b33"
       },
-      "chunkId": "ecd0d6718021b5b90a4c76452ec901f99a185bd2",
+      "chunkId": "ad4e347cc606f662a555d58c1b172da76942324e",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8135,10 +8198,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts": {
       "mTimestamp": {
-        "mtime": 1724533642446.6301,
+        "mtime": 1724672997800.5894,
         "uuid": "9ffbe982-7fc8-4855-8d04-a881a9dfd3e7"
       },
-      "chunkId": "cc882a10ed8e10ba64f6eddafc65b2446a6437d8",
+      "chunkId": "bda1219032c412f767afa8fb51df5902e47dbaee",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8241,10 +8304,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts": {
       "mTimestamp": {
-        "mtime": 1724532451559.455,
+        "mtime": 1724673335335.1724,
         "uuid": "f1a18526-12bf-447c-a1b0-7afd3fc93c6c"
       },
-      "chunkId": "d3d73794f4471d869b84875d5059ff351235a6a1",
+      "chunkId": "f8da38485acdc2d845ec0ba133fecfc81415ad63",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8463,10 +8526,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts": {
       "mTimestamp": {
-        "mtime": 1724535847939.6414,
+        "mtime": 1724673559535.8813,
         "uuid": "ae9962d1-8724-4d45-833d-e13b1e378bcd"
       },
-      "chunkId": "cde4498bb4caa9dde17f84305a1d2dafbe841ed3",
+      "chunkId": "0ed18da30eae525ebfd2ac654abe5b87df082b39",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8574,6 +8637,91 @@
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts": {
+      "mTimestamp": {
+        "mtime": 1724581094189.1538,
+        "uuid": "648dd2f2-a7fb-4ec0-be56-56687a610557"
+      },
+      "chunkId": "d13dac985f7a80378a5bb4c99183529649d7d05a",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts": {
+      "mTimestamp": {
+        "mtime": 1724581120761.4617,
+        "uuid": "6554a4ef-be4e-4f0f-9268-5fe30dd755cf"
+      },
+      "chunkId": "f1750611680ea70c4e63f58e86a2fc84d6abbfba",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
