@@ -70,16 +70,21 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
   }
 
   async applySelection(){
+    let matches : Piece[] = [];
     if(this.isSelectionValid()){
-      //! burada kaldık matches map ve array typelarında uyumlu bir şekilde methodalara gönderilmeli
         await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
         let matches : Piece[] = await this.matchChecker.checkForMatches(this.firstSelected,this.secondSelected);
-        console.log(typeof(matches));
-        GridManager.getInstance().deleteMatches(matches);
-        this.gravityHandler.applyGravity(matches); 
+        if(matches.length>0){
+          GridManager.getInstance().deleteMatches(matches);
+          this.gravityHandler.applyGravity(); 
+        }
     }
     else{
+      //!geri döndür
         this.firstSelected.Shake();
+    }
+    if(matches.length > 0 ){
+      await this.sliderManager.Slide(this.firstSelected,this.secondSelected);
     }
     this.cancelSelection();
   }

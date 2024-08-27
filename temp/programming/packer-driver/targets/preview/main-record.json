@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 18693.63259997964,
+      "mTimestamp": 17933.34160000086,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2755063.767999977,
+      "mTimestamp": 6049631.269999981,
       "chunkId": "12e724dbe33dfd7d7876001dc0966012c86e4aa5",
       "imports": [
         {
@@ -1089,7 +1089,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1724670806420,
+      "mTimestamp": 1724753291523,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -4916,10 +4916,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts": {
       "mTimestamp": {
-        "mtime": 1724673024130.7837,
+        "mtime": 1724757157744.788,
         "uuid": "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb"
       },
-      "chunkId": "4ea35af6e6494755a92c4421c67fc2e0b4ce221e",
+      "chunkId": "d4f7be8b8c69e843d78b653fd572e271fe9b5a68",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4936,11 +4936,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 69
+              "column": 100
             },
             "end": {
               "line": 1,
-              "column": 73
+              "column": 104
             }
           }
         },
@@ -5042,10 +5042,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts": {
       "mTimestamp": {
-        "mtime": 1724673109225.2683,
+        "mtime": 1724758530842.9912,
         "uuid": "7e7bda90-135d-44a4-91c2-b8475eebd4bc"
       },
-      "chunkId": "b5c70c04f1555c50f4e42d9e65959a49cd32d919",
+      "chunkId": "92c06d6e80db41c2e846729263acd1a98e6a83f4",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5062,11 +5062,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 68
+              "column": 84
             },
             "end": {
               "line": 1,
-              "column": 72
+              "column": 88
             }
           }
         },
@@ -5442,10 +5442,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts": {
       "mTimestamp": {
-        "mtime": 1724673541120.3975,
+        "mtime": 1724757435225.7683,
         "uuid": "3a5ac49e-f0a2-4fd0-9b14-a6a2bacb77cc"
       },
-      "chunkId": "eb88f8706e40d453244220810bc140ddeed99f33",
+      "chunkId": "194f0d414bc34ead4b14f4b94e91b16642b3194a",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8092,10 +8092,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts": {
       "mTimestamp": {
-        "mtime": 1724672999998.3357,
+        "mtime": 1724703239811.9724,
         "uuid": "7e55cc94-89cb-4ac3-9033-7cf9ae1f9b33"
       },
-      "chunkId": "ad4e347cc606f662a555d58c1b172da76942324e",
+      "chunkId": "c010f08a5f3185ccd8ca12f94d88a1da45fff35d",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8526,10 +8526,10 @@
     },
     "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts": {
       "mTimestamp": {
-        "mtime": 1724673559535.8813,
+        "mtime": 1724759339072.797,
         "uuid": "ae9962d1-8724-4d45-833d-e13b1e378bcd"
       },
-      "chunkId": "0ed18da30eae525ebfd2ac654abe5b87df082b39",
+      "chunkId": "d52cfe65426b5a711b3e999d9a609d2f09ef5aa4",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -8546,17 +8546,31 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 33
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 37
             }
           }
         },
         {
-          "value": "../Grid/GridManager",
+          "value": "../SingletonComponent",
           "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "./GridManager",
+          "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 3,
@@ -8564,7 +8578,7 @@
             },
             "end": {
               "line": 3,
-              "column": 49
+              "column": 43
             }
           }
         }
@@ -8596,6 +8610,13 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts"
           },
           "messages": []
         },

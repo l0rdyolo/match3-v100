@@ -1,4 +1,4 @@
-import { Node, ParticleSystem2D, SpriteRenderer, tween, Vec3 } from "cc";
+import { Node, ParticleSystem2D, removeProperty, SpriteRenderer, tween, Vec3 } from "cc";
 import { IPiece } from "./IPiece";
 import { PieceTypes } from "./PieceTypes";
 import { SelectionManager } from "../Interaction/SelectionManager";
@@ -30,6 +30,7 @@ export class Piece implements IPiece {
   }
 
   onTouch() {
+    if(!this.canSelect) return; 
     SelectionManager.getInstance().eventTarget.emit("piece-selected", this);
   }
 
@@ -42,11 +43,11 @@ export class Piece implements IPiece {
     this.node.setPosition(piecePostion);
   }
 
-  updatePosition() {
+  updatePosition(row = this.row , col = this.col) {
     this.canSelect = false;
-    const newX = this.col * GameGlobal.PIECE_CONTENT_SIZE;
-    const newY = this.row * GameGlobal.PIECE_CONTENT_SIZE;
-    this.node.setPosition(new Vec3(newX, newY, 0));
+    const newX = row //* GameGlobal.PIECE_CONTENT_SIZE;
+    const newY = col //* GameGlobal.PIECE_CONTENT_SIZE;
+    this.setPosition(newX,newY);
   }
 
   async matched(): Promise<void> {
@@ -113,4 +114,34 @@ export class Piece implements IPiece {
       .to(duration, { scale: new Vec3(1, 1, 1) })
       .start();
   }
+
+  public moveToPosition(newPos: Vec3, duration: number = 0.3): Promise<void> {
+    return new Promise<void>((resolve) => {
+        const startPos = this.node.position.clone();
+        const targetPos = new Vec3(
+            newPos.x * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
+            newPos.y * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
+            newPos.z
+        );
+
+        this.canSelect = false;
+
+        tween(this.node)
+            .to(duration, { position: targetPos }, {
+                easing: 'quartOut',
+                onUpdate: (target: Node, ratio: number) => {
+                    const currentPos = new Vec3();
+                    Vec3.lerp(currentPos, startPos, targetPos, ratio);
+                    target.setPosition(currentPos);
+                }
+            })
+            .call(() => {
+                this.row = newPos.y;
+                this.col = newPos.x;
+                this.canSelect = true;
+                resolve();
+            })
+            .start();
+    });
+}
 }

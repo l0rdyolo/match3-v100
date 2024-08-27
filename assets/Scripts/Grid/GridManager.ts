@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, SpriteFrame, Vec2, Vec3 } from 'cc';
+import { _decorator, Color, Component, Node, Sprite, SpriteFrame, SpriteRenderer, Vec2, Vec3 } from 'cc';
 import { SingletonComponent } from '../SingletonComponent';
 import { Piece } from '../Piece/Piece';
 import { GridGenerator } from './GridGenerator';
@@ -14,6 +14,13 @@ export class GridManager extends SingletonComponent<GridManager> {
   private gridWidth: number = 0;
   public gridHeight : number = 0;
   private gridOffset: number = 0;
+
+  private colors = {
+    red: new Color(255, 0, 0),
+    black: new Color(0, 0, 0),
+    blue: new Color(0, 0, 255),
+    yellow: new Color(255, 255, 0),
+};
 
    get grid(){
     return this._grid
@@ -34,6 +41,8 @@ export class GridManager extends SingletonComponent<GridManager> {
 
     const gridX = piecePositionsDiff + offsetDiff;
     this.node.setPosition(new Vec3(gridX, -200, 0));
+
+    // this.highlightGridCorners();
   }
 
   SwapPieces(pieceA: Piece, pieceB: Piece) {
@@ -59,13 +68,19 @@ export class GridManager extends SingletonComponent<GridManager> {
     this.grid[pa_row][pa_col] = tempB;
     this.grid[pb_row][pb_col] = tempA;
 
-    console.log(this.grid);
   }
 
   deleteMatches(matches : Piece[]){
     for (const matchedPiece of matches) {
       matchedPiece.delete()
     }
+  }
+
+  highlightGridCorners(){
+    this._grid[0][0].node.getComponentInChildren(Sprite).color = this.colors.black;
+    this._grid[this.gridHeight - 1][0].node.getComponentInChildren(Sprite).color = this.colors.yellow;
+    this._grid[0][this.gridWidth - 1].node.getComponentInChildren(Sprite).color = this.colors.blue;
+    this._grid[this.gridHeight - 1][this.gridWidth - 1].node.getComponentInChildren(Sprite).color = this.colors.red;
   }
 
 }

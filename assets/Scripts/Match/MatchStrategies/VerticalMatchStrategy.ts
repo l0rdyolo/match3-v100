@@ -9,8 +9,6 @@ export class VerticalMatchStrategy implements MatchStrategy {
     ];
 
     public checkMatch(pieceA: Piece , pieceB : Piece  )  {
-        console.log("vertical matc");
-        
         const grid = GridManager.getInstance().grid;
         const firstCheck = this.checkSinglePieceMatch(pieceA , grid);
         let secondCheck = this.checkSinglePieceMatch(pieceB , grid)
