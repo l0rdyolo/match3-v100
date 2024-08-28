@@ -59,8 +59,8 @@ export class Piece implements IPiece {
     if (this.spriteNode) {
       await new Promise<void>((resolve) => {
         tween(this.spriteNode)
-          .to(0.4, { scale: new Vec3(0, 0, 0) })
-          .call(resolve) // Tween bittiğinde Promise'i çöz
+          .to(0.08, { scale: new Vec3(0, 0, 0) })
+          .call(resolve) 
           .start();
       });
     }
@@ -93,10 +93,12 @@ export class Piece implements IPiece {
     this.node = null;
     this.canSelect = false;
   }
+
   public setSelection(): Piece {
     this.Highlight();
     return this;
   }
+
   public cancelSelection() {
     this.ResetScale();
     return null;
@@ -115,7 +117,7 @@ export class Piece implements IPiece {
       .start();
   }
 
-  public moveToPosition(newPos: Vec3, duration: number = 0.3): Promise<void> {
+  public moveToPosition(newPos: Vec3, duration: number = 0.08): Promise<void> {
     return new Promise<void>((resolve) => {
         const startPos = this.node.position.clone();
         const targetPos = new Vec3(
@@ -143,5 +145,6 @@ export class Piece implements IPiece {
             })
             .start();
     });
-}
+  }
+
 }

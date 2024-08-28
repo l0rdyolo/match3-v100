@@ -3,6 +3,9 @@ import { SingletonComponent } from '../SingletonComponent';
 import { Piece } from '../Piece/Piece';
 import { GridGenerator } from './GridGenerator';
 import { GameGlobal } from '../Game/GameGlobal';
+import { SliderManager } from '../Interaction/SliderManager';
+import { MatchChecker } from '../Match/MatchChecker';
+import { GravityHandler } from './GravityHandler';
 const { ccclass, property } = _decorator;
 
 @ccclass("GridManager")
@@ -10,6 +13,9 @@ export class GridManager extends SingletonComponent<GridManager> {
   private _grid: Piece[][];
 
   private gridGenerator: GridGenerator = null;
+  private sliderManager : SliderManager = null;
+  private matchChecker : MatchChecker = null;
+  private gravityHandler : GravityHandler = null;
 
   private gridWidth: number = 0;
   public gridHeight : number = 0;
@@ -28,6 +34,16 @@ export class GridManager extends SingletonComponent<GridManager> {
 
   protected onLoad(): void {
     super.onLoad();
+    this.init();
+  }
+
+
+
+  protected init(): void {
+    this.sliderManager = new SliderManager();
+    this.matchChecker = new MatchChecker();
+    this.gravityHandler = new GravityHandler();
+    
   }
 
   start() {
@@ -41,33 +57,28 @@ export class GridManager extends SingletonComponent<GridManager> {
 
     const gridX = piecePositionsDiff + offsetDiff;
     this.node.setPosition(new Vec3(gridX, -200, 0));
-
     // this.highlightGridCorners();
   }
 
-  SwapPieces(pieceA: Piece, pieceB: Piece) {
-    // Mevcut satır ve sütunları saklayın
+  async SwapPieces(pieceA: Piece, pieceB: Piece) {
+    await this.sliderManager.Slide(pieceA, pieceB);
     const pa_row = pieceA.row;
     const pa_col = pieceA.col;
 
     const pb_row = pieceB.row;
     const pb_col = pieceB.col;
 
-    // Parçaların satır ve sütun bilgilerini güncelleyin
     pieceA.row = pb_row;
     pieceA.col = pb_col;
 
     pieceB.row = pa_row;
     pieceB.col = pa_col;
 
-    // Grid'deki yerleri geçici olarak saklayın
     const tempA = this.grid[pa_row][pa_col];
     const tempB = this.grid[pb_row][pb_col];
 
-    // Grid'i yeni pozisyonlara göre güncelleyin
     this.grid[pa_row][pa_col] = tempB;
     this.grid[pb_row][pb_col] = tempA;
-
   }
 
   deleteMatches(matches : Piece[]){
@@ -81,6 +92,27 @@ export class GridManager extends SingletonComponent<GridManager> {
     this._grid[this.gridHeight - 1][0].node.getComponentInChildren(Sprite).color = this.colors.yellow;
     this._grid[0][this.gridWidth - 1].node.getComponentInChildren(Sprite).color = this.colors.blue;
     this._grid[this.gridHeight - 1][this.gridWidth - 1].node.getComponentInChildren(Sprite).color = this.colors.red;
+  }
+
+  async handleSelection(pieceA : Piece , pieceB : Piece){
+    await this.SwapPieces(pieceA , pieceB);
+    let matches: Piece[] = await this.matchChecker.checkForMatches(pieceA, pieceB);
+    
+    if (matches.length > 0) {
+        this.deleteMatches(matches);
+        await this.gravityHandler.applyGravity(); // Gravity işleminin tamamlanmasını bekle
+        // // Gravity sonrası yeni eşleşmeleri kontrol et
+        // do {
+        //     matches = await this.matchChecker.checkForMatchesAfterGravity();
+        //     if (matches.length > 0) {
+        //         GridManager.getInstance().deleteMatches(matches);
+        //         await this.gravityHandler.applyGravity(); // Yeni gravity işlemini uygula ve bekle
+        //     }
+        // } while (matches.length > 0);
+
+    } else {
+        await this.SwapPieces(pieceA,pieceB);
+    }
   }
 
 }

@@ -28,6 +28,7 @@ export class HorizontalMatchStrategy implements MatchStrategy {
 
             while (currentCol >= 0 && currentCol < grid[0].length) {
                 const currentPiece = grid[currentRow][currentCol];
+                if(!currentPiece) continue; 
                 if (currentPiece.canSelect && currentPiece.node.name === piece.node.name) {
                     matchedPieces.push(currentPiece);
                 } else {

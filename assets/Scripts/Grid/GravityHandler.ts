@@ -1,35 +1,47 @@
-import { _decorator, Vec3 } from "cc";
+import { _decorator, Component, Vec3 } from "cc";
 import { SingletonComponent } from "../SingletonComponent";
 import { GridManager } from "./GridManager";
 const { ccclass, property } = _decorator;
 
 @ccclass('GravityHandler')
-export class GravityHandler extends SingletonComponent<GravityHandler> {
+export class GravityHandler extends Component {
     onLoad() {
         super.onLoad();
     }
 
-    async applyGravity() {
-        const grid = GridManager.getInstance().grid;
-        let moved = false;
 
-        do {
-            moved = false;
-            for (let col = 0; col < grid[0].length; col++) {
-                for (let row = grid.length - 1; row > 0; row--) {
-                    if(row+1 > grid.length-1) continue;
-                    if (grid[row][col].node === null && grid[row + 1][col].node !== null) {
-                        grid[row][col].node = grid[row + 1][col].node;
-                        grid[row + 1][col].node = null;
-                        const piece = grid[row][col]
-                        piece.moveToPosition(new Vec3(col, row, 0));
-                        moved = true;
-                    }
+    async applyGravity() {
+    const grid = GridManager.getInstance().grid;
+    let moved = false;
+
+    do {
+        moved = false;
+        let promises: Promise<void>[] = []; // Tüm asenkron hareketleri toplamak için bir array
+
+        for (let col = 0; col < grid[0].length; col++) {
+            for (let row = grid.length -1; row >= 0; row--) {
+                if (row + 1 > grid.length - 1) continue;
+                if (grid[row][col].node === null && grid[row + 1][col].node !== null) {
+                    grid[row][col].node = grid[row + 1][col].node;
+                    grid[row + 1][col].node = null;
+                    
+                    const piece = grid[row][col];
+                    promises.push(piece.moveToPosition(new Vec3(col, row, 0))); 
+                    moved = true;
                 }
             }
-        } while (moved);
-        // this.fillEmptySpaces();
-    }
+        }
+
+        await Promise.all(promises); 
+
+    } while (moved);
+
+    // Boş alanları dolduracak başka işlemler buraya eklenebilir
+    // await this.fillEmptySpaces();
+}
+
+
+
 
     private fillEmptySpaces() {
         const grid = GridManager.getInstance().grid;

@@ -1835,7 +1835,7 @@
     "time": 1724141104501.5767
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Piece\\Piece.ts": {
-    "time": 1724758530842.9912,
+    "time": 1724850922460.2166,
     "uuid": "7e7bda90-135d-44a4-91c2-b8475eebd4bc",
     "missing": false
   },
@@ -1867,7 +1867,7 @@
     "time": 1724153072430.0703
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\SelectionManager.ts": {
-    "time": 1724757435225.7683,
+    "time": 1724854907938.3125,
     "uuid": "3a5ac49e-f0a2-4fd0-9b14-a6a2bacb77cc",
     "missing": false
   },
@@ -1915,7 +1915,7 @@
     "time": 1724157034012.084
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GridManager.ts": {
-    "time": 1724757157744.788,
+    "time": 1724855105243.8792,
     "uuid": "5a6efda0-3add-4997-8c6f-1e90a8a2d0eb",
     "missing": false
   },
@@ -1931,7 +1931,7 @@
     "time": 1724410962817.975
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Interaction\\SliderManager.ts": {
-    "time": 1724533277582.4893,
+    "time": 1724855064870.1863,
     "uuid": "27686f69-38f5-4a30-abde-14b7342452e0",
     "missing": false
   },
@@ -1963,7 +1963,7 @@
     "time": 1724448222675.5222
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\VerticalMatchStrategy.ts": {
-    "time": 1724703239811.9724,
+    "time": 1724761963057.7676,
     "uuid": "7e55cc94-89cb-4ac3-9033-7cf9ae1f9b33",
     "missing": false
   },
@@ -1971,7 +1971,7 @@
     "time": 1724448272369.4421
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchStrategies\\HorizontalMatchStrategy.ts": {
-    "time": 1724672997800.5894,
+    "time": 1724761973932.3838,
     "uuid": "9ffbe982-7fc8-4855-8d04-a881a9dfd3e7",
     "missing": false
   },
@@ -1979,7 +1979,7 @@
     "time": 1724448387087.7964
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Match\\MatchChecker.ts": {
-    "time": 1724673335335.1724,
+    "time": 1724850819718.7754,
     "uuid": "f1a18526-12bf-447c-a1b0-7afd3fc93c6c",
     "missing": false
   },
@@ -2003,7 +2003,7 @@
     "time": 1724531371361.6091
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Grid\\GravityHandler.ts": {
-    "time": 1724759339072.797,
+    "time": 1724850751423.275,
     "uuid": "ae9962d1-8724-4d45-833d-e13b1e378bcd",
     "missing": false
   },
@@ -2011,7 +2011,7 @@
     "time": 1724534685255.5632
   },
   "C:\\Users\\maide\\OneDrive\\Documents\\GitHub\\match3-v100\\assets\\Scripts\\Game\\GameGlobal.ts": {
-    "time": 1724534844812.8967,
+    "time": 1724762803562.4836,
     "uuid": "34d8385c-d585-4a43-969c-639e96f53b99",
     "missing": false
   },

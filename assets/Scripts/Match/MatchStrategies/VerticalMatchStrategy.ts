@@ -26,6 +26,7 @@ export class VerticalMatchStrategy implements MatchStrategy {
 
             while (currentRow >= 0 && currentRow < grid.length) {
                 const currentPiece = grid[currentRow][currentCol];
+                if(!currentPiece) continue; 
                 if (currentPiece.canSelect && currentPiece.node.name === piece.node.name) {
                     matchedPieces.push(currentPiece);
                 } else {
