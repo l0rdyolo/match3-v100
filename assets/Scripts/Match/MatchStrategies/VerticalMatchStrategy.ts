@@ -8,10 +8,7 @@ export class VerticalMatchStrategy implements MatchStrategy {
         { dx: -1, dy: 0 } // Up
     ];
 
-    public checkMatch(pieceA: Piece , pieceB : Piece  )  {
-        console.log("vertical matc");
-        
-        const grid = GridManager.getInstance().grid;
+    public checkMatch(pieceA: Piece , pieceB : Piece , grid: Piece[][])  {
         const firstCheck = this.checkSinglePieceMatch(pieceA , grid);
         let secondCheck = this.checkSinglePieceMatch(pieceB , grid)
         secondCheck = secondCheck.concat(firstCheck)
@@ -19,31 +16,31 @@ export class VerticalMatchStrategy implements MatchStrategy {
     }
 
     public checkSinglePieceMatch(piece: Piece, grid: Piece[][]){
-        let matchedPieces: Piece[] = [];
-        const { row, col } = piece;
+        // VerticalMatchStrategy.ts
+        const matches: Piece[] = [piece];
+        const row = piece.row;
+        const col = piece.col;
 
-        for (const direction of this.directions) {
-            let currentRow = row + direction.dx;
-            let currentCol = col;
-
-            while (currentRow >= 0 && currentRow < grid.length) {
-                const currentPiece = grid[currentRow][currentCol];
-                if (currentPiece.canSelect && currentPiece.node.name === piece.node.name) {
-                    matchedPieces.push(currentPiece);
-                } else {
-                    break;
-                }
-                currentRow += direction.dx;
+        for (let i = row - 1; i >= 0; i--) {
+            const currentPiece = grid[i][col]
+            if(currentPiece.isEmpty || piece.isEmpty) break;
+            if (grid[i][col].node.name === piece.node.name) {
+                matches.push(currentPiece);
+            } else {
+                break; 
             }
         }
 
-        if (matchedPieces.length >= 2) {
-            matchedPieces.push(piece);
-        }
-        else{
-            matchedPieces = [];
-        }
+        for (let i = row + 1; i < grid.length; i++) {
+            const currentPiece = grid[i][col]
+            if(currentPiece.isEmpty || piece.isEmpty) break;
 
-        return matchedPieces;
+            if (currentPiece.node.name === piece.node.name) {
+                matches.push(currentPiece);
+            } else {
+                break; 
+            }
+        }
+        return matches.length >= 3 ? matches : [];
     }
 }

@@ -24,6 +24,8 @@ export class GridGenerator extends Component implements IGrid<Piece>{
       for (let col = 0; col < this.height; col++) {
         const piece = this.createPiece(row, col);
         this.grid[row][col] = piece;
+        piece.node.setScale(Vec3.ZERO);
+        piece.Highlight(0.5 , Vec3.ONE);
       }
     }
     return this.grid;
