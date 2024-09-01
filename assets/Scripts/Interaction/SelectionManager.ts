@@ -33,49 +33,58 @@ export class SelectionManager extends SingletonComponent<SelectionManager> {
       this.handleFirstSelection(piece);
     } else {
       this.handleSecondSelection(piece);
+      this.applySelection();
     }
+    
   }
 
   handleFirstSelection(piece: Piece) {
-    if(piece.canSelect) {
+    if(!piece.isEmpty) {
       this.firstSelected = piece.setSelection();
     }
-   
   }
 
   handleSecondSelection(piece: Piece) {
-    if(piece.canSelect) {
+    if(!piece.isEmpty) {
       this.secondSelected = piece.setSelection();
-      this.applySelection();
     }
   }
 
-  async applySelection() {
+  async applySelection()  {
     if (this.isSelectionValid()) {
-      GridManager.getInstance().handleSelection(this.firstSelected , this.secondSelected);
-    } else {
-        this.firstSelected.Shake();
+      await GridManager.getInstance().handleSelection(this.firstSelected , this.secondSelected);
     }
     this.cancelSelection();
 }
+//! IDEA - 2
+//   applySelection() : Piece[]{
+//     if (this.isSelectionValid()) {
+//       // await GridManager.getInstance().handleSelection(this.firstSelected , this.secondSelected);
+//       const pieceA = this.firstSelected;
+//       const pieceB = this.secondSelected
+//       this.cancelSelection();
+//       return [pieceA,pieceB]      
+//     } else {
+//         this.firstSelected.Shake();
+//         this.cancelSelection();
+//         return [];
+//     }
+// }
 
   cancelSelection() {
     this.firstSelected = this.firstSelected.cancelSelection();
     this.secondSelected = this.secondSelected.cancelSelection();
-    console.log("reset selections " , this.firstSelected, this.secondSelected);
-    
   }
 
   public isSelectionValid() : boolean {
     if (!this.firstSelected || !this.secondSelected) {
+      this.cancelSelection();
         return false;
     }
 
     const rowDiff = Math.abs(this.firstSelected.row - this.secondSelected.row);
     const colDiff = Math.abs(this.firstSelected.col - this.secondSelected.col);
-
     return (rowDiff === 1 && colDiff === 0) || (rowDiff === 0 && colDiff === 1);
-    return false;
   }
 }
 

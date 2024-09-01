@@ -3,69 +3,40 @@ import { SingletonComponent } from "../SingletonComponent";
 import { GridManager } from "./GridManager";
 const { ccclass, property } = _decorator;
 
-@ccclass('GravityHandler')
+@ccclass("GravityHandler")
 export class GravityHandler extends Component {
-    onLoad() {
-        super.onLoad();
-    }
+  onLoad() {
+    super.onLoad();
+  }
 
-
-    async applyGravity() {
-    const grid = GridManager.getInstance().grid;
+  //! IDEA - burada patlıyoruz
+  async applyGravity(grid) {
     let moved = false;
-
+    let promises: Promise<void>[] = [];
     do {
-        moved = false;
-        let promises: Promise<void>[] = []; // Tüm asenkron hareketleri toplamak için bir array
+      moved = false;
 
-        for (let col = 0; col < grid[0].length; col++) {
-            for (let row = grid.length -1; row >= 0; row--) {
-                if (row + 1 > grid.length - 1) continue;
-                if (grid[row][col].node === null && grid[row + 1][col].node !== null) {
-                    grid[row][col].node = grid[row + 1][col].node;
-                    grid[row + 1][col].node = null;
-                    
-                    const piece = grid[row][col];
-                    promises.push(piece.moveToPosition(new Vec3(col, row, 0))); 
-                    moved = true;
-                }
-            }
+      for (let col = 0; col < grid[0].length; col++) {
+        for (let row = grid.length - 2; row >= 0; row--) { // grid.length - 1'den başlıyoruz çünkü alttaki elemanı kontrol ediyoruz
+          const currentPiece = grid[row][col];
+          const belowPiece = grid[row + 1][col];
+
+          if (currentPiece.isEmpty && !belowPiece.isEmpty) { // Boş hücre ve dolu hücre kontrolü
+            // Parçaların yerlerini değiştir
+            grid[row][col] = belowPiece;
+            grid[row + 1][col] = currentPiece;
+
+            // Yeni satır ve sütunları güncelle
+            belowPiece.col = currentPiece.col;
+            belowPiece.row = currentPiece.row;
+
+            // Parçayı hareket ettir ve grid güncelle
+            promises.push(belowPiece.moveToPosition(new Vec3(col, row, 0)));
+            moved = true;
+          }
         }
-
-        await Promise.all(promises); 
-
-    } while (moved);
-
-    // Boş alanları dolduracak başka işlemler buraya eklenebilir
-    // await this.fillEmptySpaces();
-}
-
-
-
-
-    private fillEmptySpaces() {
-        const grid = GridManager.getInstance().grid;
-        for (let col = 0; col < grid[0].length; col++) {
-            let emptySpaces = 0;
-            for (let row = 0; row < grid.length; row++) {
-                if (grid[row][col].node === null) {
-                    emptySpaces++;
-                }
-            }
-            
-            // // Boş alanları yeni parçalarla doldur
-            // for (let i = 0; i < emptySpaces; i++) {
-            //     const newPiece = this.createNewPiece();
-            //     const row = emptySpaces - i - 1;
-            //     grid[row][col].node = newPiece;
-            //     const pieceComponent = newPiece.getComponent(Piece);
-            //     pieceComponent.moveToPosition(new Vec3(col, row, 0));
-            // }
-        }
-    }
-
-    // private createNewPiece(): Node {
-    //     // Yeni bir parça oluştur ve döndür
-    //     // Bu metodu kendi oyununuza göre uyarlamanız gerekecek
-    // }
+      }
+      await Promise.all(promises);
+    } while (moved); // Tüm parçalar en alt seviyeye kadar hareket edene kadar devam et
+  }
 }

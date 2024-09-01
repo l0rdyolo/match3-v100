@@ -9,8 +9,7 @@ export class HorizontalMatchStrategy implements MatchStrategy {
         { dx: 0, dy: -1 } // Left
     ];
 
-    public checkMatch(pieceA: Piece , pieceB : Piece  )  {
-        const grid = GridManager.getInstance().grid;
+    public checkMatch(pieceA: Piece , pieceB : Piece ,grid : Piece[][] )  {
         const firstCheck = this.checkSinglePieceMatch(pieceA , grid);
         let secondCheck = this.checkSinglePieceMatch(pieceB , grid);
         secondCheck = secondCheck.concat(firstCheck)
@@ -18,33 +17,34 @@ export class HorizontalMatchStrategy implements MatchStrategy {
     }
 
 
-
     public checkSinglePieceMatch(piece: Piece, grid: Piece[][]){
-        let matchedPieces: Piece[] = [];
-        const { row, col } = piece;
-        for (const direction of this.directions) {
-            let currentRow = row;
-            let currentCol = col + direction.dy;
+        const matches: Piece[] = [piece];
+        const row = piece.row;
+        const col = piece.col;
 
-            while (currentCol >= 0 && currentCol < grid[0].length) {
-                const currentPiece = grid[currentRow][currentCol];
-                if(!currentPiece) continue; 
-                if (currentPiece.canSelect && currentPiece.node.name === piece.node.name) {
-                    matchedPieces.push(currentPiece);
-                } else {
-                    break;
-                }
-                currentCol += direction.dy;
+        // Soldaki elemanları kontrol et
+        for (let i = col - 1; i >= 0; i--) {
+            const currentPiece = grid[row][i];
+            if(currentPiece.isEmpty || piece.isEmpty) break;
+
+            if (currentPiece.node.name === piece.node.name) {
+                matches.push(currentPiece);
+            } else {
+                break; // Eşleşme kesilirse dur
             }
         }
 
-        if (matchedPieces.length >= 2) {
-            matchedPieces.push(piece);
-        }
-        else{
-            matchedPieces = [];
+        // Sağdaki elemanları kontrol et
+        for (let i = col + 1; i < grid[row].length; i++) {
+            const currentPiece = grid[row][i];
+            if(currentPiece.isEmpty || piece.isEmpty) break;
+            if (currentPiece.node.name === piece.node.name) {
+                matches.push(currentPiece);
+            } else {
+                break; // Eşleşme kesilirse dur
+            }
         }
 
-        return matchedPieces;
+        return matches.length >= 3 ? matches : [];
     }
 }
