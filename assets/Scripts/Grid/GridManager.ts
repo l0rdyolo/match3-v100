@@ -74,69 +74,37 @@ export class GridManager extends SingletonComponent<GridManager> {
 
   async SwapPieces(pieceA: Piece, pieceB: Piece) {
     await this.sliderManager.Slide(pieceA, pieceB);
+    const tempNode = pieceA.node;
+    pieceA.clearPiece();
+    pieceA.assingPiece(pieceB.node);
+    pieceB.clearPiece();
+    pieceB.assingPiece(tempNode);
 
-    const pa_row = pieceA.row;
-    const pa_col = pieceA.col;
+}
 
-    const pb_row = pieceB.row;
-    const pb_col = pieceB.col;
-
-    pieceA.row = pb_row;
-    pieceA.col = pb_col;
-
-    pieceB.row = pa_row;
-    pieceB.col = pa_col;
-
-    const tempA = this.grid[pa_row][pa_col];
-    const tempB = this.grid[pb_row][pb_col];
-
-    this.grid[pa_row][pa_col] = tempB;
-    this.grid[pb_row][pb_col] = tempA;
-  }
 
   async deleteMatches(matches: Piece[]) {
-    const fillPromises: Promise<void>[] = [];
-
     for (const matchedPiece of matches) {
-      matchedPiece.delete();
-      fillPromises.push(
-        new Promise<void>((resolve) => {
-          resolve();
-        })
-      );
+      console.log(matchedPiece);
+      matchedPiece.matched();
     }
-    await Promise.all(fillPromises);
   }
   async handleSelection(pieceA: Piece, pieceB: Piece) {
-    await this.SwapPieces(pieceA, pieceB);
-    let matches: Piece[] = await this.matchChecker.checkForMatches(
-      pieceA,
-      pieceB,
-      this.grid
-    );
+     await this.SwapPieces(pieceA, pieceB);
+
+     let matches: Piece[] = await this.matchChecker.checkForMatches(
+       pieceA,
+       pieceB,
+       this.grid
+      );
     if (matches.length > 0) {
       await this.deleteMatches(matches);
-       await this.gravityHandler.applyGravity(this.grid);
-      console.log(matches);
+      return;
+      await this.sleep(300);
+      await this.gravityHandler.applyGravity(this.grid);
       await this.sleep(1000);
-      await this.fillEmptySpaces(matches);
+      // await this.fillEmptySpaces();
       await this.sleep(900);
-
-      //buraya bir sleep patlar
-      /*
-      let newMatches: Piece[] = await this.matchChecker.checkForMatchesAfterGravity(this.grid);
-
-      while (newMatches.length > 0) { 
-          await this.deleteMatches(newMatches);
-          await this.gravityHandler.applyGravity(this.grid);
-          await this.sleep(3000);
-          await this.fillEmptySpaces();
-          await this.sleep(1900);
-
-          newMatches = await this.matchChecker.checkForMatchesAfterGravity(this.grid);
-      }
-
-      */
     } else {
       await this.SwapPieces(pieceA, pieceB);
     }
@@ -146,16 +114,45 @@ export class GridManager extends SingletonComponent<GridManager> {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  private async fillEmptySpaces(emptyPieces: Piece[]) {
-    for (const piece of emptyPieces) {
-      if (!piece.isEmpty) continue;
-      const newPieceNode = PiecePool.getInstance().getPiece();
-      piece.node = newPieceNode;
-      piece.node.setParent(this.node);
-      this.node.addChild(piece.node);
-      piece.updatePosition();
+  // private async fillEmptySpaces() {
+  //   for (const piece of emptyPieces) {
+  //     const newPieceNode = PiecePool.getInstance().getPiece();
+  //     piece.node = newPieceNode;
+  //     piece.node.setParent(this.node);
+  //     this.node.addChild(piece.node);
+  //     piece.updatePosition();
+  //   }
+  // }
+
+  private async fillEmptySpaces() {
+    const grid = this.grid;
+    const fillPromises: Promise<void>[] = [];
+
+    for (let row = 0; row < this.gridHeight; row++) {
+      for (let col = 0; col < this.gridWidth; col++) {
+        const piece = grid[row][col];
+
+        if (piece.isEmpty) {
+          const newPieceNode = PiecePool.getInstance().getPiece();
+          newPieceNode.setParent(this.node);
+          this.node.addChild(newPieceNode);
+          newPieceNode.getComponentInChildren(Sprite).color =
+            this.colors.yellow;
+
+          piece.node = newPieceNode;
+          piece.ResetScale();
+          piece.updatePosition(row, col);
+
+          fillPromises.push(
+            new Promise<void>((resolve) => {
+              resolve();
+            })
+          );
+        }
+      }
     }
   }
+
 
   consoleGrid() {
     let emptyCounter = 0;

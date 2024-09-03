@@ -32,6 +32,7 @@ export class Piece implements IPiece {
   onTouch() {
     if(this.isEmpty) return; 
     console.log(this.row,this.col);
+    
     SelectionManager.getInstance().eventTarget.emit("piece-selected", this);
   }
 
@@ -53,6 +54,7 @@ export class Piece implements IPiece {
     const newX = row //* GameGlobal.PIECE_CONTENT_SIZE;
     const newY = col //* GameGlobal.PIECE_CONTENT_SIZE;
     this.setPosition(newX,newY);
+
   }
 
   async matched(): Promise<void> {
@@ -68,8 +70,7 @@ export class Piece implements IPiece {
           .start();
       });
     }
-    this.node = null;
-    this.particle = null;
+    this.clearPiece();
   }
 
   public async Shake(shakeAmount: number = 10, duration: number = 0.3) {
@@ -92,10 +93,6 @@ export class Piece implements IPiece {
     });
   }
 
-  public delete(){
-    //! burada pool'a döndürülmeli şimdilik poolda 500 üretiliyor ama buna gerek olmayabilir.
-    this.node = null;
-  }
 
   public setSelection(): Piece {
     this.Highlight();
@@ -145,8 +142,20 @@ export class Piece implements IPiece {
     });
   }
 
-  public assingPiece(node : Node , row : number , col : number){
-    console.log(node,row, col);
+  public assingPiece(node : Node ){
+    this.node = node;
+    this.node.on(Node.EventType.TOUCH_START, this.onTouch, this);
+    this.particle = this.node.getComponentInChildren(ParticleSystem2D);
+    this.spriteNode = this.node.getChildByName("Sprite");
+  }
+
+  public clearPiece() {
+    if (this.node) {
+      this.node.off(Node.EventType.TOUCH_START, this.onTouch, this);
+    }
+    this.node = null;
+    this.particle = null;
+    this.spriteNode = null;
   }
 
 }

@@ -21,11 +21,6 @@ export class MatchChecker {
                 matchedPieces = matchedPieces.concat(matches);
             }
         }
-        if (matchedPieces.length > 0) {
-            await Promise.all(matchedPieces.map(piece => piece.matched()));
-        }
-        console.log(matchedPieces);
-        
         return matchedPieces;
     }
 
