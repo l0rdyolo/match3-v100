@@ -74,7 +74,7 @@ export class GridManager extends SingletonComponent<GridManager> {
 
   async SwapPieces(pieceA: Piece, pieceB: Piece) {
     await this.sliderManager.Slide(pieceA, pieceB);
-    
+
     const pa_row = pieceA.row;
     const pa_col = pieceA.col;
 
@@ -116,11 +116,11 @@ export class GridManager extends SingletonComponent<GridManager> {
     );
     if (matches.length > 0) {
       await this.deleteMatches(matches);
-      await this.gravityHandler.applyGravity(this.grid);
-      this.consoleGrid();
-      // await this.sleep(3000);
-      // await this.fillEmptySpaces();
-      // await this.sleep(1900);
+       await this.gravityHandler.applyGravity(this.grid);
+      console.log(matches);
+      await this.sleep(1000);
+      await this.fillEmptySpaces(matches);
+      await this.sleep(900);
 
       //buraya bir sleep patlar
       /*
@@ -142,62 +142,40 @@ export class GridManager extends SingletonComponent<GridManager> {
     }
   }
 
-   sleep(ms: number) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+  sleep(ms: number) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  private async fillEmptySpaces() {
-    const grid = this.grid;
-    const fillPromises: Promise<void>[] = [];
-
-    for (let row = 0; row < this.gridHeight; row++) {
-      for (let col = 0; col < this.gridWidth; col++) {
-        const piece = grid[row][col];
-
-        if (piece.isEmpty) {
-          const newPieceNode = PiecePool.getInstance().getPiece();
-          newPieceNode.setParent(this.node);
-          this.node.addChild(newPieceNode);
-          newPieceNode.getComponentInChildren(Sprite).color =
-            this.colors.yellow;
-
-          piece.node = newPieceNode;
-          piece.ResetScale();
-          piece.updatePosition(row, col);
-
-          fillPromises.push(
-            new Promise<void>((resolve) => {
-              resolve();
-            })
-          );
-        }
-      }
+  private async fillEmptySpaces(emptyPieces: Piece[]) {
+    for (const piece of emptyPieces) {
+      if (!piece.isEmpty) continue;
+      const newPieceNode = PiecePool.getInstance().getPiece();
+      piece.node = newPieceNode;
+      piece.node.setParent(this.node);
+      this.node.addChild(piece.node);
+      piece.updatePosition();
     }
-
-    await Promise.all(fillPromises);
-    console.log("empty cells filled");
   }
 
   consoleGrid() {
     let emptyCounter = 0;
-    let row = []
+    let row = [];
     for (let i = 0; i < this.gridWidth; i++) {
-      let col = []
+      let col = [];
       for (let j = 0; j < this.gridHeight; j++) {
         const currentPiece = this.grid[i][j];
-        col.push(currentPiece)
-        
+        col.push(currentPiece);
+
         if (currentPiece.isEmpty) {
           emptyCounter++;
         }
       }
-      row.push(col)
+      row.push(col);
     }
     console.log(row);
-    
+
     // emptyCounter === 0
     //   ? console.log("boş piece yok")
     //   : console.log(`boş piece sayısı : ${emptyCounter}`);
   }
-
 }
