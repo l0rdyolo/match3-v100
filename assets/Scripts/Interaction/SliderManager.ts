@@ -5,8 +5,18 @@ const { ccclass, property } = _decorator;
 
 @ccclass("SliderManager")
 export class SliderManager extends Component {
+  async SwapPieces(pieceA: Piece, pieceB: Piece) {
+    await this.slide(pieceA, pieceB);
+    const tempNode = pieceA.node;
+    pieceA.clearPiece();
+    pieceA.assingPiece(pieceB.node);
+    pieceB.clearPiece();
+    pieceB.assingPiece(tempNode); 
+    
+}
+
   private slide_duration : number =  0.125  ;
-  public async Slide(pieceA: Piece, pieceB: Piece) {
+  public async slide(pieceA: Piece, pieceB: Piece) {
     const posA = pieceA.node.getPosition();
     const posB = pieceB.node.getPosition();
 

@@ -72,16 +72,6 @@ export class GridManager extends SingletonComponent<GridManager> {
     // this.highlightGridCorners();
   }
 
-  async SwapPieces(pieceA: Piece, pieceB: Piece) {
-    await this.sliderManager.Slide(pieceA, pieceB);
-    const tempNode = pieceA.node;
-    pieceA.clearPiece();
-    pieceA.assingPiece(pieceB.node);
-    pieceB.clearPiece();
-    pieceB.assingPiece(tempNode);
-
-}
-
 
   async deleteMatches(matches: Piece[]) {
     for (const matchedPiece of matches) {
@@ -90,7 +80,7 @@ export class GridManager extends SingletonComponent<GridManager> {
     }
   }
   async handleSelection(pieceA: Piece, pieceB: Piece) {
-     await this.SwapPieces(pieceA, pieceB);
+     await this.sliderManager.SwapPieces(pieceA, pieceB);
 
      let matches: Piece[] = await this.matchChecker.checkForMatches(
        pieceA,
@@ -106,7 +96,7 @@ export class GridManager extends SingletonComponent<GridManager> {
       // await this.fillEmptySpaces();
       await this.sleep(900);
     } else {
-      await this.SwapPieces(pieceA, pieceB);
+      await this.sliderManager.SwapPieces(pieceA, pieceB);
     }
   }
 
