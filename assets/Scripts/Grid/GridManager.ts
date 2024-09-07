@@ -80,39 +80,38 @@ export class GridManager extends SingletonComponent<GridManager> {
     }
   }
   async handleSelection(pieceA: Piece, pieceB: Piece) {
-     await this.sliderManager.SwapPieces(pieceA, pieceB);
+    await this.sliderManager.SwapPieces(pieceA, pieceB);
+    let isMatch = false;
+    let matches: Piece[] = await this.matchChecker.checkForMatches(
+      pieceA,
+      pieceB,
+      this._grid
+    );
 
-     let matches: Piece[] = await this.matchChecker.checkForMatches(
-       pieceA,
-       pieceB,
-       this.grid
-      );
-    if (matches.length > 0) {
-      await this.deleteMatches(matches);
-      return;
-      await this.sleep(300);
-      await this.gravityHandler.applyGravity(this.grid);
-      await this.sleep(1000);
-      // await this.fillEmptySpaces();
-      await this.sleep(900);
-    } else {
+    if (matches.length === 0) {
       await this.sliderManager.SwapPieces(pieceA, pieceB);
+      return;
     }
+    else{
+      isMatch = true;
+      await this.deleteMatches(matches);
+    }
+      
+    while (isMatch) {
+      await this.sleep(1000);
+      await this.gravityHandler.applyGravity(this._grid);
+      await this.sleep(1000);
+      await this.fillEmptySpaces();
+      await this.sleep(1000);
+      isMatch = await this.matchChecker.checkForMatchesAfterGravity(this._grid);
+    }
+      
   }
 
+  //! şunu başka yere taşı ya da kaldır
   sleep(ms: number) {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
-
-  // private async fillEmptySpaces() {
-  //   for (const piece of emptyPieces) {
-  //     const newPieceNode = PiecePool.getInstance().getPiece();
-  //     piece.node = newPieceNode;
-  //     piece.node.setParent(this.node);
-  //     this.node.addChild(piece.node);
-  //     piece.updatePosition();
-  //   }
-  // }
 
   private async fillEmptySpaces() {
     const grid = this.grid;
@@ -129,7 +128,7 @@ export class GridManager extends SingletonComponent<GridManager> {
           newPieceNode.getComponentInChildren(Sprite).color =
             this.colors.yellow;
 
-          piece.node = newPieceNode;
+          piece.assingPiece(newPieceNode)
           piece.ResetScale();
           piece.updatePosition(row, col);
 

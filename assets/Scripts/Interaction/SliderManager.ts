@@ -12,7 +12,9 @@ export class SliderManager extends Component {
     pieceA.assingPiece(pieceB.node);
     pieceB.clearPiece();
     pieceB.assingPiece(tempNode); 
-    
+    pieceA.ResetScale();
+    pieceB.ResetScale();
+
 }
 
   private slide_duration : number =  0.125  ;

@@ -1,11 +1,11 @@
-debug: Thu, 05 Sep 2024 09:48:17 GMT
+debug: Sat, 07 Sep 2024 22:05:15 GMT
 debug: Project: C:\Users\maide\OneDrive\Documents\GitHub\match3-v100
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.6.0\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 37.857200026512146ms.
+debug: Loading cache costs 29.21950000524521ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 40.128600001335144ms.
+debug: Loading cache costs 5.566500008106232ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 12.250400006771088ms.
+debug: Fetch asset-db cost: 6.8826999962329865ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 22
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:19 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:14 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:12 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -78,11 +78,11 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:58:19 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:19 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:19 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:13 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Sep 03 2024 14:09:21 GMT+0300 (GMT+03:00), Current mtime: Thu Sep 05 2024 12:47:58 GMT+0300 (GMT+03:00)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Sep 06 2024 12:19:14 GMT+0300 (GMT+03:00), Current mtime: Sun Sep 08 2024 01:05:02 GMT+0300 (GMT+03:00)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
@@ -192,9 +192,9 @@ debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts as cce:/internal/x/cc.
 debug: Resolve ./Lazy from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
-debug: Target(editor) ends with cost 356.11400002241135ms.
+debug: Target(editor) ends with cost 159.79980000853539ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:19 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:14 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:12 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
@@ -215,11 +215,11 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:58:19 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:20 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:19 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:13 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Sep 03 2024 14:09:21 GMT+0300 (GMT+03:00), Current mtime: Thu Sep 05 2024 12:47:58 GMT+0300 (GMT+03:00)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Sep 06 2024 12:19:14 GMT+0300 (GMT+03:00), Current mtime: Sun Sep 08 2024 01:05:02 GMT+0300 (GMT+03:00)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts as cce:/internal/x/cc.
@@ -329,14 +329,14 @@ debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts as cce:/internal/x/cc.
 debug: Resolve ./Lazy from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
-debug: Target(preview) ends with cost 325.5370999574661ms.
+debug: Target(preview) ends with cost 119.79919999837875ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 46.90459996461868ms.
+debug: Fetch asset-db cost: 23.813300013542175ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 22
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:19 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:29 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:13 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
@@ -360,9 +360,9 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(editor) ends with cost 142.6599000096321ms.
+debug: Target(editor) ends with cost 59.07959997653961ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:20 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:29 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:13 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
@@ -386,18 +386,18 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(preview) ends with cost 124.39970004558563ms.
+debug: Target(preview) ends with cost 51.05319997668266ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:29 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:03:25 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:05:54 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Tue Sep 03 2024 16:07:39 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Thu Sep 05 2024 12:51:21 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Thu Sep 05 2024 14:15:30 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:10:52 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
 debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
@@ -429,14 +429,14 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(editor) ends with cost 305.9273000359535ms.
+debug: Target(editor) ends with cost 308.9970000088215ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:29 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:03:25 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:17 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:05:55 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Tue Sep 03 2024 16:07:39 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Thu Sep 05 2024 12:51:21 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Thu Sep 05 2024 14:15:30 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:10:52 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
 debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
@@ -468,18 +468,18 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(preview) ends with cost 248.04739999771118ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Target(preview) ends with cost 337.4699999988079ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
-Number of accumulated asset changes: 2
+Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:03:25 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:06:48 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:05:54 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:08:55 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Thu Sep 05 2024 12:51:21 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Thu Sep 05 2024 12:54:44 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:10:52 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:13:56 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
 debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
@@ -489,13 +489,6 @@ debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Docume
 debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
 debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts. Last mtime: Tue Sep 03 2024 14:09:00 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0, Current mtime: Thu Sep 05 2024 12:54:15 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
 debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
 debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
@@ -518,14 +511,14 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(editor) ends with cost 178.93099999427795ms.
+debug: Target(editor) ends with cost 138.32610002160072ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:03:25 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:06:48 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:05:55 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:08:55 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Thu Sep 05 2024 12:51:21 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Thu Sep 05 2024 12:54:44 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:10:52 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:13:56 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
 debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
@@ -535,13 +528,6 @@ debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Docume
 debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
 debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts. Last mtime: Tue Sep 03 2024 14:09:00 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0, Current mtime: Thu Sep 05 2024 12:54:15 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
 debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
 debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
@@ -564,18 +550,18 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(preview) ends with cost 239.73460000753403ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Target(preview) ends with cost 170.16110000014305ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
-Number of accumulated asset changes: 2
+Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:06:48 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:07:00 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:08:55 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:09:32 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Thu Sep 05 2024 12:54:44 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Thu Sep 05 2024 12:54:56 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:13:56 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:14:33 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
 debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
@@ -585,13 +571,6 @@ debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Docume
 debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
 debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts. Last mtime: Thu Sep 05 2024 12:54:15 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0, Current mtime: Thu Sep 05 2024 12:54:50 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
 debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
 debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
@@ -614,14 +593,14 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(editor) ends with cost 254.23909997940063ms.
+debug: Target(editor) ends with cost 196.6880999803543ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:06:48 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:07:00 GMT+0200 (GMT+03:00)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:08:55 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:09:32 GMT+0200 (GMT+03:00)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Thu Sep 05 2024 12:54:44 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Thu Sep 05 2024 12:54:56 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:13:56 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:14:33 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
 debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
@@ -631,13 +610,6 @@ debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Docume
 debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
 debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
 debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
-debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts. Last mtime: Thu Sep 05 2024 12:54:15 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0, Current mtime: Thu Sep 05 2024 12:54:50 GMT+0300 (GMT+03:00)@27686f69-38f5-4a30-abde-14b7342452e0
-debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as cce:/internal/x/cc.
-debug: Resolve ../Effects/EffectManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
 debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
 debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
 debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
@@ -660,4 +632,168 @@ debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/asse
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
 debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
-debug: Target(preview) ends with cost 247.0832999944687ms.
+debug: Target(preview) ends with cost 183.24100002646446ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:09:32 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:10:30 GMT+0200 (GMT+03:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:14:33 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:15:28 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
+debug: Target(editor) ends with cost 136.05380001664162ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:09:32 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:10:30 GMT+0200 (GMT+03:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:14:33 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:15:28 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
+debug: Target(preview) ends with cost 127.71430000662804ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:10:30 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:12:38 GMT+0200 (GMT+03:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:15:28 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:17:39 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
+debug: Target(editor) ends with cost 155.29230001568794ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:10:30 GMT+0200 (GMT+03:00), Current mtime: Thu Jan 01 1970 02:12:38 GMT+0200 (GMT+03:00)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Effects/EffectManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameManager.ts.
+debug: Detected change: file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts. Last mtime: Sun Sep 08 2024 01:15:28 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb, Current mtime: Sun Sep 08 2024 01:17:39 GMT+0300 (GMT+03:00)@5a6efda0-3add-4997-8c6f-1e90a8a2d0eb
+debug: Inspect file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as cce:/internal/x/cc.
+debug: Resolve ../SingletonComponent from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve ./GridGenerator from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve ../Game/GameGlobal from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Game/GameGlobal.ts.
+debug: Resolve ../Interaction/SliderManager from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve ../Match/MatchChecker from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve ./GravityHandler from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve ../Piece/PiecePool from file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GravityHandler.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridBackgroundGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridGenerator.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/GridManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Grid/IGrid.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SelectionManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Interaction/SliderManager.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchChecker.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/HorizontalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/IMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Match/MatchStrategies/VerticalMatchStrategy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/IPiece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/Piece.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PiecePool.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Piece/PieceTypes.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/Promises.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SingletonComponent.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Lazy.ts.
+debug: Resolve file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/maide/OneDrive/Documents/GitHub/match3-v100/assets/Scripts/SooLib/Optimization/Singleton.ts.
+debug: Target(preview) ends with cost 177.4496000111103ms.

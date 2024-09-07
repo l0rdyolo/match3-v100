@@ -11,6 +11,7 @@ export class Piece implements IPiece {
   public type: PieceTypes = null;
 
   private m_isEmpty = false;
+  public  isMatched: boolean = false;
   private particle: ParticleSystem2D = null;
   private spriteNode: Node = null;
   public constructor(row: number, col: number, node: Node, type: PieceTypes) {
@@ -58,6 +59,7 @@ export class Piece implements IPiece {
   }
 
   async matched(): Promise<void> {
+    this.isMatched = true;
     if (this.particle) {
       this.particle.resetSystem();
       this.particle.playOnLoad = true;
@@ -147,6 +149,7 @@ export class Piece implements IPiece {
     this.node.on(Node.EventType.TOUCH_START, this.onTouch, this);
     this.particle = this.node.getComponentInChildren(ParticleSystem2D);
     this.spriteNode = this.node.getChildByName("Sprite");
+    this.isMatched = false;
   }
 
   public clearPiece() {
