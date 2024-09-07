@@ -58,17 +58,17 @@ export class Piece implements IPiece {
     this.node.setPosition(piecePostion);
   }
 
-  updatePosition(_row = this.row, _col = this.col) {
-    // const newX = row //* GameGlobal.PIECE_CONTENT_SIZE;
-    // const newY = col //* GameGlobal.PIECE_CONTENT_SIZE;
-    // this.setPosition(newX,newY);
-    const row =
-      _row * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET);
-    const col =
-      _col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET);
-    const piecePostion = new Vec3(col, row);
+  updatePosition(_row = this.row, _col = this.col): Promise<void> {
+    return new Promise((resolve) => {
+      const row = _row * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET);
+      const col = _col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET);
+      const piecePosition = new Vec3(col, row);
 
-    tween(this.node).to(0.2, { position: piecePostion }).start();
+      tween(this.node)
+        .to(0.1, { position: piecePosition })
+        .call(() => resolve())
+        .start();
+    });
   }
 
   async matched(): Promise<void> {

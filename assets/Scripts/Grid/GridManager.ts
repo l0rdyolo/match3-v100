@@ -96,13 +96,13 @@ export class GridManager extends SingletonComponent<GridManager> {
       isMatch = true;
       await this.deleteMatches(matches);
     }
-      
+    
     while (isMatch) {
-      await this.sleep(1000);
+      await this.sleep(500);
       await this.gravityHandler.applyGravity(this._grid);
-      await this.sleep(1000);
+      await this.sleep(200);
       await this.fillEmptySpaces();
-      await this.sleep(1000);
+      await this.sleep(200);
       isMatch = await this.matchChecker.checkForMatchesAfterGravity(this._grid);
     }
       
@@ -115,35 +115,35 @@ export class GridManager extends SingletonComponent<GridManager> {
 
   private async fillEmptySpaces() {
     const grid = this.grid;
-    const fillPromises: Promise<void>[] = [];
-
     for (let row = 0; row < this.gridHeight; row++) {
+      const promises = []; // Her satır için bir promises dizisi oluştur
       for (let col = 0; col < this.gridWidth; col++) {
         const piece = grid[row][col];
-
+  
         if (piece.isEmpty) {
           const newPieceNode = PiecePool.getInstance().getPiece();
           newPieceNode.setParent(this.node);
           this.node.addChild(newPieceNode);
           // newPieceNode.getComponentInChildren(Sprite).color =
           //   this.colors.yellow;
-
-          
+  
           piece.col = col;
           piece.row = row;
-          piece.assingPiece(newPieceNode)
+          piece.assingPiece(newPieceNode);
           piece.ResetScale();
           console.log(piece.col);
-          
-          piece.node.setPosition(new Vec3(piece.col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET), this.gridWidth * GameGlobal.PIECE_CONTENT_SIZE, 0));
-          piece.updatePosition(row,col)
-          fillPromises.push(
-            new Promise<void>((resolve) => {
-              resolve();
-            })
+  
+          piece.node.setPosition(
+            new Vec3(
+              piece.col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
+              this.gridWidth * GameGlobal.PIECE_CONTENT_SIZE,
+              0
+            )
           );
+          promises.push(piece.updatePosition(row, col)); // Promises dizisine ekle
         }
       }
+      await Promise.all(promises); // Tüm promises'lerin tamamlanmasını bekle
     }
   }
 
