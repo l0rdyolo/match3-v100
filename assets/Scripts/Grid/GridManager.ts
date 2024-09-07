@@ -125,13 +125,18 @@ export class GridManager extends SingletonComponent<GridManager> {
           const newPieceNode = PiecePool.getInstance().getPiece();
           newPieceNode.setParent(this.node);
           this.node.addChild(newPieceNode);
-          newPieceNode.getComponentInChildren(Sprite).color =
-            this.colors.yellow;
+          // newPieceNode.getComponentInChildren(Sprite).color =
+          //   this.colors.yellow;
 
+          
+          piece.col = col;
+          piece.row = row;
           piece.assingPiece(newPieceNode)
           piece.ResetScale();
-          piece.updatePosition(row, col);
-
+          console.log(piece.col);
+          
+          piece.node.setPosition(new Vec3(piece.col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET), this.gridWidth * GameGlobal.PIECE_CONTENT_SIZE, 0));
+          piece.updatePosition(row,col)
           fillPromises.push(
             new Promise<void>((resolve) => {
               resolve();

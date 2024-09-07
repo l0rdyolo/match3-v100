@@ -23,7 +23,6 @@ export class GravityHandler extends Component {
           if (belowPiece.isEmpty && !currentPiece.isEmpty) {
             const targetRow = row + 1;
             const targetCol = col;
-
             promises.push(currentPiece.updatePosition(belowPiece.row,belowPiece.col));
 
             // Node'u yer değiştir

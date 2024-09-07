@@ -1,4 +1,12 @@
-import { easing, Node, ParticleSystem2D, removeProperty, SpriteRenderer, tween, Vec3 } from "cc";
+import {
+  easing,
+  Node,
+  ParticleSystem2D,
+  removeProperty,
+  SpriteRenderer,
+  tween,
+  Vec3,
+} from "cc";
 import { IPiece } from "./IPiece";
 import { PieceTypes } from "./PieceTypes";
 import { SelectionManager } from "../Interaction/SelectionManager";
@@ -11,7 +19,7 @@ export class Piece implements IPiece {
   public type: PieceTypes = null;
 
   private m_isEmpty = false;
-  public  isMatched: boolean = false;
+  public isMatched: boolean = false;
   private particle: ParticleSystem2D = null;
   private spriteNode: Node = null;
   public constructor(row: number, col: number, node: Node, type: PieceTypes) {
@@ -25,21 +33,20 @@ export class Piece implements IPiece {
     this.spriteNode = this.node.getChildByName("Sprite");
   }
 
-  init(){
-    this.setPosition(this.row,this.col);
+  init() {
+    this.setPosition(this.row, this.col);
   }
 
-
   onTouch() {
-    if(this.isEmpty) return; 
-    console.log(this.row,this.col);
-    
+    if (this.isEmpty) return;
+    console.log(this.row, this.col);
+
     SelectionManager.getInstance().eventTarget.emit("piece-selected", this);
   }
 
-  public get isEmpty() : boolean{
+  public get isEmpty(): boolean {
     const m_isEmpty = this.node ? false : true;
-    return m_isEmpty 
+    return m_isEmpty;
   }
 
   setPosition(_row: number, _col: number) {
@@ -51,11 +58,17 @@ export class Piece implements IPiece {
     this.node.setPosition(piecePostion);
   }
 
-  updatePosition(row = this.row , col = this.col) {
-    const newX = row //* GameGlobal.PIECE_CONTENT_SIZE;
-    const newY = col //* GameGlobal.PIECE_CONTENT_SIZE;
-    this.setPosition(newX,newY);
+  updatePosition(_row = this.row, _col = this.col) {
+    // const newX = row //* GameGlobal.PIECE_CONTENT_SIZE;
+    // const newY = col //* GameGlobal.PIECE_CONTENT_SIZE;
+    // this.setPosition(newX,newY);
+    const row =
+      _row * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET);
+    const col =
+      _col * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET);
+    const piecePostion = new Vec3(col, row);
 
+    tween(this.node).to(0.2, { position: piecePostion }).start();
   }
 
   async matched(): Promise<void> {
@@ -68,7 +81,7 @@ export class Piece implements IPiece {
       await new Promise<void>((resolve) => {
         tween(this.spriteNode)
           .to(0.2, { scale: new Vec3(0, 0, 0) })
-          .call(resolve) 
+          .call(resolve)
           .start();
       });
     }
@@ -95,7 +108,6 @@ export class Piece implements IPiece {
     });
   }
 
-
   public setSelection(): Piece {
     this.Highlight();
     return this;
@@ -106,9 +118,12 @@ export class Piece implements IPiece {
     return null;
   }
 
-  public Highlight(duration : number = 0.1 , scale : Vec3 = new Vec3(1.1, 1.1, 1.1)) {
+  public Highlight(
+    duration: number = 0.1,
+    scale: Vec3 = new Vec3(1.1, 1.1, 1.1)
+  ) {
     tween(this.node)
-      .to(duration, { scale: scale } , { easing: 'expoOut' } )
+      .to(duration, { scale: scale }, { easing: "expoOut" })
       .start();
   }
 
@@ -120,31 +135,35 @@ export class Piece implements IPiece {
 
   public moveToPosition(newPos: Vec3, duration: number = 0.2): Promise<void> {
     return new Promise<void>((resolve) => {
-        const startPos = this.node.position.clone();
-        const targetPos = new Vec3(
-            newPos.x * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
-            newPos.y * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
-            newPos.z
-        );
-        tween(this.node)
-            .to(duration, { position: targetPos }, {
-                easing: 'quartOut',
-                onUpdate: (target: Node, ratio: number) => {
-                    const currentPos = new Vec3();
-                    Vec3.lerp(currentPos, startPos, targetPos, ratio);
-                    target.setPosition(currentPos);
-                }
-            })
-            .call(() => {
-                this.row = newPos.y;
-                this.col = newPos.x;
-                resolve();
-            })
-            .start();
+      const startPos = this.node.position.clone();
+      const targetPos = new Vec3(
+        newPos.x * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
+        newPos.y * (GameGlobal.PIECE_CONTENT_SIZE + GameGlobal.PIECE_OFFSET),
+        newPos.z
+      );
+      tween(this.node)
+        .to(
+          duration,
+          { position: targetPos },
+          {
+            easing: "quartOut",
+            onUpdate: (target: Node, ratio: number) => {
+              const currentPos = new Vec3();
+              Vec3.lerp(currentPos, startPos, targetPos, ratio);
+              target.setPosition(currentPos);
+            },
+          }
+        )
+        .call(() => {
+          this.row = newPos.y;
+          this.col = newPos.x;
+          resolve();
+        })
+        .start();
     });
   }
 
-  public assingPiece(node : Node ){
+  public assingPiece(node: Node) {
     this.node = node;
     this.node.on(Node.EventType.TOUCH_START, this.onTouch, this);
     this.particle = this.node.getComponentInChildren(ParticleSystem2D);
@@ -160,5 +179,4 @@ export class Piece implements IPiece {
     this.particle = null;
     this.spriteNode = null;
   }
-
 }
